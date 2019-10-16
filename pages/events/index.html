@@ -60,347 +60,343 @@
             }
         }
     </style>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144893823-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-144893823-1');
-    </script>
 </head>
 
 <body>
-<div class="en">
-    <div id="m-active">mujib</div>
-    <!--==========================
+    <div class="en">
+        <div id="m-active">mujib</div>
+        <!--==========================
 Header
 ============================-->
-    <header id="header" class="fixed-top">
-        <div class="container">
-            <div class="logo float-left">
-                <a href="./../index.html" class="scrollto">
-                    <img src="./../../assets/images/logo.png" alt="" class="img-fluid"></a>
+        <header id="header" class="fixed-top">
+            <div class="container">
+                <div class="logo float-left">
+                    <a href="./../index.html" class="scrollto">
+                        <img src="./../../assets/images/logo.png" alt="" class="img-fluid"></a>
+                </div>
+                <nav class="main-nav float-right d-none d-lg-block">
+                    <ul>
+                        <li class="drop-down menu" id="mujib" data-value="mujib/timeline">
+                            <a href="./../index.html">
+                                Mujib
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../mujib/timeline.html">Timeline</a></li>
+                                <li><a href="./../mujib/speeches.html">Speeches</a></li>
+                                <li><a href="./../mujib/recognition.html">Recognition</a></li>
+                                <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
+                                <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="celebration">
+                            <a href="./../celebration/index.html">
+                                Celebration
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../celebration/index.html">Media Gallery</a></li>
+                                <li><a href="./../celebration/stamp.html">Stamp</a></li>
+                                <li><a href="./../celebration/index.html">Merchandise</a></li>
+                                <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="resources">
+                            <a href="./../resources/index.html">
+                                Resources
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../resources/book-publication.html">Books & Publications</a></li>
+                                <li><a href="./../resources/documentaries.html">Documentaries</a></li>
+                                <li><a href="./../resources/letters.html">Letters</a></li>
+                                <li><a href="./../resources/index.html">Apps</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="events">
+                            <a href="./index.html">
+                                Events
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./index.html">Today's Event</a></li>
+                                <li><a href="./index.html">Upcoming</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="committee">
+                            <a href="./../committee/index.html">
+                                Committee
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="#">National Committee</a></li>
+                                <li><a href="#">Implementation Committee</a></li>
+                                <li><a href="#">Website Content Selection Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="media">
+                            <a href="./../media-news/index.html">
+                                Media & News
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../media-news/index.html">Press Release</a></li>
+                                <li><a href="./../media-news/index.html">Notice</a></li>
+                            </ul>
+                        </li>
+                        <li id="logo-com">
+                            <a href="./../logo/index.html">Logo Submission</a>
+                        </li>
+                        <li id="contact-us">
+                            <a href="./../contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="drop-down">
+                            <a href="#">
+                                <i class="fa fa-language"></i>
+                                <span>English</span>
+                                <span class="fa fa-angle-down"></span>
+                            </a>
+                            <ul>
+                                <li onclick="localSaveEnglish()">English</li>
+                                <li onclick="localSaveBangla()">বাংলা</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="main-nav float-right d-none d-lg-block">
-                <ul>
-                    <li class="drop-down menu" id="mujib" data-value="mujib/timeline">
-                        <a href="./../index.html">
-                            Mujib
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../mujib/timeline.html">Timeline</a></li>
-                            <li><a href="./../mujib/speeches.html">Speeches</a></li>
-                            <li><a href="./../mujib/recognition.html">Recognition</a></li>
-                            <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
-                            <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="celebration">
-                        <a href="./../celebration/index.html">
-                            Celebration
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../celebration/index.html">Media Gallery</a></li>
-                            <li><a href="./../celebration/stamp.html">Stamp</a></li>
-                            <li><a href="./../celebration/index.html">Merchandise</a></li>
-                            <li><a href="./../celebration/contribute.html">Contribute</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="resources">
-                        <a href="./../resources/index.html">
-                            Resources
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../resources/book-publication.html">Books & Publications</a></li>
-                            <li><a href="./../resources/documentaries.html">Documentaries</a></li>
-                            <li><a href="./../resources/letters.html">Letters</a></li>
-                            <li><a href="./../resources/index.html">Apps</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="events">
-                        <a href="./index.html">
-                            Events
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./index.html">Today's Event</a></li>
-                            <li><a href="./index.html">Upcoming</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="committee">
-                        <a href="./../committee/index.html">
-                            Committee
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="#">National Committee</a></li>
-                            <li><a href="#">Implementation Committee</a></li>
-                            <li><a href="#">Website Content Selection Committee</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="media">
-                        <a href="./../media-news/index.html">
-                            Media & News
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../media-news/index.html">Press Release</a></li>
-                            <li><a href="./../media-news/index.html">Notice</a></li>
-                        </ul>
-                    </li>
-                    <li id="logo-com">
-                        <a href="./../logo/index.html">Logo Submission</a>
-                    </li>
-                    <li id="contact-us">
-                        <a href="./../contact-us.html">Contact Us</a>
-                    </li>
-                    <li class="drop-down">
-                        <a href="#">
-                            <i class="fa fa-language"></i>
-                            <span>English</span>
-                            <span class="fa fa-angle-down"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../locale/en">English</a></li>
-                            <li><a href="./../locale/bn">বাংলা</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        </header>
 
-    <!-- #header -->
-    <section id="banner" class="mb-12">
-        <div class="banner-height">
-            <img src="./../../assets/images/events/img-52.jpg" class="b-img" alt="img">
-        </div>
-    </section>
+        <!-- #header -->
+        <section id="banner" class="mb-12">
+            <div class="banner-height">
+                <img src="./../../assets/images/events/img-52.jpg" class="b-img" alt="img">
+            </div>
+        </section>
 
-    <!--==========================
+        <!--==========================
          Events Section
        ===========================-->
-    <section class="container-fluid media-gal-content" id="event-section">
-        <div class="row gutter-2">
-            <div class="col-md-5 m-b-c">
-                <!-- Todays Events  -->
-                <div class="mujib-borsho">
-                    <div class="card">
-                        <div class="card-body custom-card-body">
-                            <!-- video -->
-                            <div class="image-container">
-                                <img src="./../../assets/images/events/img-27.png" height="180" width="100%">
-                            </div>
-                            <!-- end  video  -->
-                            <!-- video desc + views -->
-                            <div class="event-title">
-                                <span style="font-size: 30px;"><b>Today's Event</b></span>
-                            </div>
-                            <div class="video-desc row my-auto media-gal-desc">
-
-                                <div class="media-gallery-desc-left col-md-5">
-                                    <h2 class="v-date"><span style="color: #f4b800;">07<sup>th</sup></span> Mar</h2>
+        <section class="container-fluid media-gal-content" id="event-section">
+            <div class="row gutter-2">
+                <div class="col-md-5 m-b-c">
+                    <!-- Todays Events  -->
+                    <div class="mujib-borsho">
+                        <div class="card">
+                            <div class="card-body custom-card-body">
+                                <!-- video -->
+                                <div class="image-container">
+                                    <img src="./../../assets/images/events/img-27.png" height="180" width="100%">
                                 </div>
-
-                                <div class="hr-line d-none d-md-block"></div>
-
-                                <div class="media-gallery-desc-right col-md-6" style="margin-left: 15px;">
-                                    <h3>Joy Bangla Concert 2019</h3>
+                                <!-- end  video  -->
+                                <!-- video desc + views -->
+                                <div class="event-title">
+                                    <span style="font-size: 30px;"><b>Today's Event</b></span>
                                 </div>
-                            </div>
-                            <div class="events-texts">
-                                <p>Joy Bangla Concert is organized each year by Young Bangla-CRI on the day of the
-                                    historic 7 March speech of Father of the nation Bangabandhu Sheikh Mujibur Rahman.
-                                    The event, staged at the Bangladesh Army stadium, Dhaka…….</p>
-                                <button type="submit" class="btn mb-2 col-md-5" style="color: #fff;background: #f4b800;
+                                <div class="video-desc row my-auto media-gal-desc">
+
+                                    <div class="media-gallery-desc-left col-md-5">
+                                        <h2 class="v-date"><span style="color: #f4b800;">07<sup>th</sup></span> Mar</h2>
+                                    </div>
+
+                                    <div class="hr-line d-none d-md-block"></div>
+
+                                    <div class="media-gallery-desc-right col-md-6" style="margin-left: 15px;">
+                                        <h3>Joy Bangla Concert 2019</h3>
+                                    </div>
+                                </div>
+                                <div class="events-texts">
+                                    <p>Joy Bangla Concert is organized each year by Young Bangla-CRI on the day of the
+                                        historic 7 March speech of Father of the nation Bangabandhu Sheikh Mujibur
+                                        Rahman.
+                                        The event, staged at the Bangladesh Army stadium, Dhaka…….</p>
+                                    <button type="submit" class="btn mb-2 col-md-5" style="color: #fff;background: #f4b800;
     border-color: #f4b800; ">RSVP </button>
-                            </div>
-                            <!-- end video -->
-                        </div>
-                    </div>
-                </div>
-                <!-- end todays -->
-            </div>
-            <div class="col-md-7">
-                <div id="dialog-window">
-                    <div id="scrollable-content">
-                        <div class="row">
-                            <div class="col-12 mb-12">
-                                <div class="event-item">
-                                    <div class="row">
-                                        <div class="col-sm-4 py-3 xy text-center border-right border-warning">
-                                            <h4><span style="color: #f4b800;">07<sup>th</sup></span> Mar, 2020</h4>
-                                        </div>
-                                        <div class="col-sm-5 py-3 text-center">
-                                            <h4 class="ev-title"><span style="color: #f4b800;">Joy Bangla </span>Concert
-                                                2020</h4>
-                                        </div>
-                                        <div class="col-sm-3 text-center py-3">
-                                            <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
-                                        </div>
-                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12 mb-12">
-                                <div class="event-item">
-                                    <div class="row">
-                                        <div class="col-sm-4 py-3 xy text-center border-right border-warning">
-                                            <h4><span style="color: #f4b800;">16<sup>th</sup></span> Mar, 2020</h4>
-                                        </div>
-                                        <div class="col-sm-5 py-3 text-center">
-                                            <h4 class="ev-title"><span style="color: #f4b800;">Bangabandhu Leadership
-                                                </span>Talk 2020 </h4>
-                                        </div>
-                                        <div class="col-sm-3 text-center py-3">
-                                            <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 mb-12">
-                                <div class="event-item">
-                                    <div class="row vdivide">
-                                        <div class="col-sm-4 py-3 xy text-center">
-                                            <h4><span style="color: #f4b800;">17<sup>th</sup></span> Mar, 2020</h4>
-                                        </div>
-                                        <div class="col-sm-5 text-center py-3">
-                                            <h4 class="ev-title""><span style=" color: #f4b800;">Bangabandhu
-                                                </span>100<sup>th</sup> Birthday Celebration</h4>
-                                        </div>
-                                        <div class="col-sm-3 text-center py-3">
-                                            <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 mb-12">
-                                <div class="event-item">
-                                    <div class="row vdivide">
-                                        <div class="col-sm-4 py-3 xy text-center">
-                                            <h4><span style="color: #f4b800;">26<sup>th</sup></span> Mar, 2020</h4>
-                                        </div>
-                                        <div class="col-sm-5 py-3 text-center">
-                                            <h4 class="ev-title"><span style="color: #f4b800;">Independence Day
-                                                </span>Celebration </h4>
-                                        </div>
-                                        <div class="col-sm-3 text-center py-3">
-                                            <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 mb-12">
-                                <div class="event-item">
-                                    <div class="row vdivide">
-                                        <div class="col-sm-4 py-3 xy text-center">
-                                            <h4><span style="color: #f4b800;">07<sup>th</sup></span> Mar, 2020</h4>
-                                        </div>
-                                        <div class="col-sm-5 py-3 text-center">
-                                            <h4 class="ev-title"><span style="color: #f4b800;">Joy Bangla </span>Concert
-                                                2020</h4>
-                                        </div>
-                                        <div class="col-sm-3 text-center py-3">
-                                            <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <!-- end video -->
                             </div>
                         </div>
                     </div>
+                    <!-- end todays -->
                 </div>
+                <div class="col-md-7">
+                    <div id="dialog-window">
+                        <div id="scrollable-content">
+                            <div class="row">
+                                <div class="col-12 mb-12">
+                                    <div class="event-item">
+                                        <div class="row">
+                                            <div class="col-sm-4 py-3 xy text-center border-right border-warning">
+                                                <h4><span style="color: #f4b800;">07<sup>th</sup></span> Mar, 2020</h4>
+                                            </div>
+                                            <div class="col-sm-5 py-3 text-center">
+                                                <h4 class="ev-title"><span style="color: #f4b800;">Joy Bangla
+                                                    </span>Concert
+                                                    2020</h4>
+                                            </div>
+                                            <div class="col-sm-3 text-center py-3">
+                                                <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-12">
+                                    <div class="event-item">
+                                        <div class="row">
+                                            <div class="col-sm-4 py-3 xy text-center border-right border-warning">
+                                                <h4><span style="color: #f4b800;">16<sup>th</sup></span> Mar, 2020</h4>
+                                            </div>
+                                            <div class="col-sm-5 py-3 text-center">
+                                                <h4 class="ev-title"><span style="color: #f4b800;">Bangabandhu
+                                                        Leadership
+                                                    </span>Talk 2020 </h4>
+                                            </div>
+                                            <div class="col-sm-3 text-center py-3">
+                                                <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-12">
+                                    <div class="event-item">
+                                        <div class="row vdivide">
+                                            <div class="col-sm-4 py-3 xy text-center">
+                                                <h4><span style="color: #f4b800;">17<sup>th</sup></span> Mar, 2020</h4>
+                                            </div>
+                                            <div class="col-sm-5 text-center py-3">
+                                                <h4 class="ev-title""><span style=" color: #f4b800;">Bangabandhu
+                                                    </span>100<sup>th</sup> Birthday Celebration</h4>
+                                            </div>
+                                            <div class="col-sm-3 text-center py-3">
+                                                <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-12">
+                                    <div class="event-item">
+                                        <div class="row vdivide">
+                                            <div class="col-sm-4 py-3 xy text-center">
+                                                <h4><span style="color: #f4b800;">26<sup>th</sup></span> Mar, 2020</h4>
+                                            </div>
+                                            <div class="col-sm-5 py-3 text-center">
+                                                <h4 class="ev-title"><span style="color: #f4b800;">Independence Day
+                                                    </span>Celebration </h4>
+                                            </div>
+                                            <div class="col-sm-3 text-center py-3">
+                                                <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-12">
+                                    <div class="event-item">
+                                        <div class="row vdivide">
+                                            <div class="col-sm-4 py-3 xy text-center">
+                                                <h4><span style="color: #f4b800;">07<sup>th</sup></span> Mar, 2020</h4>
+                                            </div>
+                                            <div class="col-sm-5 py-3 text-center">
+                                                <h4 class="ev-title"><span style="color: #f4b800;">Joy Bangla
+                                                    </span>Concert
+                                                    2020</h4>
+                                            </div>
+                                            <div class="col-sm-3 text-center py-3">
+                                                <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
-    <!--==========================
+        <!--==========================
   Footer
 ============================-->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Mujib</h4>
-                        <ul>
-                            <li><a href="./../mujib/timeline.html">Timeline</a></li>
-                            <li><a href="./../mujib/speeches.html">Speeches</a></li>
-                            <li><a href="./../mujib/recognition.html">Recognition</a></li>
-                            <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
-                            <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Celebration</h4>
-                        <ul>
-                            <li><a href="#">Media Gallery</a></li>
-                            <li><a href="./../celebration/stamp.html">Stamp</a></li>
-                            <li><a href="./../celebration/index.html">Merchandise</a></li>
-                            <li><a href="./../celebration/contribute.html">Contribute</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links pl-2">
-                        <h4>Resources</h4>
-                        <ul>
-                            <li><a href="./../resources/index.html">Books & Publications</a></li>
-                            <li><a href="./../resources/documentaries.html">Documentaries</a></li>
-                            <li><a href="./../resources/letters.html">Letters</a></li>
-                            <li><a href="#">Apps</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>Events</h4>
-                        <ul>
-                            <li><a href="./index.html">Today's Event</a></li>
-                            <li><a href="./index.html">Upcoming</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>Committee</h4>
-                        <ul>
-                            <li><a href="./../committee/index.html">National Committee</a></li>
-                            <li><a href="#">Implementation Committee</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Media & News</h4>
-                        <ul>
-                            <li><a href="./../media-news/index.html">Press Release</a></li>
-                            <li><a href="./../media-news/index.html">Notice</a></li>
-                        </ul>
-                    </div>
-                    <div class="ml-20 col-md col-xs-6 footer-links">
-                        <h4>Contact Us</h4>
-                        <ul>
-                            <li>
-                                <i class="fa fa-map-marker"></i>
-                                Shaheed Captain Mansur Ali Road, 1/Ka, Segun Bagicha,Dhaka-1000
-                            </li>
-                            <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
-                            <li><i class="fa fa-phone"></i> +88-02-55130313
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130314
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130315 </li>
-                        </ul>
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Mujib</h4>
+                            <ul>
+                                <li><a href="./../mujib/timeline.html">Timeline</a></li>
+                                <li><a href="./../mujib/speeches.html">Speeches</a></li>
+                                <li><a href="./../mujib/recognition.html">Recognition</a></li>
+                                <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
+                                <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Celebration</h4>
+                            <ul>
+                                <li><a href="#">Media Gallery</a></li>
+                                <li><a href="./../celebration/stamp.html">Stamp</a></li>
+                                <li><a href="./../celebration/index.html">Merchandise</a></li>
+                                <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links pl-2">
+                            <h4>Resources</h4>
+                            <ul>
+                                <li><a href="./../resources/index.html">Books & Publications</a></li>
+                                <li><a href="./../resources/documentaries.html">Documentaries</a></li>
+                                <li><a href="./../resources/letters.html">Letters</a></li>
+                                <li><a href="#">Apps</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>Events</h4>
+                            <ul>
+                                <li><a href="./index.html">Today's Event</a></li>
+                                <li><a href="./index.html">Upcoming</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>Committee</h4>
+                            <ul>
+                                <li><a href="./../committee/index.html">National Committee</a></li>
+                                <li><a href="#">Implementation Committee</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Media & News</h4>
+                            <ul>
+                                <li><a href="./../media-news/index.html">Press Release</a></li>
+                                <li><a href="./../media-news/index.html">Notice</a></li>
+                            </ul>
+                        </div>
+                        <div class="ml-20 col-md col-xs-6 footer-links">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-map-marker"></i>
+                                    Shaheed Captain Mansur Ali Road, 1/Ka, Segun Bagicha,Dhaka-1000
+                                </li>
+                                <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
+                                <li><i class="fa fa-phone"></i> +88-02-55130313
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130314
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130315 </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="bg-gray py-3">
-            <div class="container-fluid text-center">
-                <span>Developed & Operated By <a class="footer-link" href="https://ictd.gov.bd/" target="_blank"><b>ICT
-                            Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+            <div class="bg-gray py-3">
+                <div class="container-fluid text-center">
+                    <span>Developed & Operated By <a class="footer-link" href="https://ictd.gov.bd/"
+                            target="_blank"><b>ICT
+                                Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+                </div>
             </div>
-        </div>
-    </footer>
-</div>
+        </footer>
+    </div>
 
-<div class="bn">
+    <div class="bn">
         <div id="m-active">mujib</div>
         <!--==========================
         Header
@@ -408,213 +404,234 @@ Header
         <header id="header" class="fixed-top header-scrolled">
             <div class="container">
                 <div class="logo float-left">
-                    <a href="https://mujib100.gov.bd/" class="scrollto"><img src="./Events _ 100 Years of Mujib_files/logo.png" alt="" class="img-fluid"></a>
+                    <a href="./../index.html" class="scrollto"><img src="./../../assets/images/logo.png" alt=""
+                            class="img-fluid"></a>
                 </div>
                 <nav class="main-nav float-right d-none d-lg-block">
                     <ul>
-                        <li class="drop-down menu" id="mujib" data-value="events"><a href="https://mujib100.gov.bd/mujib">মুজিব <span class="fa-arrow"></span></a>
+                        <li class="drop-down menu" id="mujib" data-value="events"><a href="./../index.html">মুজিব <span
+                                    class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/mujib/timeline">মহাজীবনের ঘটনাপ্রবাহ</a></li>
-                                <li><a href="https://mujib100.gov.bd/mujib/speeches">বক্তৃতা</a></li>
-                                <li><a href="https://mujib100.gov.bd/mujib/recognition">উদ্ধৃতি</a></li>
-                                <li><a href="https://mujib100.gov.bd/mujib/photo-archive">ফটো আর্কাইভ</a></li>
-                                <li><a href="https://mujib100.gov.bd/mujib/graphic-novel">গ্রাফিক নভেল “মুজিব”</a></li>
+                                <li><a href="./../mujib/timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                                <li><a href="./../mujib/speeches.html">বক্তৃতা</a></li>
+                                <li><a href="./../mujib/recognition.html">উদ্ধৃতি</a></li>
+                                <li><a href="./../mujib/photo-archive.html">ফটো আর্কাইভ</a></li>
+                                <li><a href="./../mujib/graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
                             </ul>
                         </li>
-                        <li class="drop-down" id="celebration"><a href="https://mujib100.gov.bd/celebration">শতবর্ষ উদযাপন <span class="fa-arrow"></span></a>
+                        <li class="drop-down" id="celebration">
+                            <a href="./../celebration/index.html">শতবর্ষ উদযাপন <span class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/celebration">মিডিয়া গ্যালারি</a></li>
-                                <li><a href="https://mujib100.gov.bd/celebration/stamp">ডাকটিকিট</a></li>
-                                <li><a href="https://mujib100.gov.bd/celebration">মার্চেন্ডাইজ</a></li>
-                                <li><a href="https://mujib100.gov.bd/celebration/contribute">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a></li>
+                                <li><a href="./../celebration/index.html">মিডিয়া গ্যালারি</a></li>
+                                <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
+                                <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
+                                <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a></li>
                             </ul>
                         </li>
-                        <li class="drop-down" id="resources"><a href="https://mujib100.gov.bd/resources">তথ্যভাণ্ডার <span class="fa-arrow"></span></a>
+                        <li class="drop-down" id="resources">
+                            <a href="./../resources/index.html">তথ্যভাণ্ডার
+                                <span class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/resources/book-publications">গ্রন্থ ও প্রকাশনা</a></li>
-                                <li><a href="https://mujib100.gov.bd/resources/documentaries">তথ্যচিত্র</a></li>
-                                <li><a href="https://mujib100.gov.bd/resources/letters">চিঠিপত্র</a></li>
-                                <li><a href="https://mujib100.gov.bd/resources">অ্যাপ</a></li>
+                                <li><a href="./../resources/book-publication.html">গ্রন্থ ও প্রকাশনা</a></li>
+                                <li><a href="./../resources/documentaries.html">তথ্যচিত্র</a></li>
+                                <li><a href="./../resources/letters.html">চিঠিপত্র</a></li>
+                                <li><a href="./../resources/index.html">অ্যাপ</a></li>
                             </ul>
                         </li>
-                        <li class="drop-down active" id="events"><a href="https://mujib100.gov.bd/events">ইভেন্টস <span class="fa-arrow"></span></a>
+                        <li class="drop-down active" id="events">
+                            <a href="./index.html">ইভেন্টস
+                                <span class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/events">আজকের ইভেন্ট</a></li>
-                                <li><a href="https://mujib100.gov.bd/events">আসন্ন ইভেন্ট</a></li>
+                                <li><a href="./index.html">আজকের ইভেন্ট</a></li>
+                                <li><a href="./index.html">আসন্ন ইভেন্ট</a></li>
                             </ul>
                         </li>
-                        <li class="drop-down" id="committee"><a href="https://mujib100.gov.bd/committee">কমিটি <span class="fa-arrow"></span></a>
+                        <li class="drop-down" id="committee"><a href="./../committee/index.html">কমিটি
+                                <span class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/events#">জাতীয় কমিটি </a></li>
-                                <li><a href="https://mujib100.gov.bd/events#">উৎসব বাস্তবায়ন কমিটি </a></li>
-                                <li><a href="https://mujib100.gov.bd/events#">কন্টেন্ট নির্বাচক কমিটি</a></li>
+                                <li><a href="#">জাতীয় কমিটি </a></li>
+                                <li><a href="#">উৎসব বাস্তবায়ন কমিটি </a></li>
+                                <li><a href="#">কন্টেন্ট নির্বাচক কমিটি</a></li>
                             </ul>
                         </li>
-                        <li class="drop-down" id="media"><a href="https://mujib100.gov.bd/media-news">মিডিয়া ও সংবাদ <span class="fa-arrow"></span></a>
+                        <li class="drop-down" id="media">
+                            <a href="./../media-news/index.html">মিডিয়া ও সংবাদ
+                                <span class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/media-news">সংবাদ বিজ্ঞপ্তি</a></li>
-                                <li><a href="https://mujib100.gov.bd/media-news">বিজ্ঞপ্তি</a></li>
+                                <li><a href="./../media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
+                                <li><a href="./../media-news/index.html">বিজ্ঞপ্তি</a></li>
                             </ul>
                         </li>
                         <li id="logo-com">
-                            <a href="https://mujib100.gov.bd/logo">লোগো সাবমিশন</a>
+                            <a href="./../logo/index.html">লোগো সাবমিশন</a>
                         </li>
-                        <li id="contact-us"><a href="https://mujib100.gov.bd/contact-us">যোগাযোগ করুন</a></li>
+                        <li id="contact-us"><a href="./../contact-us.html">যোগাযোগ করুন</a></li>
                         <li class="drop-down">
-                                                    <a href="https://mujib100.gov.bd/events#"><i class="fa fa-language"></i> <span>বাংলা</span> <span class="fa fa-angle-down"></span></a>
-                                                    <ul>
-                                <li><a href="https://mujib100.gov.bd/locale/en">English</a></li>
-                                <li><a href="https://mujib100.gov.bd/locale/bn">বাংলা</a></li>
+                            <a href="#"><i class="fa fa-language"></i> <span>বাংলা</span>
+                                <span class="fa fa-angle-down"></span></a>
+                            <ul>
+                                <li onclick="localSaveEnglish()">English</li>
+                                <li onclick="localSaveBangla()">বাংলা</li>
                             </ul>
                         </li>
-        
                     </ul>
-        
                 </nav><!-- .main-nav -->
-        
             </div>
         </header>
-        
-        
-            <!-- #header -->
-            <section id="banner" class="mb-12">
-                <div class="banner-height">
-                    <img src="./Events _ 100 Years of Mujib_files/img-52.jpg" class="b-img" alt="img">
-                </div>
-            </section>
-        
-            <!--==========================
+
+
+        <!-- #header -->
+        <section id="banner" class="mb-12">
+            <div class="banner-height">
+                <img src="./../../assets/images/events/img-52.jpg" class="b-img" alt="img">
+            </div>
+        </section>
+
+        <!--==========================
                  Events Section
                ===========================-->
-            <section class="container-fluid media-gal-content" id="event-section">
-                <div class="row gutter-2">
-                    <div class="col-md-5 m-b-c">
-                        <!-- Todays Events  -->
-                        <div class="mujib-borsho">
-                            <div class="card">
-                                <div class="card-body custom-card-body">
-                                    <!-- video -->
-                                    <div class="image-container">
-                                        <img src="./Events _ 100 Years of Mujib_files/img-27.png" height="180" width="100%">
-                                    </div>
-                                    <!-- end  video  -->
-                                    <!-- video desc + views -->
-                                    <div class="event-title">
-                                        <span style="font-size: 30px;"><b>আজকের ইভেন্ট</b></span>
-                                    </div>
-                                    <div class="video-desc row my-auto media-gal-desc">
-        
-                                        <div class="media-gallery-desc-left col-md-5">
-                                            <h2 class="v-date"><span style="color: #f4b800;">৭ মার্চ</span> ২০১৯
-        </h2>
-                                        </div>
-        
-                                        <div class="hr-line d-none d-md-block"></div>
-        
-                                        <div class="media-gallery-desc-right col-md-6" style="margin-left: 15px;">
-                                            <h3>জয় বাংলা কনসার্ট ২০১৯
-        </h3>
-                                        </div>
-                                    </div>
-                                    <div class="events-texts">
-                                        <p>জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমানের ঐতিহাসিক ৭ মার্চের ভাষণের দিনটি উপলক্ষে ইয়াং বাংলা-সিআরআই-এর উদ্যোগে প্রতি বছর আয়োজন করা হয় জয় বাংলা কনসার্ট। ঢাকায় বাংলাদেশ আর্মি স্টেডিয়ামে কনসার্টটি আয়োজন করা হয়।</p>
-                                        <button type="submit" class="btn mb-2 col-md-5" style="color: #fff;background: #f4b800;
-            border-color: #f4b800; ">অংশগ্রহণ করুন                                </button>
-                                    </div>
-                                    <!-- end video -->
+        <section class="container-fluid media-gal-content" id="event-section">
+            <div class="row gutter-2">
+                <div class="col-md-5 m-b-c">
+                    <!-- Todays Events  -->
+                    <div class="mujib-borsho">
+                        <div class="card">
+                            <div class="card-body custom-card-body">
+                                <!-- video -->
+                                <div class="image-container">
+                                    <img src="./../../assets/images/events/img-27.png" height="180" width="100%">
                                 </div>
-                            </div>
-                        </div>
-                        <!-- end todays -->
-                    </div>
-                    <div class="col-md-7">
-                        <div id="dialog-window">
-                            <div id="scrollable-content">
-                                <div class="row">
-                                    <div class="col-12 mb-12">
-                                        <div class="event-item">
-                                            <div class="row">
-                                                <div class="col-sm-4 py-3 xy text-center border-right border-warning">
-                                                    <h4><span style="color: #f4b800;">৭</span> মার্চ, ২০২০</h4>
-                                                </div>
-                                                <div class="col-sm-5 py-3 text-center"><h4 class="ev-title"><span style="color: #f4b800;">জয় বাংলা 
-        </span>কনসার্ট ২০২০</h4></div>
-                                                <div class="col-sm-3 text-center py-3">
-                                                    <a href="https://mujib100.gov.bd/events#" class="btn btn-warning btn-block event-btn">অংশগ্রহণ করুন</a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <!-- end  video  -->
+                                <!-- video desc + views -->
+                                <div class="event-title">
+                                    <span style="font-size: 30px;"><b>আজকের ইভেন্ট</b></span>
+                                </div>
+                                <div class="video-desc row my-auto media-gal-desc">
+
+                                    <div class="media-gallery-desc-left col-md-5">
+                                        <h2 class="v-date"><span style="color: #f4b800;">৭ মার্চ</span> ২০১৯
+                                        </h2>
                                     </div>
-                                    <div class="col-12 mb-12">
-                                        <div class="event-item">
-                                            <div class="row">
-                                                <div class="col-sm-4 py-3 xy text-center border-right border-warning">
-                                                    <h4><span style="color: #f4b800;">১৬</span> মার্চ, ২০২০</h4>
-                                                </div>
-                                                <div class="col-sm-5 py-3 text-center">
-                                                    <h4 class="ev-title"><span style="color: #f4b800;">বঙ্গবন্ধু লিডারশিপ  </span>টক ২০২০
-         </h4>
-                                                </div>
-                                                <div class="col-sm-3 text-center py-3">
-                                                    <a href="https://mujib100.gov.bd/events#" class="btn btn-warning btn-block event-btn">অংশগ্রহণ করুন</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 mb-12">
-                                        <div class="event-item">
-                                            <div class="row vdivide">
-                                                <div class="col-sm-4 py-3 xy text-center">
-                                                    <h4><span style="color: #f4b800;">১৭</span> মার্চ, ২০২০</h4>
-                                                </div>
-                                                <div class="col-sm-5 text-center py-3">
-                                                    <h4 class="ev-title" "=""><span style="color: #f4b800;">বঙ্গবন্ধু </span>জন্ম শতবর্ষ উদযাপন</h4>
-                                                </div>
-                                                <div class="col-sm-3 text-center py-3">
-                                                    <a href="https://mujib100.gov.bd/events#" class="btn btn-warning btn-block event-btn">অংশগ্রহণ করুন</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 mb-12">
-                                        <div class="event-item">
-                                            <div class="row vdivide">
-                                                <div class="col-sm-4 py-3 xy text-center">
-                                                    <h4><span style="color: #f4b800;">২৬</span> মার্চ, ২০২০</h4>
-                                                </div>
-                                                <div class="col-sm-5 py-3 text-center">
-                                                    <h4 class="ev-title"><span style="color: #f4b800;">স্বাধীনতা দিবস 
-         </span>উদযাপন </h4>
-                                                </div>
-                                                <div class="col-sm-3 text-center py-3">
-                                                    <a href="https://mujib100.gov.bd/events#" class="btn btn-warning btn-block event-btn">অংশগ্রহণ করুন</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 mb-12">
-                                        <div class="event-item">
-                                            <div class="row vdivide">
-                                                <div class="col-sm-4 py-3 xy text-center">
-                                                    <h4><span style="color: #f4b800;">৭</span> মার্চ, ২০২০</h4>
-                                                </div>
-                                                <div class="col-sm-5 py-3 text-center"><h4 class="ev-title"><span style="color: #f4b800;">জয় বাংলা 
-        </span>কনসার্ট ২০২০</h4></div>
-                                                <div class="col-sm-3 text-center py-3">
-                                                    <a href="https://mujib100.gov.bd/events#" class="btn btn-warning btn-block event-btn">অংশগ্রহণ করুন</a>
-                                                </div>
-                                            </div>
-                                        </div>
+
+                                    <div class="hr-line d-none d-md-block"></div>
+
+                                    <div class="media-gallery-desc-right col-md-6" style="margin-left: 15px;">
+                                        <h3>জয় বাংলা কনসার্ট ২০১৯
+                                        </h3>
                                     </div>
                                 </div>
+                                <div class="events-texts">
+                                    <p>জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমানের ঐতিহাসিক ৭ মার্চের ভাষণের দিনটি উপলক্ষে
+                                        ইয়াং বাংলা-সিআরআই-এর উদ্যোগে প্রতি বছর আয়োজন করা হয় জয় বাংলা কনসার্ট। ঢাকায়
+                                        বাংলাদেশ আর্মি স্টেডিয়ামে কনসার্টটি আয়োজন করা হয়।</p>
+                                    <button type="submit" class="btn mb-2 col-md-5" style="color: #fff;background: #f4b800;
+            border-color: #f4b800; ">অংশগ্রহণ করুন </button>
+                                </div>
+                                <!-- end video -->
                             </div>
                         </div>
-        
                     </div>
+                    <!-- end todays -->
                 </div>
-            </section>
-        
-        
+                <div class="col-md-7">
+                    <div id="dialog-window">
+                        <div id="scrollable-content">
+                            <div class="row">
+                                <div class="col-12 mb-12">
+                                    <div class="event-item">
+                                        <div class="row">
+                                            <div class="col-sm-4 py-3 xy text-center border-right border-warning">
+                                                <h4><span style="color: #f4b800;">৭</span> মার্চ, ২০২০</h4>
+                                            </div>
+                                            <div class="col-sm-5 py-3 text-center">
+                                                <h4 class="ev-title"><span style="color: #f4b800;">জয় বাংলা
+                                                    </span>কনসার্ট ২০২০</h4>
+                                            </div>
+                                            <div class="col-sm-3 text-center py-3">
+                                                <a href="#" class="btn btn-warning btn-block event-btn">অংশগ্রহণ
+                                                    করুন</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-12">
+                                    <div class="event-item">
+                                        <div class="row">
+                                            <div class="col-sm-4 py-3 xy text-center border-right border-warning">
+                                                <h4><span style="color: #f4b800;">১৬</span> মার্চ, ২০২০</h4>
+                                            </div>
+                                            <div class="col-sm-5 py-3 text-center">
+                                                <h4 class="ev-title"><span style="color: #f4b800;">বঙ্গবন্ধু লিডারশিপ
+                                                    </span>টক ২০২০
+                                                </h4>
+                                            </div>
+                                            <div class="col-sm-3 text-center py-3">
+                                                <a href="#" class="btn btn-warning btn-block event-btn">অংশগ্রহণ
+                                                    করুন</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-12">
+                                    <div class="event-item">
+                                        <div class="row vdivide">
+                                            <div class="col-sm-4 py-3 xy text-center">
+                                                <h4><span style="color: #f4b800;">১৭</span> মার্চ, ২০২০</h4>
+                                            </div>
+                                            <div class="col-sm-5 text-center py-3">
+                                                <h4 class="ev-title" "=""><span style=" color: #f4b800;">বঙ্গবন্ধু
+                                                    </span>জন্ম শতবর্ষ উদযাপন</h4>
+                                            </div>
+                                            <div class="col-sm-3 text-center py-3">
+                                                <a href="#" class="btn btn-warning btn-block event-btn">অংশগ্রহণ
+                                                    করুন</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-12">
+                                    <div class="event-item">
+                                        <div class="row vdivide">
+                                            <div class="col-sm-4 py-3 xy text-center">
+                                                <h4><span style="color: #f4b800;">২৬</span> মার্চ, ২০২০</h4>
+                                            </div>
+                                            <div class="col-sm-5 py-3 text-center">
+                                                <h4 class="ev-title"><span style="color: #f4b800;">স্বাধীনতা দিবস
+                                                    </span>উদযাপন </h4>
+                                            </div>
+                                            <div class="col-sm-3 text-center py-3">
+                                                <a href="#" class="btn btn-warning btn-block event-btn">অংশগ্রহণ
+                                                    করুন</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-12">
+                                    <div class="event-item">
+                                        <div class="row vdivide">
+                                            <div class="col-sm-4 py-3 xy text-center">
+                                                <h4><span style="color: #f4b800;">৭</span> মার্চ, ২০২০</h4>
+                                            </div>
+                                            <div class="col-sm-5 py-3 text-center">
+                                                <h4 class="ev-title"><span style="color: #f4b800;">জয় বাংলা
+                                                    </span>কনসার্ট ২০২০</h4>
+                                            </div>
+                                            <div class="col-sm-3 text-center py-3">
+                                                <a href="#" class="btn btn-warning btn-block event-btn">অংশগ্রহণ
+                                                    করুন</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
         <!--==========================
           Footer
         ============================-->
@@ -625,58 +642,62 @@ Header
                         <div class="col-md col-xs-6 footer-links">
                             <h4>মুজিব</h4>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/mujib/timeline">মহাজীবনের ঘটনাপ্রবাহ</a></li>
-                                <li><a href="https://mujib100.gov.bd/mujib/speeches">বক্তৃতা </a></li>
-                                <li><a href="https://mujib100.gov.bd/mujib/recognition">উদ্ধৃতি</a></li>
-                                <li><a href="https://mujib100.gov.bd/mujib/photo-archive">ফটো আর্কাইভ</a></li>
-                                <li><a href="https://mujib100.gov.bd/mujib/graphic-novel">গ্রাফিক নভেল “মুজিব”</a></li>
+                                <li><a href="./../mujib/timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                                <li><a href="./../mujib/speeches.html">বক্তৃতা </a></li>
+                                <li><a href="./../mujib/recognition.html">উদ্ধৃতি</a></li>
+                                <li><a href="./../mujib/photo-archive.html">ফটো আর্কাইভ</a></li>
+                                <li><a href="./../mujib/graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
                             </ul>
                         </div>
                         <div class="col-md col-xs-6 footer-links">
                             <h4>শতবর্ষ উদযাপন</h4>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/events#">মিডিয়া গ্যালারি</a></li>
-                                <li><a href="https://mujib100.gov.bd/celebration/stamp">ডাকটিকিট</a></li>
-                                <li><a href="https://mujib100.gov.bd/celebration">মার্চেন্ডাইজ</a></li>
-                                <li><a href="https://mujib100.gov.bd/celebration/contribute">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a></li>
+                                <li><a href="#">মিডিয়া গ্যালারি</a></li>
+                                <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
+                                <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
+                                <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ
+                                        নিন</a></li>
                             </ul>
                         </div>
                         <div class=" col-md col-xs-6 footer-links pl-2">
                             <h4>তথ্যভাণ্ডার</h4>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/resources">গ্রন্থ ও প্রকাশনা</a></li>
-                                <li><a href="https://mujib100.gov.bd/resources/documentaries">তথ্যচিত্র</a></li>
-                                <li><a href="https://mujib100.gov.bd/resources/letters">চিঠিপত্র</a></li>
-                                <li><a href="https://mujib100.gov.bd/events#">অ্যাপ</a></li>
+                                <li><a href="./../resources/index.html">গ্রন্থ ও প্রকাশনা</a></li>
+                                <li><a href="./../resources/documentaries.html">তথ্যচিত্র</a></li>
+                                <li><a href="./../resources/letters.html">চিঠিপত্র</a></li>
+                                <li><a href="#">অ্যাপ</a></li>
                             </ul>
                         </div>
                         <div class=" col-md col-xs-6 footer-links">
                             <h4>ইভেন্টস</h4>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/events">আজকের ইভেন্ট </a></li>
-                                <li><a href="https://mujib100.gov.bd/events">আসন্ন ইভেন্ট</a></li>
+                                <li><a href="./index.html">আজকের ইভেন্ট </a></li>
+                                <li><a href="./index.html">আসন্ন ইভেন্ট</a></li>
                             </ul>
                         </div>
                         <div class=" col-md col-xs-6 footer-links">
                             <h4>কমিটি</h4>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/committee">জাতীয় কমিটি </a></li>
-                                <li><a href="https://mujib100.gov.bd/events#">উৎসব বাস্তবায়ন কমিটি </a></li>
+                                <li><a href="./../committee/index.html">জাতীয় কমিটি </a></li>
+                                <li><a href="#">উৎসব বাস্তবায়ন কমিটি </a></li>
                             </ul>
                         </div>
                         <div class="col-md col-xs-6 footer-links">
                             <h4>মিডিয়া ও সংবাদ</h4>
                             <ul>
-                                <li><a href="https://mujib100.gov.bd/media-news">সংবাদ বিজ্ঞপ্তি</a></li>
-                                <li><a href="https://mujib100.gov.bd/media-news">বিজ্ঞপ্তি</a></li>
+                                <li><a href="./../media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
+                                <li><a href="./../media-news/index.html">বিজ্ঞপ্তি</a></li>
                             </ul>
                         </div>
                         <div class="ml-20 col-md col-xs-6 footer-links">
                             <h4>যোগাযোগ করুন</h4>
                             <ul>
-                                <li><i class="fa fa-map-marker"></i> শহীদ ক্যাপ্টেন মনসুর আলী রোড, ১/ক, সেগুনবাগিচা, ঢাকা-১০০০</li>
+                                <li><i class="fa fa-map-marker"></i> শহীদ ক্যাপ্টেন মনসুর আলী রোড, ১/ক, সেগুনবাগিচা,
+                                    ঢাকা-১০০০</li>
                                 <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
-                                <li><i class="fa fa-phone"></i> +৮৮-০২-৫৫১৩০৩১৩                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৪ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৫                        </li>
+                                <li><i class="fa fa-phone"></i> +৮৮-০২-৫৫১৩০৩১৩
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৪
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৫ </li>
                             </ul>
                         </div>
                     </div>
@@ -684,12 +705,13 @@ Header
             </div>
             <div class="bg-gray py-3">
                 <div class="container-fluid text-center">
-                    <span>Developed &amp; Operated By <a class="footer-link" href="https://ictd.gov.bd/" target="_blank"><b>ICT Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+                    <span>Developed &amp; Operated By <a class="footer-link" href="https://ictd.gov.bd/"
+                            target="_blank"><b>ICT Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
                 </div>
             </div>
         </footer>
-        
-        </div>
+
+    </div>
     <!-- #footer -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
