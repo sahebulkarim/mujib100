@@ -67,275 +67,276 @@
 </head>
 
 <body>
-<div class="en">
-    <div id="m-active">mujib</div>
-    <!--==========================
+    <div class="en">
+        <div id="m-active">mujib</div>
+        <!--==========================
 Header
 ============================-->
-    <header id="header" class="fixed-top">
-        <div class="container">
-            <div class="logo float-left">
-                <a href="./../index.html" class="scrollto">
-                    <img src="./../../assets/images/logo.png" alt="" class="img-fluid"></a>
+        <header id="header" class="fixed-top">
+            <div class="container">
+                <div class="logo float-left">
+                    <a href="./../index.html" class="scrollto">
+                        <img src="./../../assets/images/logo.png" alt="" class="img-fluid"></a>
+                </div>
+                <nav class="main-nav float-right d-none d-lg-block">
+                    <ul>
+                        <li class="drop-down menu" id="mujib" data-value="mujib/timeline">
+                            <a href="./../index.html">
+                                Mujib
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../mujib/timeline.html">Timeline</a></li>
+                                <li><a href="./../mujib/speeches.html">Speeches</a></li>
+                                <li><a href="./../mujib/recognition.html">Recognition</a></li>
+                                <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
+                                <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="celebration">
+                            <a href="./../celebration/index.html">
+                                Celebration
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../celebration/index.html">Media Gallery</a></li>
+                                <li><a href="./../celebration/stamp.html">Stamp</a></li>
+                                <li><a href="./../celebration/index.html">Merchandise</a></li>
+                                <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="resources">
+                            <a href="./../resourcesindex.html">
+                                Resources
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../resources/book-publication.html">Books & Publications</a></li>
+                                <li><a href="./../resources/documentaries.html">Documentaries</a></li>
+                                <li><a href="./../resources/letters.html">Letters</a></li>
+                                <li><a href="./../resources/index.html">Apps</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="events">
+                            <a href="./../events/index.html">
+                                Events
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../events/index.html">Upcoming</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="committee">
+                            <a href="./../committee/index.html">
+                                Committee
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="#">National Committee</a></li>
+                                <li><a href="#">Implementation Committee</a></li>
+                                <li><a href="#">Website Content Selection Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="media">
+                            <a href="./index.html">
+                                Media & News
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./index.html">Press Release</a></li>
+                                <li><a href="./index.html">Notice</a></li>
+                            </ul>
+                        </li>
+                        <li id="logo-com">
+                            <a href="./../logo/index.html">Logo Submission</a>
+                        </li>
+                        <li id="contact-us">
+                            <a href="./../contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="drop-down">
+                            <a href="#">
+                                <i class="fa fa-language"></i>
+                                <span>English</span>
+                                <span class="fa fa-angle-down"></span>
+                            </a>
+                            <ul>
+                                <li onclick="localSaveEnglish()">English</li>
+                                <li onclick="localSaveBangla()">বাংলা</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="main-nav float-right d-none d-lg-block">
-                <ul>
-                    <li class="drop-down menu" id="mujib" data-value="mujib/timeline">
-                        <a href="./../index.html">
-                            Mujib
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../mujib/timeline.html">Timeline</a></li>
-                            <li><a href="./../mujib/speeches.html">Speeches</a></li>
-                            <li><a href="./../mujib/recognition.html">Recognition</a></li>
-                            <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
-                            <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="celebration">
-                        <a href="./../celebration/index.html">
-                            Celebration
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../celebration/index.html">Media Gallery</a></li>
-                            <li><a href="./../celebration/stamp.html">Stamp</a></li>
-                            <li><a href="./../celebration/index.html">Merchandise</a></li>
-                            <li><a href="./../celebration/contribute.html">Contribute</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="resources">
-                        <a href="./../resourcesindex.html">
-                            Resources
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../resources/book-publication.html">Books & Publications</a></li>
-                            <li><a href="./../resources/documentaries.html">Documentaries</a></li>
-                            <li><a href="./../resources/letters.html">Letters</a></li>
-                            <li><a href="./../resources/index.html">Apps</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="events">
-                        <a href="./../events/index.html">
-                            Events
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../events/index.html">Upcoming</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="committee">
-                        <a href="./../committee/index.html">
-                            Committee
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="#">National Committee</a></li>
-                            <li><a href="#">Implementation Committee</a></li>
-                            <li><a href="#">Website Content Selection Committee</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="media">
-                        <a href="./index.html">
-                            Media & News
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./index.html">Press Release</a></li>
-                            <li><a href="./index.html">Notice</a></li>
-                        </ul>
-                    </li>
-                    <li id="logo-com">
-                        <a href="./../logo/index.html">Logo Submission</a>
-                    </li>
-                    <li id="contact-us">
-                        <a href="./../contact-us.html">Contact Us</a>
-                    </li>
-                    <li class="drop-down">
-                        <a href="#">
-                            <i class="fa fa-language"></i>
-                            <span>English</span>
-                            <span class="fa fa-angle-down"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../locale/en">English</a></li>
-                            <li><a href="./../locale/bn">বাংলা</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        </header>
 
 
-    <!-- Media & News Page  -->
-    <section id="mediaNews">
-        <div class="container-fluid press">
-            <div class="section-header mt-3">
-                <h3 class="text-uppercase">MEDIA & NEWS</h3>
-            </div>
-            <div class="row gutter-2">
-                <div class="col-md-8 press-notice">
-                    <div class="merchandise">
+        <!-- Media & News Page  -->
+        <section id="mediaNews">
+            <div class="container-fluid press">
+                <div class="section-header mt-3">
+                    <h3 class="text-uppercase">MEDIA & NEWS</h3>
+                </div>
+                <div class="row gutter-2">
+                    <div class="col-md-8 press-notice">
+                        <div class="merchandise">
+                            <div class="card">
+                                <div class="card-body media row">
+                                    <div class="media-titla">
+                                        <h3> Press Release</h3>
+                                    </div>
+                                    <div class="press-release col-md-12 "
+                                        style="animation-name: fadeInUp; animation-delay: 0.2s;">
+                                        <div class="pres-img col-md-3">
+                                            <img src="./../../assets/images/news/pm.png">
+                                        </div>
+                                        <div class="press-cont col-md-6">
+                                            <h4> PM unveils ‘Bangla Bhashar Bangabandhu’</h4>
+                                        </div>
+                                        <div class="press-cont col-md-2">
+                                            <button type="submit" class="btn mb-2" style="color: #fff;background: #f4b800;
+    border-color: #f4b800; ">Read </button>
+                                        </div>
+                                    </div>
+                                    <div class="press-release col-md-12 ">
+                                        <div class="pres-img col-md-3">
+                                            <img src="./../../assets/images/news/2.png">
+                                        </div>
+                                        <div class="press-cont col-md-6">
+                                            <h4> Bangabandhu National Gold Cup Football to begin Saturday</h4>
+                                        </div>
+                                        <div class="press-cont col-md-2">
+                                            <button type="submit" class="btn mb-2 " style="color: #fff;background: #f4b800;
+    border-color: #f4b800; ">Read </button>
+                                        </div>
+                                    </div>
+                                    <div class="media-more col-md-12">
+                                        <a href="#">View all Press Release</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 notice mb-3">
                         <div class="card">
-                            <div class="card-body media row">
-                                <div class="media-titla">
-                                    <h3> Press Release</h3>
+                            <div class="card-body">
+                                <div class="title">
+                                    <h3>Notice</h3>
+                                    <div class="hr"></div>
                                 </div>
-                                <div class="press-release col-md-12 "
-                                    style="animation-name: fadeInUp; animation-delay: 0.2s;">
-                                    <div class="pres-img col-md-3">
-                                        <img src="./../../assets/images/news/pm.png">
-                                    </div>
-                                    <div class="press-cont col-md-6">
-                                        <h4> PM unveils ‘Bangla Bhashar Bangabandhu’</h4>
-                                    </div>
-                                    <div class="press-cont col-md-2">
-                                        <button type="submit" class="btn mb-2" style="color: #fff;background: #f4b800;
-    border-color: #f4b800; ">Read </button>
-                                    </div>
-                                </div>
-                                <div class="press-release col-md-12 ">
-                                    <div class="pres-img col-md-3">
-                                        <img src="./../../assets/images/news/2.png">
-                                    </div>
-                                    <div class="press-cont col-md-6">
-                                        <h4> Bangabandhu National Gold Cup Football to begin Saturday</h4>
-                                    </div>
-                                    <div class="press-cont col-md-2">
-                                        <button type="submit" class="btn mb-2 " style="color: #fff;background: #f4b800;
-    border-color: #f4b800; ">Read </button>
+                                <div class="qout">
+                                    <div class="quot-text">
+                                        <span
+                                            style="font-size: 40px;float: left;font-family: 'Lato',sans-sharif;position: relative;">"</span>
+                                        <p style="padding: 30px;">
+                                            Find the latest updates, reports and other media news
+                                            here
+                                            on Bangabandhu, Sheikh Mujibur Rahman</p>
+                                        <span
+                                            style="font-size: 40px;float: right;font-family: 'Lato',sans-sharif;    bottom: 70px;    position: relative;">"</span>
                                     </div>
                                 </div>
-                                <div class="media-more col-md-12">
-                                    <a href="#">View all Press Release</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 notice mb-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="title">
-                                <h3>Notice</h3>
                                 <div class="hr"></div>
-                            </div>
-                            <div class="qout">
-                                <div class="quot-text">
-                                    <span
-                                        style="font-size: 40px;float: left;font-family: 'Lato',sans-sharif;position: relative;">"</span>
-                                    <p style="padding: 30px;">Find the latest updates, reports and other media news here
-                                        on Bangabandhu, Sheikh Mujibur Rahman</p>
-                                    <span
-                                        style="font-size: 40px;float: right;font-family: 'Lato',sans-sharif;    bottom: 70px;    position: relative;">"</span>
+                                <div class="annc">
+                                    <img src="./../../assets/images/icons/Annoucment.png">
                                 </div>
-
-
-                            </div>
-                            <div class="hr"></div>
-                            <div class="annc">
-                                <img src="./../../assets/images/icons/Annoucment.png">
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
 
-    <!--==========================
+        <!--==========================
   Footer
 ============================-->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Mujib</h4>
-                        <ul>
-                            <li><a href="./../mujib/timeline.html">Timeline</a></li>
-                            <li><a href="./../mujib/speeches.html">Speeches</a></li>
-                            <li><a href="./../mujib/recognition.html">Recognition</a></li>
-                            <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
-                            <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Celebration</h4>
-                        <ul>
-                            <li><a href="#">Media Gallery</a></li>
-                            <li><a href="./../celebration/stamp.html">Stamp</a></li>
-                            <li><a href="./../celebration/index.html">Merchandise</a></li>
-                            <li><a href="./../celebration/contribute.html">Contribute</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links pl-2">
-                        <h4>Resources</h4>
-                        <ul>
-                            <li><a href="./../resources/index.html">Books & Publications</a></li>
-                            <li><a href="./../resources/documentaries.html">Documentaries</a></li>
-                            <li><a href="./../resources/letters.html">Letters</a></li>
-                            <li><a href="#">Apps</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>Events</h4>
-                        <ul>
-                            <li><a href="./events/index.html">Today's Event</a></li>
-                            <li><a href="./events/index.html">Upcoming</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>Committee</h4>
-                        <ul>
-                            <li><a href="./../committee/index.html">National Committee</a></li>
-                            <li><a href="#">Implementation Committee</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Media & News</h4>
-                        <ul>
-                            <li><a href="./index.html">Press Release</a></li>
-                            <li><a href="./index.html">Notice</a></li>
-                        </ul>
-                    </div>
-                    <div class="ml-20 col-md col-xs-6 footer-links">
-                        <h4>Contact Us</h4>
-                        <ul>
-                            <li>
-                                <i class="fa fa-map-marker"></i>
-                                Shaheed Captain Mansur Ali Road, 1/Ka, Segun Bagicha,Dhaka-1000
-                            </li>
-                            <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
-                            <li><i class="fa fa-phone"></i> +88-02-55130313
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130314
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130315 </li>
-                        </ul>
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Mujib</h4>
+                            <ul>
+                                <li><a href="./../mujib/timeline.html">Timeline</a></li>
+                                <li><a href="./../mujib/speeches.html">Speeches</a></li>
+                                <li><a href="./../mujib/recognition.html">Recognition</a></li>
+                                <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
+                                <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Celebration</h4>
+                            <ul>
+                                <li><a href="#">Media Gallery</a></li>
+                                <li><a href="./../celebration/stamp.html">Stamp</a></li>
+                                <li><a href="./../celebration/index.html">Merchandise</a></li>
+                                <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links pl-2">
+                            <h4>Resources</h4>
+                            <ul>
+                                <li><a href="./../resources/index.html">Books & Publications</a></li>
+                                <li><a href="./../resources/documentaries.html">Documentaries</a></li>
+                                <li><a href="./../resources/letters.html">Letters</a></li>
+                                <li><a href="#">Apps</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>Events</h4>
+                            <ul>
+                                <li><a href="./../events/index.html">Today's Event</a></li>
+                                <li><a href="./../events/index.html">Upcoming</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>Committee</h4>
+                            <ul>
+                                <li><a href="./../committee/index.html">National Committee</a></li>
+                                <li><a href="#">Implementation Committee</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Media & News</h4>
+                            <ul>
+                                <li><a href="./index.html">Press Release</a></li>
+                                <li><a href="./index.html">Notice</a></li>
+                            </ul>
+                        </div>
+                        <div class="ml-20 col-md col-xs-6 footer-links">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-map-marker"></i>
+                                    Shaheed Captain Mansur Ali Road, 1/Ka, Segun Bagicha,Dhaka-1000
+                                </li>
+                                <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
+                                <li><i class="fa fa-phone"></i> +88-02-55130313
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130314
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130315 </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="bg-gray py-3">
-            <div class="container-fluid text-center">
-                <span>Developed & Operated By <a class="footer-link" href="https://ictd.gov.bd/" target="_blank"><b>ICT
-                            Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+            <div class="bg-gray py-3">
+                <div class="container-fluid text-center">
+                    <span>Developed & Operated By <a class="footer-link" href="https://ictd.gov.bd/"
+                            target="_blank"><b>ICT
+                                Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-</div>
-<div class="bn">
+    </div>
+    <div class="bn">
         <div id="m-active">mujib</div>
-    <!--==========================
+        <!--==========================
     Header
     ============================-->
-    <header id="header" class="fixed-top">
+        <header id="header" class="fixed-top">
             <div class="container">
                 <div class="logo float-left">
                     <a href="./index.html" class="scrollto"><img src="./../assets/images/logo.png" alt=""
@@ -346,63 +347,69 @@ Header
                         <li class="drop-down menu" id="mujib" data-value="/"><a href="./index.html">মুজিব <span
                                     class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="./mujib/timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
-                                <li><a href="./mujib/speeches.html">বক্তৃতা</a></li>
-                                <li><a href="./mujib/recognition.html">উদ্ধৃতি</a></li>
-                                <li><a href="./mujib/photo-archive.html">ফটো আর্কাইভ</a></li>
-                                <li><a href="./mujib/graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
+                                <li><a href="./../mujib/timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                                <li><a href="./../mujib/speeches.html">বক্তৃতা</a></li>
+                                <li><a href="./../mujib/recognition.html">উদ্ধৃতি</a></li>
+                                <li><a href="./../mujib/photo-archive.html">ফটো আর্কাইভ</a></li>
+                                <li><a href="./../mujib/graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
                             </ul>
                         </li>
-                        <li class="drop-down" id="celebration"><a href="./celebration/index.html">শতবর্ষ
+                        <li class="drop-down" id="celebration">
+                            <a href="./../celebration/index.html">শতবর্ষ
                                 উদযাপন <span class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="./celebration/index.html">মিডিয়া গ্যালারি</a></li>
-                                <li><a href="./celebration/stamp.html">ডাকটিকিট</a></li>
-                                <li><a href="./celebration/index.html">মার্চেন্ডাইজ</a></li>
-                                <li><a href="./celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ
+                                <li><a href="./../celebration/index.html">মিডিয়া গ্যালারি</a></li>
+                                <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
+                                <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
+                                <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ
                                         নিন</a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="drop-down" id="resources"><a href="./resources/index.html">তথ্যভাণ্ডার
+                        <li class="drop-down" id="resources">
+                            <a href="./../resources/index.html">তথ্যভাণ্ডার
                                 <span class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="./resources/book-publication.html">গ্রন্থ ও প্রকাশনা</a>
+                                <li>
+                                    <a href="./../resources/book-publication.html">গ্রন্থ ও প্রকাশনা</a>
                                 </li>
-                                <li><a href="./resources/documentaries.html">তথ্যচিত্র</a></li>
-                                <li><a href="./resources/letters.html">চিঠিপত্র</a></li>
-                                <li><a href="./resources/index.html">অ্যাপ</a></li>
+                                <li><a href="./../resources/documentaries.html">তথ্যচিত্র</a></li>
+                                <li><a href="./../resources/letters.html">চিঠিপত্র</a></li>
+                                <li><a href="./../resources/index.html">অ্যাপ</a></li>
                             </ul>
                         </li>
-                        <li class="drop-down" id="events"><a href="./events/index.html">ইভেন্টস <span
-                                    class="fa-arrow"></span></a>
+                        <li class="drop-down" id="events">
+                            <a href="./../events/index.html">ইভেন্টস
+                                <span class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="./events/index.html">আজকের ইভেন্ট</a></li>
-                                <li><a href="./events/index.html">আসন্ন ইভেন্ট</a></li>
+                                <li><a href="./../events/index.html">আজকের ইভেন্ট</a></li>
+                                <li><a href="./../events/index.html">আসন্ন ইভেন্ট</a></li>
                             </ul>
                         </li>
-                        <li class="drop-down" id="committee"><a href="./committee/index.html">কমিটি <span
-                                    class="fa-arrow"></span></a>
+                        <li class="drop-down" id="committee">
+                            <a href="./../committee/index.html">কমিটি
+                                <span class="fa-arrow"></span></a>
                             <ul>
                                 <li><a href="#">জাতীয় কমিটি </a></li>
                                 <li><a href="#">উৎসব বাস্তবায়ন কমিটি </a></li>
                                 <li><a href="#">কন্টেন্ট নির্বাচক কমিটি</a></li>
                             </ul>
                         </li>
-                        <li class="drop-down" id="media"><a href="./media-news/index.html">মিডিয়া ও সংবাদ
+                        <li class="drop-down" id="media"><a href="./../media-news/index.html">মিডিয়া ও সংবাদ
                                 <span class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="./media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
-                                <li><a href="./media-news/index.html">বিজ্ঞপ্তি</a></li>
+                                <li><a href="./../media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
+                                <li><a href="./../media-news/index.html">বিজ্ঞপ্তি</a></li>
                             </ul>
                         </li>
                         <li id="logo-com">
-                            <a href="./logo/index.html">লোগো সাবমিশন</a>
+                            <a href="./../logo/index.html">লোগো সাবমিশন</a>
                         </li>
-                        <li id="contact-us"><a href="./contact-us.html">যোগাযোগ করুন</a></li>
+                        <li id="contact-us"><a href="./../contact-us.html">যোগাযোগ করুন</a></li>
                         <li class="drop-down">
-                            <a href="#"><i class="fa fa-language"></i> <span>বাংলা</span> <span
-                                    class="fa fa-angle-down"></span></a>
+                            <a href="#"><i class="fa fa-language">
+
+                                </i> <span>বাংলা</span> <span class="fa fa-angle-down"></span></a>
                             <ul>
                                 <li onclick="localSaveEnglish()">English</li>
                                 <li onclick="localSaveBangla()">বাংলা</li>
@@ -414,9 +421,9 @@ Header
                 </nav><!-- .main-nav -->
 
             </div>
-    </header>
-    
-    
+        </header>
+
+
         <!-- Media & News Page  -->
         <section id="mediaNews">
             <div class="container-fluid press">
@@ -431,32 +438,34 @@ Header
                                     <div class="media-titla">
                                         <h3> সংবাদ বিজ্ঞপ্তি</h3>
                                     </div>
-                                    <div class="press-release col-md-12 " style="animation-name: fadeInUp; animation-delay: 0.2s;">
+                                    <div class="press-release col-md-12 "
+                                        style="animation-name: fadeInUp; animation-delay: 0.2s;">
                                         <div class="pres-img col-md-3">
-                                            <img src="./Media &amp; News _ 100 Years of Mujib_files/pm.png">
+                                            <img src="./../../assets/images/news/pm.png">
                                         </div>
                                         <div class="press-cont col-md-6">
-                                            <h4> মাননীয় প্রধানমন্ত্রী কতৃক ‘বাংলা ভাষার বঙ্গবন্ধু’ বইয়ের মোড়ক উন্মোচন</h4>
+                                            <h4> মাননীয় প্রধানমন্ত্রী কতৃক ‘বাংলা ভাষার বঙ্গবন্ধু’ বইয়ের মোড়ক উন্মোচন
+                                            </h4>
                                         </div>
                                         <div class="press-cont col-md-2">
                                             <button type="submit" class="btn mb-2" style="color: #fff;background: #f4b800;
-        border-color: #f4b800; ">পড়ুন                                        </button>
+        border-color: #f4b800; ">পড়ুন </button>
                                         </div>
                                     </div>
                                     <div class="press-release col-md-12 ">
                                         <div class="pres-img col-md-3">
-                                            <img src="./Media &amp; News _ 100 Years of Mujib_files/2.png">
+                                            <img src="./../../assets/images/news/2.png">
                                         </div>
                                         <div class="press-cont col-md-6">
                                             <h4> শনিবার শুরু হচ্ছে বঙ্গবন্ধু জাতীয় গোল্ড কাপ ফুটবল টুর্নামেন্ট</h4>
                                         </div>
                                         <div class="press-cont col-md-2">
                                             <button type="submit" class="btn mb-2 " style="color: #fff;background: #f4b800;
-        border-color: #f4b800; ">পড়ুন                                        </button>
+        border-color: #f4b800; ">পড়ুন </button>
                                         </div>
                                     </div>
                                     <div class="media-more col-md-12">
-                                        <a href="https://mujib100.gov.bd/media-news#">সবগুলো সংবাদ বিজ্ঞপ্তি দেখুন</a>
+                                        <a href="#">সবগুলো সংবাদ বিজ্ঞপ্তি দেখুন</a>
                                     </div>
                                 </div>
                             </div>
@@ -471,83 +480,85 @@ Header
                                 </div>
                                 <div class="qout">
                                     <div class="quot-text">
-                                        <span style="font-size: 40px;float: left;font-family: &#39;Lato&#39;,sans-sharif;position: relative;">"</span>
-                                        <p style="padding: 30px;">বঙ্গবন্ধু শেখ মুজিবুর রহমান সম্পর্কিত সর্বশেষ সংবাদ আপডেট, প্রতিবেদন ও বিজ্ঞপ্তিগুলো এখানে দেখুন </p>
-                                        <span style="font-size: 40px;float: right;font-family: &#39;Lato&#39;,sans-sharif;    bottom: 70px;    position: relative;">"</span>
+                                        <span
+                                            style="font-size: 40px;float: left;font-family: 'Lato',sans-sharif;position: relative;">"</span>
+                                        <p style="padding: 30px;">
+                                            বঙ্গবন্ধু শেখ মুজিবুর রহমান সম্পর্কিত সর্বশেষ সংবাদ
+                                            আপডেট, প্রতিবেদন ও বিজ্ঞপ্তিগুলো এখানে দেখুন
+                                        </p>
+                                        <span
+                                            style="font-size: 40px;float: right;font-family: 'Lato',sans-sharif;    bottom: 70px;    position: relative;">"</span>
                                     </div>
-    
-    
                                 </div>
                                 <div class="hr"></div>
                                 <div class="annc">
-                                    <img src="./Media &amp; News _ 100 Years of Mujib_files/Annoucment.png">
+                                    <img src="./../../assets/images/icons/Annoucment.png">
                                 </div>
                             </div>
                         </div>
-    
+
                     </div>
                 </div>
             </div>
         </section>
-        
-    
-    
-    <!--==========================
+
+
+
+        <!--==========================
       Footer
     ============================-->
-    <footer id="footer">
+        <footer id="footer">
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
                         <div class="col-md col-xs-6 footer-links">
                             <h4>মুজিব</h4>
                             <ul>
-                                <li><a href="./mujib/timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
-                                <li><a href="./mujib/speeches">বক্তৃতা </a></li>
-                                <li><a href="./mujib/recognition">উদ্ধৃতি</a></li>
-                                <li><a href="./mujib/photo-archive.html">ফটো আর্কাইভ</a></li>
-                                <li><a href="./mujib/graphic-novel">গ্রাফিক নভেল “মুজিব”</a></li>
+                                <li><a href="./../mujib/timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                                <li><a href="./../mujib/speeches">বক্তৃতা </a></li>
+                                <li><a href="./../mujib/recognition">উদ্ধৃতি</a></li>
+                                <li><a href="./../mujib/photo-archive.html">ফটো আর্কাইভ</a></li>
+                                <li><a href="./../mujib/graphic-novel">গ্রাফিক নভেল “মুজিব”</a></li>
                             </ul>
                         </div>
                         <div class="col-md col-xs-6 footer-links">
                             <h4>শতবর্ষ উদযাপন</h4>
                             <ul>
                                 <li><a href="#">মিডিয়া গ্যালারি</a></li>
-                                <li><a href="./celebration/stamp.html">ডাকটিকিট</a></li>
-                                <li><a href="./celebration/index.html">মার্চেন্ডাইজ</a></li>
-                                <li><a href="./celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ
-                                        নিন</a>
+                                <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
+                                <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
+                                <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a>
                                 </li>
                             </ul>
                         </div>
                         <div class=" col-md col-xs-6 footer-links pl-2">
                             <h4>তথ্যভাণ্ডার</h4>
                             <ul>
-                                <li><a href="./resources/index.html">গ্রন্থ ও প্রকাশনা</a></li>
-                                <li><a href="./resources/documentaries.html">তথ্যচিত্র</a></li>
-                                <li><a href="./resources/letters.html">চিঠিপত্র</a></li>
+                                <li><a href="./../resources/index.html">গ্রন্থ ও প্রকাশনা</a></li>
+                                <li><a href="./../resources/documentaries.html">তথ্যচিত্র</a></li>
+                                <li><a href="./../resources/letters.html">চিঠিপত্র</a></li>
                                 <li><a href="#">অ্যাপ</a></li>
                             </ul>
                         </div>
                         <div class=" col-md col-xs-6 footer-links">
                             <h4>ইভেন্টস</h4>
                             <ul>
-                                <li><a href="./events/index.html">আজকের ইভেন্ট </a></li>
-                                <li><a href="./events/index.html">আসন্ন ইভেন্ট</a></li>
+                                <li><a href="./../events/index.html">আজকের ইভেন্ট </a></li>
+                                <li><a href="./../events/index.html">আসন্ন ইভেন্ট</a></li>
                             </ul>
                         </div>
                         <div class=" col-md col-xs-6 footer-links">
                             <h4>কমিটি</h4>
                             <ul>
-                                <li><a href="./committee/index.html">জাতীয় কমিটি </a></li>
+                                <li><a href="./../committee/index.html">জাতীয় কমিটি </a></li>
                                 <li><a href="#">উৎসব বাস্তবায়ন কমিটি </a></li>
                             </ul>
                         </div>
                         <div class="col-md col-xs-6 footer-links">
                             <h4>মিডিয়া ও সংবাদ</h4>
                             <ul>
-                                <li><a href="./media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
-                                <li><a href="./media-news/index.html">বিজ্ঞপ্তি</a></li>
+                                <li><a href="./index.html">সংবাদ বিজ্ঞপ্তি</a></li>
+                                <li><a href="./index.html">বিজ্ঞপ্তি</a></li>
                             </ul>
                         </div>
                         <div class="ml-20 col-md col-xs-6 footer-links">
@@ -572,8 +583,8 @@ Header
                                 Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
                 </div>
             </div>
-    </footer>
-    
+        </footer>
+
     </div>
     <!-- #footer -->
 
