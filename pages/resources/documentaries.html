@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Documentaries | 100 Years of Mujib</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta
+        content="100 years,Bangabandhu Sheikh Mujibur Rahman, Mujib, Logo Competition,Bangabadhu 100,বঙ্গবন্ধু জন্ম শতবার্ষিকী"
+        name="keywords">
+    <meta
+        content="100 Years of Mujib| Learn about the legendary life and philosophy of Bangabandhu, Sheikh Mujibur Rahman"
+        name="description">
+
+    <!-- Favicons -->
+    <link href="./../assets/images/favicon.ico" rel="icon">
+    <link href="./../assets/images/favicon.ico" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+
+    <link href="./../../css/bootstrap.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="./../../css/dist/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="./../../css/front/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./../../css/front/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./../../css/front/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./../../css/front/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="./../../css/front/css/according.css" rel="stylesheet">
+    <link href="https://mujib100.gov.bd/front/css/video.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <!--  <link href="css/responsive.min.css" rel="stylesheet">-->
+    <link href="./../../css/front/css/style.css" rel="stylesheet">
+
+
+
+
+    <style>
+        .video-item {
+            height: 278px;
+        }
+
+        .video-item img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .html5-endscreen {
+            display: none !important;
+        }
+
+        #documentaries-section {
+            padding-top: 65px;
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .doc-video {
+            width: 100%;
+            object-fit: cover;
+            height: 500px;
+        }
+
+        #video {
+            background: #f4f4f4;
+            padding-bottom: 12px;
+        }
+
+        .video-item {
+            cursor: pointer;
+            position: relative;
+            display: block;
+        }
+
+        .video-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            opacity: 0;
+            -webkit-transition: opacity 0.6s;
+            -moz-transition: opacity 0.6s;
+            transition: opacity 0.6s;
+            vertical-align: middle;
+            line-height: 200px;
+        }
+
+        .video-btn:hover {
+            opacity: 1;
+        }
+
+        .video-btn .duration {
+            display: none;
+        }
+
+        .video-btn .vx-btn {
+            color: white;
+            margin-top: 14%;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 18px;
+        }
+
+        .video-item .duration {
+            position: absolute;
+            top: 10px;
+            left: 87%;
+        }
+
+        .video-btn .vx-btn:hover {
+            color: white;
+            border: 1px solid #f4b800;
+            background: none;
+        }
+
+        .video-title {
+            position: absolute;
+            top: 70%;
+            color: #fff;
+            line-height: 25px !important;
+            padding: 10px;
+            margin: 0 !important;
+            text-align: justify;
+        }
+
+        .video-caption {
+            margin-top: 5px;
+            padding: 0 5px;
+        }
+
+        @media all and (max-width: 480px) {
+            .video-btn .vx-btn {
+                color: white;
+                margin-top: 6%;
+            }
+
+            .m-12 {
+                padding-bottom: 12px;
+            }
+
+            .doc-video {
+                width: 100%;
+                /*height: 150px;*/
+            }
+
+            #documentaries-section {
+                padding-top: 46px;
+            }
+        }
+    </style>
+    <!-- =======================================================
+      Theme Name: Mujib
+      Author: Ezze Technology Limited
+      License: https://etl.com.bd/license/
+    ======================================================= -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144893823-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-144893823-1');
+    </script>
+</head>
+
+<body>
+    <div id="m-active">mujib</div>
+    <!--==========================
+Header
+============================-->
+    <header id="header" class="fixed-top">
+        <div class="container">
+            <div class="logo float-left">
+                <a href="./../index.html" class="scrollto">
+                    <img src="./../../assets/images/logo.png" alt="" class="img-fluid"></a>
+            </div>
+            <nav class="main-nav float-right d-none d-lg-block">
+                <ul>
+                    <li class="drop-down menu" id="mujib" data-value="mujib/timeline">
+                        <a href="./../index.html">
+                            Mujib
+                            <span class="fa-arrow"></span>
+                        </a>
+                        <ul>
+                            <li><a href="./../mujib/timeline.html">Timeline</a></li>
+                            <li><a href="./../mujib/speeches.html">Speeches</a></li>
+                            <li><a href="./../mujib/recognition.html">Recognition</a></li>
+                            <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
+                            <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down" id="celebration">
+                        <a href="./../celebration/index.html">
+                            Celebration
+                            <span class="fa-arrow"></span>
+                        </a>
+                        <ul>
+                            <li><a href="./../celebration/index.html">Media Gallery</a></li>
+                            <li><a href="./../celebration/stamp.html">Stamp</a></li>
+                            <li><a href="./../celebration/index.html">Merchandise</a></li>
+                            <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down" id="resources">
+                        <a href="./index.html">
+                            Resources
+                            <span class="fa-arrow"></span>
+                        </a>
+                        <ul>
+                            <li><a href="./book-publication.html">Books & Publications</a>
+                            </li>
+                            <li><a href="./documentaries.html">Documentaries</a></li>
+                            <li><a href="./letters.html">Letters</a></li>
+                            <li><a href="./index.html">Apps</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down" id="events">
+                        <a href="./../events/index.html">
+                            Events
+                            <span class="fa-arrow"></span>
+                        </a>
+                        <ul>
+                            <li><a href="./../events/index.html">Today's Event</a></li>
+                            <li><a href="./../events/index.html">Upcoming</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down" id="committee">
+                        <a href="./../committee/index.html">
+                            Committee
+                            <span class="fa-arrow"></span>
+                        </a>
+                        <ul>
+                            <li><a href="#">National Committee</a></li>
+                            <li><a href="#">Implementation Committee</a></li>
+                            <li><a href="#">Website Content Selection Committee</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down" id="media">
+                        <a href="./../media-news/index.html">
+                            Media & News
+                            <span class="fa-arrow"></span>
+                        </a>
+                        <ul>
+                            <li><a href="./../media-news/index.html">Press Release</a></li>
+                            <li><a href="./../media-news/index.html">Notice</a></li>
+                        </ul>
+                    </li>
+                    <li id="logo-com">
+                        <a href="./../logo/index.html">Logo Submission</a>
+                    </li>
+                    <li id="contact-us">
+                        <a href="./../contact-us.html">Contact Us</a>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">
+                            <i class="fa fa-language"></i>
+                            <span>English</span>
+                            <span class="fa fa-angle-down"></span>
+                        </a>
+                        <ul>
+                            <li><a href="./../locale/en">English</a></li>
+                            <li><a href="./../locale/bn">বাংলা</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="container-fluid" id="documentaries-section">
+        <div class="card">
+            <div class="card-body custom-card-body">
+                <!-- video -->
+                <video controls poster="https://mujib100.gov.bd/front/images/resources/documentaries/img-56.png"
+                    class="doc-video">
+                    <source src="https://mujib100.gov.bd/front/images/videos/doc-vid.mp4" type="video/mp4">
+                    <source src="https://mujib100.gov.bd/front/images/videos/doc-vid.mp4" type="video/ogg">
+                    Your browser does not support HTML5 video.
+                </video>
+                <!--          <div class="video-container">-->
+                <!--            <iframe id="current-video" width="100%" height="600" src="https://www.youtube.com/embed/XFG0i1cv2zY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                <!--          </div>-->
+                <!-- end  video  -->
+                <!-- video desc + views -->
+                <div class="video-desc row">
+                    <div class="video-desc-left col-md-8">
+                        <h4>Return of Bangabandu Sheikh Mujibur Rahman to Bangladesh</h4>
+                        <p>
+                            The Father of the Nation Bangabandhu Sheikh Mujibur Rahman returned to a freshly liberated
+                            and sovereign Bangladesh 47 years ago today, on January 10, 1972, after spending nine and a
+                            half months in a Pakistani Jail. </p>
+                    </div>
+                    <div class="hr-line d-none d-md-block"></div>
+                    <div class="video-desc-right col-md-3">
+                        <h3>5,02,452 views</h3>
+                        <a href="#about" class="btn-get-share">Share</a>
+                        <small>6.5k shares</small>
+                    </div>
+
+                </div>
+                <!-- end video -->
+            </div>
+        </div>
+    </section>
+    <section id="video">
+        <div class="container-fluid">
+            <div class="row gutter-2">
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/4QYtZv4V3no/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">04:23</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=4QYtZv4V3no"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Documentary About 7th March Speech of Bangabandhu Sheikh
+                                    Mujibur Rahman (18 march 2018) </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/QC3UpyRO4sw/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">28:33</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=QC3UpyRO4sw"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Rahman,The Father of Bengal-A Film by Japanese Film
+                                    Director Nagisa Oshima (1973) </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/4kb0FSszCbE/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">1:08</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=4kb0FSszCbE"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Mass felicitation to Bangabandhu after triumph over
+                                    election (1973)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/S-zIuuMfSB0/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">2:06</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=S-zIuuMfSB0"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu votes in Bangladesh's first general elections
+                                    (7 Mar 1973)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/SuiRQJA2KcQ/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">1:05</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=SuiRQJA2KcQ"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Anwar Sadat arrives in Bangladesh and is greeted by the
+                                    Bangabandhu (26 Feb 1974)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/-nBKDS2DbhY/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">0:53</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=-nBKDS2DbhY"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Anwar Sadat and Bangabandhu meeting at Sadat's Giza home
+                                    (9 Nov 1974)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/6Xfzeq3Gnjo/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">1:13</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=6Xfzeq3Gnjo"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu arrives in Egypt and is greeted by Egyptian
+                                    Prime Minister Aziz Muhammad Hejazi (6 Nov 1974)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/1popPDuTGxc/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">0:38</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=1popPDuTGxc"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu returns home after European medical treatment
+                                    visit (14 Sep 1972) </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/ghU19lAKN4U/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">2:23</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=ghU19lAKN4U"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Indira Gandhi and Bangabandhu prior to their final round
+                                    of talks in Calcutta (7 Feb 1972) </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/oyHZBQr_vQQ/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">3:15</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=oyHZBQr_vQQ"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu arrived in Baghdad with a 30-member
+                                    delegation (8 Oct 1974)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/V7dcmZNLE08/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">1:31</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=V7dcmZNLE08"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangladesh election posters and slogans through out
+                                    countryside and towns, Bangabandhu receiving acclaim of his party (11 Feb 1973) </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/w_DcPBay_Cs/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">2:05</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=w_DcPBay_Cs"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Edward Kennedy meets Bangabandhu in Dhaka (16 february
+                                    1972)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/82dMH-c1xIM/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">0:26</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=82dMH-c1xIM"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu leaves after his visit to London to undergo
+                                    surgery (21 Aug 1972)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/NUwmR2JbXV4/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">0:43</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=NUwmR2JbXV4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu meets with Generals (13 Jan 1972)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/-xjry0hIqkM/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">1:26</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=-xjry0hIqkM"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu reunited with his family after nine months in
+                                    a West Pakistan prison (10 Jan 1972) </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/hjCkU-kXuzM/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">5:19</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=hjCkU-kXuzM"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Dhaka celebrating Bangabandhu becoming Prime Minister of
+                                    Bangladesh (18 Dec 1972)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/X4D7y2UWQTE/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">1:31</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=X4D7y2UWQTE"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu and Indian General Aurora at Indian army
+                                    ceremonial withdrawal parade (12 Mar 1972)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/0xa0hDRmNzA/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">1:00</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=0xa0hDRmNzA"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">The King of Bhutan is meet with Sheikh Mujibur Rahman in
+                                    airport (29 Dec 1974)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/i-sXuH1F4Lk/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">1:13</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=i-sXuH1F4Lk"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu arriving in London to undergo surgery and
+                                    being welcomed at the airport by Bangladeshi expatriates and supporters (27 Jul
+                                    1972)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/jRiOkouHx8Q/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">1:55</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=jRiOkouHx8Q"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu Sheikh Mujibur Rahman Visits BTV (18 May
+                                    1975)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB  1st Victory Celebration 1972.png"
+                                    class="img-fluid" />
+                                <span class="badge badge-dark duration">10:11</span>
+                                <div class="video-btn">
+                                    <a data-fancybox
+                                        href="./../../assets/images/videos/বঙ্গবন্ধু প্রথম বিজয় দিবস উদযাপন ১৯৭২ .mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Celebration first Victory Day in the presence of
+                                    Bangabandhu (16th December 1972)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB First Awami League Counchil.png"
+                                    class="img-fluid" />
+                                <span class="badge badge-dark duration">6:08</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="./../../assets/images/videos/আওয়ামী লীগ কাউন্সিল ১৯৭৪.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Awami league's council with the presence of Bangabandhu
+                                    (18 jan 1974)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB Kuwet Tour.png" class="img-fluid" />
+                                <span class="badge badge-dark duration">8:31</span>
+                                <div class="video-btn">
+                                    <a data-fancybox
+                                        href="./../../assets/images/videos/বঙ্গবন্ধু_&#039;র কুয়েত সফর.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu visits Kuwait (10 november 1974)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB Jamaica Tour.png" class="img-fluid" />
+                                <span class="badge badge-dark duration">17:16</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="./../../assets/images/videos/বঙ্গবন্ধুর জ্যামাইকা সফর.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu visits jamaica (may, 1975)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB Japan Tour.png" class="img-fluid" />
+                                <span class="badge badge-dark duration">11:52</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="./../../assets/images/videos/বঙ্গবন্ধুর জাপান সফর.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu visits Japan (October 1973)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB_Iraq Tour.png" class="img-fluid" />
+                                <span class="badge badge-dark duration">15:47</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="./../../assets/images/videos/বঙ্গবন্ধু_র ইরাক সফর.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu visits Iraq ( october 1974)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB First Perlament Meeting.png"
+                                    class="img-fluid" />
+                                <span class="badge badge-dark duration">3:25</span>
+                                <div class="video-btn">
+                                    <a data-fancybox
+                                        href="./../../assets/images/videos/বঙ্গবন্ধু বাংলাদেশের প্রথম সংসদীয় বউথক ১০-০৪-১৯৭২.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">First ever parliamentary meeting headed by Bangabandhu
+                                    (10 april 1972)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB on Benapol Border.png"
+                                    class="img-fluid" />
+                                <span class="badge badge-dark duration">3:37</span>
+                                <div class="video-btn">
+                                    <a data-fancybox
+                                        href="./../../assets/images/videos/বঙ্গবন্ধু বেনাপোল সীমান্ত পরিদর্শন.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabondhu's visit to Benapole border (23 january 1974)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/PN52BYxTHmo/hqdefault.jpg" class="img-fluid" />
+                                <span class="badge badge-dark duration">2:14</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=PN52BYxTHmo?rel=0"
+                                        class="btn btn-sm vx-btn btn-outline-warning">Play Now </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">Bangabandhu provided the constitution of BAKSHAL (24 jan
+                                    1975)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--==========================
+  Footer
+============================-->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md col-xs-6 footer-links">
+                        <h4>Mujib</h4>
+                        <ul>
+                            <li><a href="./../mujib/timeline.html">Timeline</a></li>
+                            <li><a href="./../mujib/speeches.html">Speeches</a></li>
+                            <li><a href="./../mujib/recognition.html">Recognition</a></li>
+                            <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
+                            <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md col-xs-6 footer-links">
+                        <h4>Celebration</h4>
+                        <ul>
+                            <li><a href="#">Media Gallery</a></li>
+                            <li><a href="./../celebration/stamp.html">Stamp</a></li>
+                            <li><a href="./../celebration/index.html">Merchandise</a></li>
+                            <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-md col-xs-6 footer-links pl-2">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="./index.html">Books & Publications</a></li>
+                            <li><a href="./documentaries.html">Documentaries</a></li>
+                            <li><a href="./letters.html">Letters</a></li>
+                            <li><a href="#">Apps</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-md col-xs-6 footer-links">
+                        <h4>Events</h4>
+                        <ul>
+                            <li><a href="./../events/index.html">Today's Event</a></li>
+                            <li><a href="./../events/index.html">Upcoming</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-md col-xs-6 footer-links">
+                        <h4>Committee</h4>
+                        <ul>
+                            <li><a href="./../committee/index.html">National Committee</a></li>
+                            <li><a href="#">Implementation Committee</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md col-xs-6 footer-links">
+                        <h4>Media & News</h4>
+                        <ul>
+                            <li><a href="./../media-news/index.html">Press Release</a></li>
+                            <li><a href="./../media-news/index.html">Notice</a></li>
+                        </ul>
+                    </div>
+                    <div class="ml-20 col-md col-xs-6 footer-links">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                Shaheed Captain Mansur Ali Road, 1/Ka, Segun Bagicha,Dhaka-1000
+                            </li>
+                            <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
+                            <li><i class="fa fa-phone"></i> +88-02-55130313
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130314
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130315 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray py-3">
+            <div class="container-fluid text-center">
+                <span>Developed & Operated By <a class="footer-link" href="https://ictd.gov.bd/" target="_blank"><b>ICT
+                            Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- #footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- Uncomment below i you want to use a preloader -->
+    <!-- <div id="preloader"></div> -->
+
+    <!-- JavaScript Libraries -->
+    <script src="./../../js/front/lib/jquery/jquery.min.js"></script>
+    <script src="./../../js/front/fancybox-master/dist/jquery.fancybox.min.js"></script>
+    <script src="./../../js/front/lib/jquery/jquery-migrate.min.js"></script>
+    <script src="./../../js/front/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./../../js/front/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="./../../js/front/lib/easing/easing.min.js"></script>
+    <script src="./../../js/front/lib/mobile-nav/mobile-nav.js"></script>
+    <script src="./../../js/front/lib/wow/wow.min.js"></script>
+    <!-- Template Main Javascript File -->
+    <script src="./../../js/front/js/main.js"></script>
+
+
+
+</body>
+
+</html>
