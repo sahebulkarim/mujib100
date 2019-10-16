@@ -31,7 +31,7 @@
     <link href="./../../css/front/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="./../../css/front/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="./../../css/front/css/according.css" rel="stylesheet">
-    <link href="https://mujib100.gov.bd/front/css/video.css" rel="stylesheet">
+    <link href="./../../css/front/css/video.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
     <!--  <link href="css/responsive.min.css" rel="stylesheet">-->
@@ -42,408 +42,427 @@
 </head>
 
 <body>
-<div class="en">
-    <div id="m-active">mujib</div>
-    <!--==========================
+    <div class="en">
+        <div id="m-active">mujib</div>
+        <!--==========================
 Header
 ============================-->
-    <header id="header" class="fixed-top">
-        <div class="container">
-            <div class="logo float-left">
-                <a href="./../index.html" class="scrollto">
-                    <img src="./../../assets/images/logo.png" alt="" class="img-fluid"></a>
+        <header id="header" class="fixed-top">
+            <div class="container">
+                <div class="logo float-left">
+                    <a href="./../index.html" class="scrollto">
+                        <img src="./../../assets/images/logo.png" alt="" class="img-fluid"></a>
+                </div>
+                <nav class="main-nav float-right d-none d-lg-block">
+                    <ul>
+                        <li class="drop-down menu" id="mujib" data-value="mujib/timeline">
+                            <a href="./../index.html">
+                                Mujib
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./timeline.html">Timeline</a></li>
+                                <li><a href="./speeches.html">Speeches</a></li>
+                                <li><a href="./recognition.html">Recognition</a></li>
+                                <li><a href="./photo-archive.html">Photo Archive</a></li>
+                                <li><a href="./graphic-novel.html">Graphic Novel “Mujib”</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="celebration">
+                            <a href="./../celebration/index.html">
+                                Celebration
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../celebration/index.html">Media Gallery</a></li>
+                                <li><a href="./../celebration/stamp.html">Stamp</a></li>
+                                <li><a href="./../celebration/index.html">Merchandise</a></li>
+                                <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="resources">
+                            <a href="./../resources/index.html">
+                                Resources
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../resources/book-publication.html">Books & Publications</a>
+                                </li>
+                                <li><a href="./../resources/documentaries.html">Documentaries</a></li>
+                                <li><a href="./../resources/letters.html">Letters</a></li>
+                                <li><a href="./../resources/index.html">Apps</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="events">
+                            <a href="./../events/index.html">
+                                Events
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../events/index.html">Today's Event</a></li>
+                                <li><a href="./../events/index.html">Upcoming</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="committee">
+                            <a href="./../committee/index.html">
+                                Committee
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="#">National Committee</a></li>
+                                <li><a href="#">Implementation Committee</a></li>
+                                <li><a href="#">Website Content Selection Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="media">
+                            <a href="./../media-news/index.html">
+                                Media & News
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../media-news/index.html">Press Release</a></li>
+                                <li><a href="./../media-news/index.html">Notice</a></li>
+                            </ul>
+                        </li>
+                        <li id="logo-com">
+                            <a href="./../logo/index.html">Logo Submission</a>
+                        </li>
+                        <li id="contact-us">
+                            <a href="./../contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="drop-down">
+                            <a href="#">
+                                <i class="fa fa-language"></i>
+                                <span>English</span>
+                                <span class="fa fa-angle-down"></span>
+                            </a>
+                            <ul>
+                                <li onclick="localSaveEnglish()">English</li>
+                                <li onclick="localSaveBangla()">বাংলা</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="main-nav float-right d-none d-lg-block">
-                <ul>
-                    <li class="drop-down menu" id="mujib" data-value="mujib/timeline">
-                        <a href="./../index.html">
-                            Mujib
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./timeline.html">Timeline</a></li>
-                            <li><a href="./speeches.html">Speeches</a></li>
-                            <li><a href="./recognition.html">Recognition</a></li>
-                            <li><a href="./photo-archive.html">Photo Archive</a></li>
-                            <li><a href="./graphic-novel.html">Graphic Novel “Mujib”</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="celebration">
-                        <a href="./../celebration/index.html">
-                            Celebration
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../celebration/index.html">Media Gallery</a></li>
-                            <li><a href="./../celebration/stamp.html">Stamp</a></li>
-                            <li><a href="./../celebration/index.html">Merchandise</a></li>
-                            <li><a href="./../celebration/contribute.html">Contribute</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="resources">
-                        <a href="./../resources/index.html">
-                            Resources
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../resources/book-publication.html">Books & Publications</a>
-                            </li>
-                            <li><a href="./../resources/documentaries.html">Documentaries</a></li>
-                            <li><a href="./../resources/letters.html">Letters</a></li>
-                            <li><a href="./../resources/index.html">Apps</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="events">
-                        <a href="./../events/index.html">
-                            Events
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../events/index.html">Today's Event</a></li>
-                            <li><a href="./../events/index.html">Upcoming</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="committee">
-                        <a href="./../committee/index.html">
-                            Committee
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="#">National Committee</a></li>
-                            <li><a href="#">Implementation Committee</a></li>
-                            <li><a href="#">Website Content Selection Committee</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="media">
-                        <a href="./../media-news/index.html">
-                            Media & News
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../media-news/index.html">Press Release</a></li>
-                            <li><a href="./../media-news/index.html">Notice</a></li>
-                        </ul>
-                    </li>
-                    <li id="logo-com">
-                        <a href="./../logo/index.html">Logo Submission</a>
-                    </li>
-                    <li id="contact-us">
-                        <a href="./../contact-us.html">Contact Us</a>
-                    </li>
-                    <li class="drop-down">
-                        <a href="#">
-                            <i class="fa fa-language"></i>
-                            <span>English</span>
-                            <span class="fa fa-angle-down"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../locale/en">English</a></li>
-                            <li><a href="./../locale/bn">বাংলা</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        </header>
 
 
-    <main id="main">
-        <section id="testimonials">
-            <div class="container-fluid">
-                <div class="section-header mt-5">
-                    <h3>Recognising Sheikh Mujibur Rahman</h3>
+        <main id="main">
+            <section id="testimonials">
+                <div class="container-fluid">
+                    <div class="section-header mt-5">
+                        <h3>Recognising Sheikh Mujibur Rahman</h3>
+                    </div>
+                    <div class="row no-gutters wow fadeInUp">
+                        <div class="col-sm-4">
+                            <div class="testimonial-item">
+                                <p>
+                                    <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
+                                    As long as Padma, Meghna, Gouri, Jamuna flows on, Sheikh Mujibur Rahman, your
+                                    accomplishment will also live on <img src="./../../assets/images/icons/quote-2.jpeg"
+                                        class="quote-sign-right" alt="">
+                                </p>
+                                <img src="./../../assets/images/profile/profile-01.png" class="testimonial-img" alt="">
+                                <h3>Annada Shankar Ray</h3>
+                                <h4>Poet and Essayist</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="testimonial-item">
+                                <p>
+                                    <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
+                                    I have not seen the Himalayas. But I have seen Sheikh Mujib. In personality and in
+                                    courage, this man is the Himalayas <img
+                                        src="./../../assets/images/icons/quote-2.jpeg" class="quote-sign-right" alt="">
+                                </p>
+
+                                <img src="./../../assets/images/profile/profile-03.png" class="testimonial-img" alt="">
+                                <h3>Fidel Castro</h3>
+                                <h4>Former Prime Minister of Cuba</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="testimonial-item">
+                                <p>
+                                    <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
+                                    Sheikh Mujibur Rahman does not belong to Bangladesh alone. He is the harbinger of
+                                    freedom for all Bengalis <img src="./../../assets/images/icons/quote-2.jpeg"
+                                        class="quote-sign-right" alt="">
+                                </p>
+                                <img src="./../../assets/images/profile/heikal.jpg" class="testimonial-img" alt="">
+                                <h3>Mohamed Hassanein Heikal</h3>
+                                <h4>Egyptian journalist</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row no-gutters wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="col-sm-4">
+                            <div class="testimonial-item">
+                                <p>
+                                    <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
+                                    On the death of Sheikh Mujib, the world of the oppressed has lost an incredible
+                                    leader.
+                                    And, I have lost a true friend with a benevolent heart <img
+                                        src="./../../assets/images/icons/quote-2.jpeg" class="quote-sign-right" alt="">
+                                </p>
+                                <img src="./../../assets/images/profile/fidel_castro.jpeg" class="testimonial-img"
+                                    alt="">
+                                <h3>Fidel Castro</h3>
+                                <h4>Former Prime Minister of Cuba</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="testimonial-item">
+                                <p>
+                                    <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
+                                    The speciality of Mujib’s character was his uncompromising fighting leadership with
+                                    a
+                                    generous heart <img src="./../../assets/images/icons/quote-2.jpeg"
+                                        class="quote-sign-right" alt="">
+                                </p>
+
+                                <img src="./../../assets/images/profile/yeasir_arafat.jpg" class="testimonial-img"
+                                    alt="">
+                                <h3>Yasser Arafat</h3>
+                                <h4>Former Chairman of the Palestine Liberation Organization</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="testimonial-item">
+                                <p>
+                                    <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
+                                    I’m broken by the news of Sheikh Mujib’s death. He was a great leader. His
+                                    extraordinary
+                                    heroism has been a source of inspiration for the people of Asia and Africa <img
+                                        src="./../../assets/images/icons/quote-2.jpeg" class="quote-sign-right" alt="">
+                                </p>
+                                <img src="./../../assets/images/profile/indira_gandhi.jpg" class="testimonial-img"
+                                    alt="">
+                                <h3>Indira Gandhi</h3>
+                                <h4>Former Prime Minister of India</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row no-gutters wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="col-sm-4">
+                            <div class="testimonial-item">
+                                <p>
+                                    <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
+                                    A man with Awami League’s leader Sheikh Mujibur Rahman’s spirit and dynamic
+                                    leadership
+                                    will not be found in Asia within the next twenty years <img
+                                        src="./../../assets/images/icons/quote-2.jpeg" class="quote-sign-right" alt="">
+                                </p>
+
+                                <img src="./../../assets/images/profile/kissinger.jpg" class="testimonial-img" alt="">
+                                <h3>Henry Kissinger</h3>
+                                <h4>Former United States Secretary of State</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="testimonial-item">
+                                <p>
+                                    <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
+                                    Sheikh Mujibur Rahman has inspired the Vietnamese people <img
+                                        src="./../../assets/images/icons/quote-2.jpeg" class="quote-sign-right" alt="">
+                                </p>
+
+                                <img src="./../../assets/images/profile/kenneth.jpg" class="testimonial-img" alt="">
+                                <h3>Kenneth Kaunda</h3>
+                                <h4>Zambian Politician</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="testimonial-item">
+                                <p>
+                                    <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
+                                    Bangabandhu is the bravest leader of all time <img
+                                        src="./../../assets/images/icons/quote-2.jpeg" class="quote-sign-right" alt="">
+                                </p>
+
+                                <img src="./../../assets/images/profile/pronob.jpg" class="testimonial-img" alt="">
+                                <h3>Pranab Mukherjee</h3>
+                                <h4>Former President of India</h4>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="row no-gutters wow fadeInUp">
-                    <div class="col-sm-4">
-                        <div class="testimonial-item">
-                            <p>
-                                <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
-                                As long as Padma, Meghna, Gouri, Jamuna flows on, Sheikh Mujibur Rahman, your
-                                accomplishment will also live on <img src="./../../assets/images/icons/quote-2.jpeg"
-                                    class="quote-sign-right" alt="">
-                            </p>
-                            <img src="./../../assets/images/profile/profile-01.png" class="testimonial-img" alt="">
-                            <h3>Annada Shankar Ray</h3>
-                            <h4>Poet and Essayist</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="testimonial-item">
-                            <p>
-                                <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
-                                I have not seen the Himalayas. But I have seen Sheikh Mujib. In personality and in
-                                courage, this man is the Himalayas <img src="./../../assets/images/icons/quote-2.jpeg"
-                                    class="quote-sign-right" alt="">
-                            </p>
+            </section>
 
-                            <img src="./../../assets/images/profile/profile-03.png" class="testimonial-img" alt="">
-                            <h3>Fidel Castro</h3>
-                            <h4>Former Prime Minister of Cuba</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="testimonial-item">
-                            <p>
-                                <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
-                                Sheikh Mujibur Rahman does not belong to Bangladesh alone. He is the harbinger of
-                                freedom for all Bengalis <img src="./../../assets/images/icons/quote-2.jpeg"
-                                    class="quote-sign-right" alt="">
-                            </p>
-                            <img src="./../../assets/images/profile/heikal.jpg" class="testimonial-img" alt="">
-                            <h3>Mohamed Hassanein Heikal</h3>
-                            <h4>Egyptian journalist</h4>
-                        </div>
-                    </div>
+        </main>
 
-                </div>
-                <div class="row no-gutters wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="col-sm-4">
-                        <div class="testimonial-item">
-                            <p>
-                                <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
-                                On the death of Sheikh Mujib, the world of the oppressed has lost an incredible leader.
-                                And, I have lost a true friend with a benevolent heart <img
-                                    src="./../../assets/images/icons/quote-2.jpeg" class="quote-sign-right" alt="">
-                            </p>
-                            <img src="./../../assets/images/profile/fidel_castro.jpeg" class="testimonial-img" alt="">
-                            <h3>Fidel Castro</h3>
-                            <h4>Former Prime Minister of Cuba</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="testimonial-item">
-                            <p>
-                                <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
-                                The speciality of Mujib’s character was his uncompromising fighting leadership with a
-                                generous heart <img src="./../../assets/images/icons/quote-2.jpeg"
-                                    class="quote-sign-right" alt="">
-                            </p>
-
-                            <img src="./../../assets/images/profile/yeasir_arafat.jpg" class="testimonial-img" alt="">
-                            <h3>Yasser Arafat</h3>
-                            <h4>Former Chairman of the Palestine Liberation Organization</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="testimonial-item">
-                            <p>
-                                <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
-                                I’m broken by the news of Sheikh Mujib’s death. He was a great leader. His extraordinary
-                                heroism has been a source of inspiration for the people of Asia and Africa <img
-                                    src="./../../assets/images/icons/quote-2.jpeg" class="quote-sign-right" alt="">
-                            </p>
-                            <img src="./../../assets/images/profile/indira_gandhi.jpg" class="testimonial-img" alt="">
-                            <h3>Indira Gandhi</h3>
-                            <h4>Former Prime Minister of India</h4>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row no-gutters wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="col-sm-4">
-                        <div class="testimonial-item">
-                            <p>
-                                <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
-                                A man with Awami League’s leader Sheikh Mujibur Rahman’s spirit and dynamic leadership
-                                will not be found in Asia within the next twenty years <img
-                                    src="./../../assets/images/icons/quote-2.jpeg" class="quote-sign-right" alt="">
-                            </p>
-
-                            <img src="./../../assets/images/profile/kissinger.jpg" class="testimonial-img" alt="">
-                            <h3>Henry Kissinger</h3>
-                            <h4>Former United States Secretary of State</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="testimonial-item">
-                            <p>
-                                <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
-                                Sheikh Mujibur Rahman has inspired the Vietnamese people <img
-                                    src="./../../assets/images/icons/quote-2.jpeg" class="quote-sign-right" alt="">
-                            </p>
-
-                            <img src="./../../assets/images/profile/kenneth.jpg" class="testimonial-img" alt="">
-                            <h3>Kenneth Kaunda</h3>
-                            <h4>Zambian Politician</h4>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="testimonial-item">
-                            <p>
-                                <img src="./../../assets/images/icons/quote-1.jpeg" class="quote-sign-left" alt="">
-                                Bangabandhu is the bravest leader of all time <img
-                                    src="./../../assets/images/icons/quote-2.jpeg" class="quote-sign-right" alt="">
-                            </p>
-
-                            <img src="./../../assets/images/profile/pronob.jpg" class="testimonial-img" alt="">
-                            <h3>Pranab Mukherjee</h3>
-                            <h4>Former President of India</h4>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!--==========================
+        <!--==========================
   Footer
 ============================-->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Mujib</h4>
-                        <ul>
-                            <li><a href="./timeline.html">Timeline</a></li>
-                            <li><a href="./speeches.html">Speeches</a></li>
-                            <li><a href="./recognition.html">Recognition</a></li>
-                            <li><a href="./photo-archive.html">Photo Archive</a></li>
-                            <li><a href="./graphic-novel.html">Graphic Novel “Mujib”</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Celebration</h4>
-                        <ul>
-                            <li><a href="#">Media Gallery</a></li>
-                            <li><a href="./../celebration/stamp.html">Stamp</a></li>
-                            <li><a href="./../celebration/index.html">Merchandise</a></li>
-                            <li><a href="./../celebration/contribute.html">Contribute</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links pl-2">
-                        <h4>Resources</h4>
-                        <ul>
-                            <li><a href="./../resources/index.html">Books & Publications</a></li>
-                            <li><a href="./../resources/documentaries.html">Documentaries</a></li>
-                            <li><a href="./../resources/letters.html">Letters</a></li>
-                            <li><a href="#">Apps</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>Events</h4>
-                        <ul>
-                            <li><a href="./../events/index.html">Today's Event</a></li>
-                            <li><a href="./../events/index.html">Upcoming</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>Committee</h4>
-                        <ul>
-                            <li><a href="./../committee/index.html">National Committee</a></li>
-                            <li><a href="#">Implementation Committee</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Media & News</h4>
-                        <ul>
-                            <li><a href="./../media-news/index.html">Press Release</a></li>
-                            <li><a href="./../media-news/index.html">Notice</a></li>
-                        </ul>
-                    </div>
-                    <div class="ml-20 col-md col-xs-6 footer-links">
-                        <h4>Contact Us</h4>
-                        <ul>
-                            <li>
-                                <i class="fa fa-map-marker"></i>
-                                Shaheed Captain Mansur Ali Road, 1/Ka, Segun Bagicha,Dhaka-1000
-                            </li>
-                            <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
-                            <li><i class="fa fa-phone"></i> +88-02-55130313
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130314
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130315 </li>
-                        </ul>
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Mujib</h4>
+                            <ul>
+                                <li><a href="./timeline.html">Timeline</a></li>
+                                <li><a href="./speeches.html">Speeches</a></li>
+                                <li><a href="./recognition.html">Recognition</a></li>
+                                <li><a href="./photo-archive.html">Photo Archive</a></li>
+                                <li><a href="./graphic-novel.html">Graphic Novel “Mujib”</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Celebration</h4>
+                            <ul>
+                                <li><a href="#">Media Gallery</a></li>
+                                <li><a href="./../celebration/stamp.html">Stamp</a></li>
+                                <li><a href="./../celebration/index.html">Merchandise</a></li>
+                                <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links pl-2">
+                            <h4>Resources</h4>
+                            <ul>
+                                <li><a href="./../resources/index.html">Books & Publications</a></li>
+                                <li><a href="./../resources/documentaries.html">Documentaries</a></li>
+                                <li><a href="./../resources/letters.html">Letters</a></li>
+                                <li><a href="#">Apps</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>Events</h4>
+                            <ul>
+                                <li><a href="./../events/index.html">Today's Event</a></li>
+                                <li><a href="./../events/index.html">Upcoming</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>Committee</h4>
+                            <ul>
+                                <li><a href="./../committee/index.html">National Committee</a></li>
+                                <li><a href="#">Implementation Committee</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Media & News</h4>
+                            <ul>
+                                <li><a href="./../media-news/index.html">Press Release</a></li>
+                                <li><a href="./../media-news/index.html">Notice</a></li>
+                            </ul>
+                        </div>
+                        <div class="ml-20 col-md col-xs-6 footer-links">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-map-marker"></i>
+                                    Shaheed Captain Mansur Ali Road, 1/Ka, Segun Bagicha,Dhaka-1000
+                                </li>
+                                <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
+                                <li><i class="fa fa-phone"></i> +88-02-55130313
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130314
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130315 </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="bg-gray py-3">
-            <div class="container-fluid text-center">
-                <span>Developed & Operated By <a class="footer-link" href="https://ictd.gov.bd/" target="_blank"><b>ICT
-                            Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+            <div class="bg-gray py-3">
+                <div class="container-fluid text-center">
+                    <span>Developed & Operated By <a class="footer-link" href="https://ictd.gov.bd/"
+                            target="_blank"><b>ICT
+                                Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-</div>
-<div class="bn">
+    </div>
+    <div class="bn">
         <div id="m-active">mujib</div>
-    <!--==========================
+        <!--==========================
     Header
     ============================-->
-    <header id="header" class="fixed-top">
-        <div class="container">
-            <div class="logo float-left">
-                <a href="https://mujib100.gov.bd/" class="scrollto"><img src="./Recognition _ 100 Years of Mujib_files/logo.png" alt="" class="img-fluid"></a>
+        <header id="header" class="fixed-top header-scrolled">
+            <div class="container">
+                <div class="logo float-left">
+                    <a href="./index.html" class="scrollto"><img src="./লোগো সাবমিশন __files/logo.png" alt=""
+                            class="img-fluid"></a>
+                </div>
+                <nav class="main-nav float-right d-none d-lg-block">
+                    <ul>
+                        <li class="drop-down menu" id="mujib" data-value="logo">
+                            <a href="./index.html">মুজিব <span class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="./timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                                <li><a href="./speeches.html">বক্তৃতা</a></li>
+                                <li><a href="./recognition.html">উদ্ধৃতি</a></li>
+                                <li><a href="./photo-archive.html">ফটো আর্কাইভ</a></li>
+                                <li><a href="./graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="celebration"><a href="./../celebration/index.html">শতবর্ষ উদযাপন <span
+                                    class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="./../celebration/index.html">মিডিয়া গ্যালারি</a></li>
+                                <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
+                                <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
+                                <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="resources"><a href="./../resources/index.html">তথ্যভাণ্ডার <span
+                                    class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="./../resources/book-publication.html">গ্রন্থ ও প্রকাশনা</a></li>
+                                <li><a href="./../resources/documentaries.html">তথ্যচিত্র</a></li>
+                                <li><a href="./../resources/letters.html">চিঠিপত্র</a></li>
+                                <li><a href="./../resources/index.html">অ্যাপ</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="events"><a href="./../events/index.html">ইভেন্টস <span
+                                    class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="./../events/index.html">আজকের ইভেন্ট</a></li>
+                                <li><a href="./../events/index.html">আসন্ন ইভেন্ট</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="committee"><a href="./../committee/index.html">কমিটি <span
+                                    class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="#">জাতীয় কমিটি </a></li>
+                                <li><a href="#">উৎসব বাস্তবায়ন কমিটি </a></li>
+                                <li><a href="#">কন্টেন্ট নির্বাচক কমিটি</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="media"><a href="./../media-news/index.html">মিডিয়া ও সংবাদ <span
+                                    class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="./../media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
+                                <li><a href="./../media-news/index.html">বিজ্ঞপ্তি</a></li>
+                            </ul>
+                        </li>
+                        <li id="logo-com" class="active">
+                            <a href="./../logo/index.html">লোগো সাবমিশন</a>
+                        </li>
+                        <li id="contact-us"><a href="./../contact-us.html">যোগাযোগ করুন</a></li>
+                        <li class="drop-down">
+                            <a href="#">
+                                <i class="fa fa-language"></i>
+                                <span>বাংলা</span>
+                                <span class="fa fa-angle-down"></span>
+                            </a>
+                            <ul>
+                                <li onclick="localSaveEnglish()">English</li>
+                                <li onclick="localSaveBangla()">বাংলা</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </nav><!-- .main-nav -->
+
             </div>
-            <nav class="main-nav float-right d-none d-lg-block">
-                <ul>
-                    <li class="drop-down menu" id="mujib" data-value="mujib/recognition"><a href="https://mujib100.gov.bd/mujib">মুজিব <span class="fa-arrow"></span></a>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/mujib/timeline">মহাজীবনের ঘটনাপ্রবাহ</a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/speeches">বক্তৃতা</a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/recognition">উদ্ধৃতি</a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/photo-archive">ফটো আর্কাইভ</a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/graphic-novel">গ্রাফিক নভেল “মুজিব”</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="celebration"><a href="https://mujib100.gov.bd/celebration">শতবর্ষ উদযাপন <span class="fa-arrow"></span></a>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/celebration">মিডিয়া গ্যালারি</a></li>
-                            <li><a href="https://mujib100.gov.bd/celebration/stamp">ডাকটিকিট</a></li>
-                            <li><a href="https://mujib100.gov.bd/celebration">মার্চেন্ডাইজ</a></li>
-                            <li><a href="https://mujib100.gov.bd/celebration/contribute">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="resources"><a href="https://mujib100.gov.bd/resources">তথ্যভাণ্ডার <span class="fa-arrow"></span></a>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/resources/book-publications">গ্রন্থ ও প্রকাশনা</a></li>
-                            <li><a href="https://mujib100.gov.bd/resources/documentaries">তথ্যচিত্র</a></li>
-                            <li><a href="https://mujib100.gov.bd/resources/letters">চিঠিপত্র</a></li>
-                            <li><a href="https://mujib100.gov.bd/resources">অ্যাপ</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="events"><a href="https://mujib100.gov.bd/events">ইভেন্টস <span class="fa-arrow"></span></a>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/events">আজকের ইভেন্ট</a></li>
-                            <li><a href="https://mujib100.gov.bd/events">আসন্ন ইভেন্ট</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="committee"><a href="https://mujib100.gov.bd/committee">কমিটি <span class="fa-arrow"></span></a>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/mujib/recognition#">জাতীয় কমিটি </a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/recognition#">উৎসব বাস্তবায়ন কমিটি </a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/recognition#">কন্টেন্ট নির্বাচক কমিটি</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="media"><a href="https://mujib100.gov.bd/media-news">মিডিয়া ও সংবাদ <span class="fa-arrow"></span></a>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/media-news">সংবাদ বিজ্ঞপ্তি</a></li>
-                            <li><a href="https://mujib100.gov.bd/media-news">বিজ্ঞপ্তি</a></li>
-                        </ul>
-                    </li>
-                    <li id="logo-com">
-                        <a href="https://mujib100.gov.bd/logo">লোগো সাবমিশন</a>
-                    </li>
-                    <li id="contact-us"><a href="https://mujib100.gov.bd/contact-us">যোগাযোগ করুন</a></li>
-                    <li class="drop-down">
-                                                <a href="https://mujib100.gov.bd/mujib/recognition#"><i class="fa fa-language"></i> <span>বাংলা</span> <span class="fa fa-angle-down"></span></a>
-                                                <ul>
-                            <li><a href="https://mujib100.gov.bd/locale/en">English</a></li>
-                            <li><a href="https://mujib100.gov.bd/locale/bn">বাংলা</a></li>
-                        </ul>
-                    </li>
-    
-                </ul>
-    
-            </nav><!-- .main-nav -->
-    
-        </div>
-    </header>
-    
-    
+        </header>
+
+
         <main id="main">
             <section id="testimonials">
                 <div class="container-fluid">
@@ -454,12 +473,14 @@ Header
                         <div class="col-sm-4">
                             <div class="testimonial-item">
                                 <p>
-                                    <img src="./Recognition _ 100 Years of Mujib_files/quote-1.jpeg" class="quote-sign-left" alt="">
-                                   যতকাল রবে পদ্মা যমুনা গৌরি মেঘনা বহমান 
-    ততদিন রবে কীর্তি তোমার শেখ মুজিবুর রহমান
-                                    <img src="./Recognition _ 100 Years of Mujib_files/quote-2.jpeg" class="quote-sign-right" alt="">
+                                    <img src="./../../assets/images/profile/quote-1.jpeg" class="quote-sign-left"
+                                        alt="">
+                                    যতকাল রবে পদ্মা যমুনা গৌরি মেঘনা বহমান
+                                    ততদিন রবে কীর্তি তোমার শেখ মুজিবুর রহমান
+                                    <img src="./../../assets/images/profile/quote-2.jpeg" class="quote-sign-right"
+                                        alt="">
                                 </p>
-                                <img src="./Recognition _ 100 Years of Mujib_files/profile-01.png" class="testimonial-img" alt="">
+                                <img src="./../../assets/images/profile/profile-01.png" class="testimonial-img" alt="">
                                 <h3>অন্নদাশঙ্কর রায়</h3>
                                 <h4>কবি এবং প্রাবন্ধিক</h4>
                             </div>
@@ -467,11 +488,14 @@ Header
                         <div class="col-sm-4">
                             <div class="testimonial-item">
                                 <p>
-                                    <img src="./Recognition _ 100 Years of Mujib_files/quote-1.jpeg" class="quote-sign-left" alt="">
-                                    আমি হিমালয় দেখিনি, কিন্তু শেখ মুজিবকে দেখেছি। ব্যক্তিত্ব ও সাহসিকতায় তিনি হিমালয়ের মতো                                <img src="./Recognition _ 100 Years of Mujib_files/quote-2.jpeg" class="quote-sign-right" alt="">
+                                    <img src="./../../assets/images/profile/quote-1.jpeg" class="quote-sign-left"
+                                        alt="">
+                                    আমি হিমালয় দেখিনি, কিন্তু শেখ মুজিবকে দেখেছি। ব্যক্তিত্ব ও সাহসিকতায় তিনি হিমালয়ের
+                                    মতো <img src="./../../assets/images/profile/quote-2.jpeg" class="quote-sign-right"
+                                        alt="">
                                 </p>
-    
-                                <img src="./Recognition _ 100 Years of Mujib_files/profile-03.png" class="testimonial-img" alt="">
+
+                                <img src="./../../assets/images/profile/profile-03.png" class="testimonial-img" alt="">
                                 <h3>ফিদেল ক্যাস্ত্রো</h3>
                                 <h4>কিউবার সাবেক প্রেসিডেন্ট এবং কিংবদন্তি বিপ্লবী</h4>
                             </div>
@@ -479,24 +503,33 @@ Header
                         <div class="col-sm-4">
                             <div class="testimonial-item">
                                 <p>
-                                    <img src="./Recognition _ 100 Years of Mujib_files/quote-1.jpeg" class="quote-sign-left" alt="">
-                                    শেখ মুজিবুর রহমান শুধু বাংলাদেশের সম্পত্তি নন। তিনি সমগ্র বাঙালির মুক্তির অগ্রদূত                                <img src="./Recognition _ 100 Years of Mujib_files/quote-2.jpeg" class="quote-sign-right" alt="">
+                                    <img src="./../../assets/images/profile/quote-1.jpeg" class="quote-sign-left"
+                                        alt="">
+                                    শেখ মুজিবুর রহমান শুধু বাংলাদেশের সম্পত্তি নন। তিনি সমগ্র বাঙালির মুক্তির অগ্রদূত
+                                    <img src="./../../assets/images/profile/quote-2.jpeg" class="quote-sign-right"
+                                        alt="">
                                 </p>
-                                <img src="./Recognition _ 100 Years of Mujib_files/heikal.jpg" class="testimonial-img" alt="">
+                                <img src="./../../assets/images/profile/heikal.jpg" class="testimonial-img" alt="">
                                 <h3>মোহাম্মদ হাসনাইন হাইকল</h3>
                                 <h4>প্রখ্যাত মিশরীয় সাংবাদিক</h4>
                             </div>
                         </div>
-    
+
                     </div>
-                    <div class="row no-gutters wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <div class="row no-gutters wow fadeInUp" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                         <div class="col-sm-4">
                             <div class="testimonial-item">
                                 <p>
-                                    <img src="./Recognition _ 100 Years of Mujib_files/quote-1.jpeg" class="quote-sign-left" alt="">
-                                    শেখ মুজিবের মৃত্যুতে বিশ্বের শোষিত মানুষ তাদের একজন অবিসংবাদিত নেতাকে হারালো। আর আমি হারালাম মহৎ হৃদয়ের অধিকারী একজন সত্যিকারের বন্ধু                                <img src="./Recognition _ 100 Years of Mujib_files/quote-2.jpeg" class="quote-sign-right" alt="">
+                                    <img src="./../../assets/images/profile/quote-1.jpeg" class="quote-sign-left"
+                                        alt="">
+                                    শেখ মুজিবের মৃত্যুতে বিশ্বের শোষিত মানুষ তাদের একজন অবিসংবাদিত নেতাকে হারালো। আর আমি
+                                    হারালাম মহৎ হৃদয়ের অধিকারী একজন সত্যিকারের বন্ধু <img
+                                        src="./../../assets/images/profile/quote-2.jpeg" class="quote-sign-right"
+                                        alt="">
                                 </p>
-                                <img src="./Recognition _ 100 Years of Mujib_files/fidel_castro.jpeg" class="testimonial-img" alt="">
+                                <img src="./../../assets/images/profile/fidel_castro.jpeg" class="testimonial-img"
+                                    alt="">
                                 <h3>ফিদেল ক্যাস্ত্রো</h3>
                                 <h4>কিউবার সাবেক প্রেসিডেন্ট এবং কিংবদন্তি বিপ্লবী</h4>
                             </div>
@@ -504,11 +537,15 @@ Header
                         <div class="col-sm-4">
                             <div class="testimonial-item">
                                 <p>
-                                    <img src="./Recognition _ 100 Years of Mujib_files/quote-1.jpeg" class="quote-sign-left" alt="">
-                                    আপোষহীন সংগ্রামী নেতৃত্ব এবং কুসুমকোমল হৃদয় ছিল মুজিবের চরিত্রের বিশেষত্ব                                <img src="./Recognition _ 100 Years of Mujib_files/quote-2.jpeg" class="quote-sign-right" alt="">
+                                    <img src="./../../assets/images/profile/quote-1.jpeg" class="quote-sign-left"
+                                        alt="">
+                                    আপোষহীন সংগ্রামী নেতৃত্ব এবং কুসুমকোমল হৃদয় ছিল মুজিবের চরিত্রের বিশেষত্ব <img
+                                        src="./../../assets/images/profile/quote-2.jpeg" class="quote-sign-right"
+                                        alt="">
                                 </p>
-    
-                                <img src="./Recognition _ 100 Years of Mujib_files/yeasir_arafat.jpg" class="testimonial-img" alt="">
+
+                                <img src="./../../assets/images/profile/yeasir_arafat.jpg" class="testimonial-img"
+                                    alt="">
                                 <h3>ইয়াসির আরাফাত</h3>
                                 <h4>ফিলিস্তান মুক্তি মোর্চার সাবেক নেতা</h4>
                             </div>
@@ -516,28 +553,36 @@ Header
                         <div class="col-sm-4">
                             <div class="testimonial-item">
                                 <p>
-                                    <img src="./Recognition _ 100 Years of Mujib_files/quote-1.jpeg" class="quote-sign-left" alt="">
+                                    <img src="./../../assets/images/profile/quote-1.jpeg" class="quote-sign-left"
+                                        alt="">
                                     শেখ মুজিব নিহত হবার খবরে আমি মর্মাহত। তিনি
-    একজন মহান নেতা ছিলেন। তার অনন্যসাধারণ সাহসিকতা এশিয়া ও
-    আফ্রিকার জনগনের জন্য প্রেরণাদায়ক ছিল                                <img src="./Recognition _ 100 Years of Mujib_files/quote-2.jpeg" class="quote-sign-right" alt="">
+                                    একজন মহান নেতা ছিলেন। তার অনন্যসাধারণ সাহসিকতা এশিয়া ও
+                                    আফ্রিকার জনগনের জন্য প্রেরণাদায়ক ছিল <img
+                                        src="./../../assets/images/profile/quote-2.jpeg" class="quote-sign-right"
+                                        alt="">
                                 </p>
-                                <img src="./Recognition _ 100 Years of Mujib_files/indira_gandhi.jpg" class="testimonial-img" alt="">
+                                <img src="./../../assets/images/profile/indira_gandhi.jpg" class="testimonial-img"
+                                    alt="">
                                 <h3>ইন্দিরা গান্ধী</h3>
                                 <h4>ভারতের সাবেক প্রধানমন্ত্রী</h4>
                             </div>
                         </div>
-    
+
                     </div>
-                    <div class="row no-gutters wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div class="row no-gutters wow fadeInUp" data-wow-delay="0.4s"
+                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                         <div class="col-sm-4">
                             <div class="testimonial-item">
                                 <p>
-                                    <img src="./Recognition _ 100 Years of Mujib_files/quote-1.jpeg" class="quote-sign-left" alt="">
+                                    <img src="./../../assets/images/profile/quote-1.jpeg" class="quote-sign-left"
+                                        alt="">
                                     আওয়ামী লীগ নেতা শেখ মুজিবুর রহমানের মত তেজস্বী
-    এবং গতিশীল নেতা আগামী বিশ বছরের মধ্যে এশিয়া মহাদেশে আর পাওয়া যাবে না                                <img src="./Recognition _ 100 Years of Mujib_files/quote-2.jpeg" class="quote-sign-right" alt="">
+                                    এবং গতিশীল নেতা আগামী বিশ বছরের মধ্যে এশিয়া মহাদেশে আর পাওয়া যাবে না <img
+                                        src="./../../assets/images/profile/quote-2.jpeg" class="quote-sign-right"
+                                        alt="">
                                 </p>
-    
-                                <img src="./Recognition _ 100 Years of Mujib_files/kissinger.jpg" class="testimonial-img" alt="">
+
+                                <img src="./../../assets/images/profile/kissinger.jpg" class="testimonial-img" alt="">
                                 <h3>হেনরি কিসিঞ্জার</h3>
                                 <h4>যুক্তরাষ্ট্রের সাবেক স্বরাষ্ট্র সচিব</h4>
                             </div>
@@ -545,11 +590,14 @@ Header
                         <div class="col-sm-4">
                             <div class="testimonial-item">
                                 <p>
-                                    <img src="./Recognition _ 100 Years of Mujib_files/quote-1.jpeg" class="quote-sign-left" alt="">
-                                    শেখ মুজিবুর রহমান ভিয়েতনামি জনগণকে অনুপ্রাণিত করেছিলেন                                <img src="./Recognition _ 100 Years of Mujib_files/quote-2.jpeg" class="quote-sign-right" alt="">
+                                    <img src="./../../assets/images/profile/quote-1.jpeg" class="quote-sign-left"
+                                        alt="">
+                                    শেখ মুজিবুর রহমান ভিয়েতনামি জনগণকে অনুপ্রাণিত করেছিলেন <img
+                                        src="./../../assets/images/profile/quote-2.jpeg" class="quote-sign-right"
+                                        alt="">
                                 </p>
-    
-                                <img src="./Recognition _ 100 Years of Mujib_files/kenneth.jpg" class="testimonial-img" alt="">
+
+                                <img src="./../../assets/images/profile/kenneth.jpg" class="testimonial-img" alt="">
                                 <h3>কেনেথা কাউন্ডা</h3>
                                 <h4>জাম্বিয়ান রাজনীতিবিদ</h4>
                             </div>
@@ -557,96 +605,104 @@ Header
                         <div class="col-sm-4">
                             <div class="testimonial-item">
                                 <p>
-                                    <img src="./Recognition _ 100 Years of Mujib_files/quote-1.jpeg" class="quote-sign-left" alt="">
-                                    বঙ্গবন্ধু সর্বকালের শ্রেষ্ঠ সাহসী নেতা                                 <img src="./Recognition _ 100 Years of Mujib_files/quote-2.jpeg" class="quote-sign-right" alt="">
+                                    <img src="./../../assets/images/profile/quote-1.jpeg" class="quote-sign-left"
+                                        alt="">
+                                    বঙ্গবন্ধু সর্বকালের শ্রেষ্ঠ সাহসী নেতা <img
+                                        src="./../../assets/images/profile/quote-2.jpeg" class="quote-sign-right"
+                                        alt="">
                                 </p>
-    
-                                <img src="./Recognition _ 100 Years of Mujib_files/pronob.jpg" class="testimonial-img" alt="">
+
+                                <img src="./../../assets/images/profile/pronob.jpg" class="testimonial-img" alt="">
                                 <h3>প্রণব মুখার্জী</h3>
                                 <h4>ভারতের সাবেক রাষ্ট্রপতি</h4>
                             </div>
                         </div>
-    
+
                     </div>
                 </div>
             </section>
-    
+
         </main>
-    
-    <!--==========================
+
+        <!--==========================
       Footer
     ============================-->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>মুজিব</h4>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/mujib/timeline">মহাজীবনের ঘটনাপ্রবাহ</a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/speeches">বক্তৃতা </a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/recognition">উদ্ধৃতি</a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/photo-archive">ফটো আর্কাইভ</a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/graphic-novel">গ্রাফিক নভেল “মুজিব”</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>শতবর্ষ উদযাপন</h4>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/mujib/recognition#">মিডিয়া গ্যালারি</a></li>
-                            <li><a href="https://mujib100.gov.bd/celebration/stamp">ডাকটিকিট</a></li>
-                            <li><a href="https://mujib100.gov.bd/celebration">মার্চেন্ডাইজ</a></li>
-                            <li><a href="https://mujib100.gov.bd/celebration/contribute">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links pl-2">
-                        <h4>তথ্যভাণ্ডার</h4>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/resources">গ্রন্থ ও প্রকাশনা</a></li>
-                            <li><a href="https://mujib100.gov.bd/resources/documentaries">তথ্যচিত্র</a></li>
-                            <li><a href="https://mujib100.gov.bd/resources/letters">চিঠিপত্র</a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/recognition#">অ্যাপ</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>ইভেন্টস</h4>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/events">আজকের ইভেন্ট </a></li>
-                            <li><a href="https://mujib100.gov.bd/events">আসন্ন ইভেন্ট</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>কমিটি</h4>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/committee">জাতীয় কমিটি </a></li>
-                            <li><a href="https://mujib100.gov.bd/mujib/recognition#">উৎসব বাস্তবায়ন কমিটি </a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>মিডিয়া ও সংবাদ</h4>
-                        <ul>
-                            <li><a href="https://mujib100.gov.bd/media-news">সংবাদ বিজ্ঞপ্তি</a></li>
-                            <li><a href="https://mujib100.gov.bd/media-news">বিজ্ঞপ্তি</a></li>
-                        </ul>
-                    </div>
-                    <div class="ml-20 col-md col-xs-6 footer-links">
-                        <h4>যোগাযোগ করুন</h4>
-                        <ul>
-                            <li><i class="fa fa-map-marker"></i> শহীদ ক্যাপ্টেন মনসুর আলী রোড, ১/ক, সেগুনবাগিচা, ঢাকা-১০০০</li>
-                            <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
-                            <li><i class="fa fa-phone"></i> +৮৮-০২-৫৫১৩০৩১৩                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৪ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৫                        </li>
-                        </ul>
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>মুজিব</h4>
+                            <ul>
+                                <li><a href="./timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                                <li><a href="./mujib/speeches.html">বক্তৃতা </a></li>
+                                <li><a href="./mujib/recognition.html">উদ্ধৃতি</a></li>
+                                <li><a href="./photo-archive.html">ফটো আর্কাইভ</a></li>
+                                <li><a href="./mujib/graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>শতবর্ষ উদযাপন</h4>
+                            <ul>
+                                <li><a href="#">মিডিয়া গ্যালারি</a></li>
+                                <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
+                                <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
+                                <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশিন</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links pl-2">
+                            <h4>তথ্যভাণ্ডার</h4>
+                            <ul>
+                                <li><a href="./../resources/index.html">গ্রন্থ ও প্রকাশনা</a></li>
+                                <li><a href="./../resources/documentaries.html">তথ্যচিত্র</a></li>
+                                <li><a href="./../resources/letters.html">চিঠিপত্র</a></li>
+                                <li><a href="#">অ্যাপ</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>ইভেন্টস</h4>
+                            <ul>
+                                <li><a href="./../events/index.html">আজকের ইভেন্ট </a></li>
+                                <li><a href="./../events/index.html">আসন্ন ইভেন্ট</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>কমিটি</h4>
+                            <ul>
+                                <li><a href="./../committee/index.html">জাতীয় কমিটি </a></li>
+                                <li><a href="#">উৎসব বাস্তবায়ন কমিটি </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>মিডিয়া ও সংবাদ</h4>
+                            <ul>
+                                <li><a href="./../media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
+                                <li><a href="./../media-news/index.html">বিজ্ঞপ্তি</a></li>
+                            </ul>
+                        </div>
+                        <div class="ml-20 col-md col-xs-6 footer-links">
+                            <h4>যোগাযোগ করুন</h4>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i> শহীদ ক্যাপ্টেন মনসুর আলী রোড, ১/ক, সেগুনবাগিচা,
+                                    ঢাকা-১০০০</li>
+                                <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
+                                <li><i class="fa fa-phone"></i> +৮৮-০২-৫৫১৩০৩১৩
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৪
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৫ </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="bg-gray py-3">
-            <div class="container-fluid text-center">
-                <span>Developed &amp; Operated By <a class="footer-link" href="https://ictd.gov.bd/" target="_blank"><b>ICT Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
-            </div>
-        </div>
-    </footer>
-    
+            <div class="bg-gray py-3">
+                <div class="container-fluid text-center">
+                    <span>Developed &amp; Operated By <a class="footer-link" href="https://ictd.gov.bd/"
+                            target="_blank"><b>ICT
+                                Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+                </div>
+        </footer>
+
+
     </div>
     <!-- #footer -->
 
