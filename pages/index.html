@@ -35,7 +35,7 @@
     <!-- Main Stylesheet File -->
     <!--  <link href="css/responsive.min.css" rel="stylesheet">-->
     <link href="./../css/front/css/style.css" rel="stylesheet">
-
+    <script src="./../js/front/js/lang.js"></script>
 
 
 
@@ -85,14 +85,6 @@
         }
     </style>
 
-    <script>
-        window.onload = function () {
-            if (window.localStorage.getItem('lang') === 'bn')
-                localSaveBangla()
-
-            else localSaveEnglish()
-        };
-    </script>
 
 
 </head>
@@ -119,7 +111,7 @@
                                 <span class="fa-arrow"></span></a>
                             <ul>
                                 <li>
-                                    <a href="./mujib/timeline.html.html">Timeline</a>
+                                    <a href="./mujib/timeline.html">Timeline</a>
                                 </li>
                                 <li>
                                     <a href="./mujib/speeches">Speeches</a>
@@ -198,7 +190,7 @@
 
 
         <div class="flexbox-slider flexbox-slider-1">
-            <a class="flexbox-slide" href="./mujib/timeline.html.html">
+            <a class="flexbox-slide" href="./mujib/timeline.html">
                 <img src="./../assets/images/mujib/slider/historic-march-7.png" alt="Slide Image">
                 <div class="text-block">
                     <h3>Mujib</h3>
@@ -249,7 +241,7 @@
                     <div class="row about-container row-eq-height justify-content-center gutter-2">
                         <div class="col-lg-5 mb-1 m-b-c wow zoomIn zoomin-img" data-wow-delay="0.1s"
                             style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
-                            <a href="./mujib/timeline.html.html">
+                            <a href="./mujib/timeline.html">
                                 <div class="card b-content">
                                     <img class="card-img-top img-fluid" src="./../assets/images/mujib/celebration_2.jpg"
                                         alt="Card image cap">
@@ -441,7 +433,7 @@
                                         alt="">
                                 </div>
                                 <p class="overlay-text" style="color: #fff;border: 1px solid #fff;"><a
-                                        href="./mujib/photo-archive.html.html">Full Photo Archive</a></p>
+                                        href="./mujib/photo-archive.html">Full Photo Archive</a></p>
                             </div>
 
                         </div>
@@ -501,10 +493,10 @@
                         <div class="col-md col-xs-6 footer-links">
                             <h4>Mujib</h4>
                             <ul>
-                                <li><a href="./mujib/timeline.html.html">Timeline</a></li>
+                                <li><a href="./mujib/timeline.html">Timeline</a></li>
                                 <li><a href="./mujib/speeches.html">Speeches</a></li>
                                 <li><a href="./mujib/recognition.html">Recognition</a></li>
-                                <li><a href="./mujib/photo-archive.html.html">Photo Archive</a></li>
+                                <li><a href="./mujib/photo-archive.html">Photo Archive</a></li>
                                 <li><a href="./mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
                             </ul>
                         </div>
@@ -587,10 +579,10 @@
                         <li class="drop-down menu" id="mujib" data-value="/"><a href="./index.html">মুজিব <span
                                     class="fa-arrow"></span></a>
                             <ul>
-                                <li><a href="./mujib/timeline.html.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                                <li><a href="./mujib/timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
                                 <li><a href="./mujib/speeches.html">বক্তৃতা</a></li>
                                 <li><a href="./mujib/recognition.html">উদ্ধৃতি</a></li>
-                                <li><a href="./mujib/photo-archive.html.html">ফটো আর্কাইভ</a></li>
+                                <li><a href="./mujib/photo-archive.html">ফটো আর্কাইভ</a></li>
                                 <li><a href="./mujib/graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
                             </ul>
                         </li>
@@ -1057,31 +1049,11 @@
     <script src="./../js/front/js/main.js"></script>
 
 
+
     <script>
         var path = window.location.pathname;
     </script>
 
-    <script>
-        function localSaveEnglish() {
-            window.localStorage.setItem('lang', 'en')
-            const bn = document.getElementsByClassName('bn')
-            for (let i = 0; i < bn.length; i++)
-                bn[i].style.display = "none"
-            const en = document.getElementsByClassName('en')
-            for (let i = 0; i < en.length; i++)
-                en[i].style.display = "block"
-        }
-        function localSaveBangla() {
-            window.localStorage.setItem('lang', 'bn')
-            const bn = document.getElementsByClassName('bn')
-            for (let i = 0; i < bn.length; i++)
-                bn[i].style.display = "block"
-            const en = document.getElementsByClassName('en')
-            for (let i = 0; i < en.length; i++)
-                en[i].style.display = "none"
-        }
-
-    </script>
 </body>
 
 </html>
