@@ -31,7 +31,7 @@
     <link href="./../../css/front/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="./../../css/front/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="./../../css/front/css/according.css" rel="stylesheet">
-    <link href="./../../css/front/css/video.css" rel="stylesheet">
+
 
     <!-- Main Stylesheet File -->
     <!--  <link href="css/responsive.min.css" rel="stylesheet">-->
@@ -41,182 +41,163 @@
 
 
     <style>
-        #resource {
-            padding-top: 78px;
-            padding-bottom: 12px;
+        #letter {
+            margin: 0 auto;
+            padding: 86px 0px 12px;
             background-color: #f4f4f4;
-            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
         }
 
-        .btn-default {
-            background: #f4b800;
-            color: #fff;
-            padding: 5px 20px;
+        .letter-item {
+            position: relative;
         }
 
-        .btn-default:hover {
-            color: #000000;
-            background-color: white !important;
-            border: 1px solid #f4b800;
+        .letter-indicator {
+            position: absolute;
+            z-index: 1;
+            top: 70%;
+            left: 73%;
 
         }
 
-        .btn-outline {
-            color: #000000;
-            background-color: #ffffff;
-            border-color: #f4b800;
-            font-weight: 400;
-            letter-spacing: 0.05em;
+        @media (max-width: 929px) and (min-width: 910px) {
+            .letter-indicator {
+                top: 80%;
+                left: 73%;
+            }
+        }
+
+        @media (max-width: 909px) and (min-width: 768px) {
+            .letter-indicator {
+
+                top: 85%;
+                left: 73%;
+            }
+        }
+
+        @media (max-width: 767px) and (min-width: 481px) {
+            .letter-indicator {
+
+                top: 90%;
+                left: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .letter-indicator {
+
+                top: 90%;
+                left: 38%;
+            }
+        }
+
+        .btn-circle {
+            width: 40px;
+            height: 40px;
+            padding: 10px 0px;
+            border-radius: 20px;
+            text-align: center;
             font-size: 12px;
+            line-height: 1.42857;
         }
 
-        .btn-outline:hover,
-        .btn-outline:active,
-        .btn-outline:focus,
-        .btn-outline.active {
+        #letter .btn-default {
             background: #f4b800;
-            color: #ffffff;
+            color: white;
         }
 
-        .btn-outline:hover,
+        #letter .btn-default:hover,
         a:hover {
             opacity: 1;
         }
 
-        #resource .book .card-title {
-            font-size: 24px;
+        #letter .letter-left .card-title {
+            font-size: 30px;
         }
 
-        #resource .book .card-subtitle {
-            font-size: 22px;
+        #letter .letter-left .card-subtitle {
+            font-size: 34px;
         }
 
-        .b-item .img-box {
+        .letter-item .letter-box {
             width: 100%;
             height: 100%;
-            margin: 0 auto;
         }
 
-        .b-item {
-            padding: 11px 10px 0px 0px;
-        }
-
-        .img-box img {
-            width: 100%;
-            height: 100%;
-            display: block;
-
-        }
-
-        .r-item .d-img {
-            width: 100%;
-            height: 230px;
-
-        }
-
-
-        .d-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-
-        }
-
-        .bm-item .bm-img {
-            width: 90%;
-            height: 130px;
-
-        }
-
-
-        .bm-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            /*object-position: center;*/
-
-        }
-
-        .app-item .app-img {
-            width: 94%;
-            height: 250px;
-            /*opacity: 0.8;*/
-            /*filter: alpha(opacity=50);*/
-
-        }
-
-
-        .app-img img {
-            width: 100%;
-            height: 100%;
+        .letter-lib img {
             object-fit: cover;
             object-position: center;
+        }
 
-
+        /*.card-body.letter-left {*/
+        /*    padding-bottom: 20px;*/
+        /*}*/
+        .card {
+            padding: 40px 80px 80px;
 
         }
 
-        /*
-        Documentary
-         */
+        @media (max-width: 767px) {
+            .card {
+                padding: 40px 35px 80px;
 
-        .documentary .card-title {
-            font-weight: 400;
-            font-size: 30px;
+            }
         }
 
-        .documentary .r-card-title {
-            font-weight: 400;
-            font-size: 30px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translateX(-50%) translateY(-50%);
-        }
-
-        .border-right {
-            border-right: 2px solid #f4b800 !important;
-        }
-
-        .border-left {
-            border-left: 2px solid #f4b800 !important;
-        }
-
-        .border-right-r {
-            border-right: 2px solid #f4b800 !important;
-            /*height: 80px;*/
-            /*margin-top: auto; !important;*/
-            /*margin-bottom: auto; !important;*/
+        .letter-box img {
+            display: inline-block;
+            padding: 10px 0;
+            background-color: #4e4f50;
 
         }
 
-        #resource .p-btn {
-            color: #f4b800;
-            position: absolute;
-            width: 96px;
-            height: 96px;
-            left: 46%;
-            top: 40%;
-            margin-left: -33px;
-            /*half of the width */
-            margin-top: -35px;
-            /*half of the height */
-            cursor: pointer;
+        .now_playing_list img {
+            height: 300px;
+            width: 100%;
+            object-fit: contain;
         }
 
-        .dapp-pad {
-            padding-left: 3em !important;
+        .now_playing_list .letter-box {
+            width: 100%;
+            /*height: 520px!important;*/
         }
 
-        /*
-        Documentary
-         */
+        .letter-lib {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .now_playing_list div {
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        .single-videolib {
+            /*margin-top: 10px;*/
+            margin-bottom: 10px;
+        }
+
+        @media all and (min-width: 480px) {
+
+            .letter-item .letter-box {
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                background: #4e4f50;
+                display: inline-block;
+            }
+
+            .carousel.slide.letterCarousel {
+                padding: 25px;
+            }
+        }
 
         @media all and (max-width: 480px) {
+            .now_playing_list .letter-box {
+                margin-top: 2px;
+            }
 
-            #resource {
-                padding-top: 46px;
+            #letter {
+                padding: 50px 0px 12px;
             }
 
             .btn-outline {
@@ -224,11 +205,11 @@
                 font-size: 8px;
             }
 
-            #resource .book .card-title {
+            #letter .letter-left .card-title {
                 font-size: 18px;
             }
 
-            #resource .book .card-subtitle {
+            #letter .letter-left .card-subtitle {
                 font-size: 16px;
             }
 
@@ -237,46 +218,13 @@
                 font-size: 14px;
             }
 
-            .documentary .r-desc {
-                font-size: 10px;
+            .b-item {
+                padding: 9px !important;
             }
 
-            .documentary .r-card-title {
-                font-weight: 400;
-                font-size: 13px;
-            }
-
-            .border-right-r {
-                border-right: 0 !important;
-
-            }
-
-            .border-left {
-                border-left: 0 !important;
-            }
-
-            .bm-item .bm-img {
-                width: 100%;
-            }
-
-            .d-app .d-title {
-                margin-top: 10px;
-            }
-
-            .app-item .app-img {
-                width: 100%;
-            }
-
-            .pb-mobile {
-                padding-bottom: 20px;
-            }
-
-            .dapp-pad {
-                padding-left: 0 !important;
-            }
         }
     </style>
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144893823-1"></script>
     <script>
@@ -288,354 +236,416 @@
 </head>
 
 <body>
-<div class="en">
-    <div id="m-active">mujib</div>
-    <!--==========================
+    <div class="en">
+        <div id="m-active">mujib</div>
+        <!--==========================
 Header
 ============================-->
-    <header id="header" class="fixed-top">
-        <div class="container">
-            <div class="logo float-left">
-                <a href="./../../index.html" class="scrollto">
-                    <img src="./../../assets/images/logo.png" alt="" class="img-fluid"></a>
-            </div>
-            <nav class="main-nav float-right d-none d-lg-block">
-                <ul>
-                    <li class="drop-down menu" id="mujib" data-value="mujib/timeline">
-                        <a href="./../../index.html">
-                            Mujib
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../mujib/timeline.html">Timeline</a></li>
-                            <li><a href="./../mujib/speeches.html">Speeches</a></li>
-                            <li><a href="./../mujib/recognition.html">Recognition</a></li>
-                            <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
-                            <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="celebration">
-                        <a href="./../celebration/index.html">
-                            Celebration
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../celebration/index.html">Media Gallery</a></li>
-                            <li><a href="./../celebration/stamp.html">Stamp</a></li>
-                            <li><a href="./../celebration/index.html">Merchandise</a></li>
-                            <li><a href="./../celebration/contribute.html">Contribute</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="resources">
-                        <a href="./index.html">
-                            Resources
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./book-publication.html">Books & Publications</a>
-                            </li>
-                            <li><a href="./documentaries.html">Documentaries</a></li>
-                            <li><a href="./letters.html">Letters</a></li>
-                            <li><a href="./index.html">Apps</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="events">
-                        <a href="./../events/index.html">
-                            Events
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../events/index.html">Today's Event</a></li>
-                            <li><a href="./../events/index.html">Upcoming</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="committee">
-                        <a href="./../committee/index.html">
-                            Committee
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="#">National Committee</a></li>
-                            <li><a href="#">Implementation Committee</a></li>
-                            <li><a href="#">Website Content Selection Committee</a></li>
-                        </ul>
-                    </li>
-                    <li class="drop-down" id="media">
-                        <a href="./../media-news/index.html">
-                            Media & News
-                            <span class="fa-arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../media-news/index.html">Press Release</a></li>
-                            <li><a href="./../media-news/index.html">Notice</a></li>
-                        </ul>
-                    </li>
-                    <li id="logo-com">
-                        <a href="./../logo/index.html">Logo Submission</a>
-                    </li>
-                    <li id="contact-us">
-                        <a href="./../contact-us.html">Contact Us</a>
-                    </li>
-                    <li class="drop-down">
-                        <a href="#">
-                            <i class="fa fa-language"></i>
-                            <span>English</span>
-                            <span class="fa fa-angle-down"></span>
-                        </a>
-                        <ul>
-                            <li><a href="./../locale/en">English</a></li>
-                            <li><a href="./../locale/bn">বাংলা</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-
-
-    <main id="main">
-        <section id="resource">
-            <div class="container-fluid">
-                <div class="row gutter-2 bg-white">
-                    <div class="col-sm-3 my-auto wow fadeInUp">
-                        <div class="card card-block d-flex">
-                            <div class="card-body text-left justify-content-center book">
-                                <h5 class="card-subtitle mb-2 text-muted">Books About</h5>
-                                <h6 class="card-title">Sheikh Mujibur Rahman</h6>
-                                <a href="books-publications.html" class="btn btn-default mt-4 btn-sm">Buy Books</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col b-item wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="card">
-                            <div class="img-box">
-                                <img class="img-fluid"
-                                    src="./../../images/resources/books/Book01.png"
-                                    alt="Card image cap">
-                            </div>
-                            <div class="card-body">
-                                <a href="#" class="btn btn-outline">Download | Buy Book</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col b-item wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="card">
-                            <div class="img-box">
-                                <img class="img-fluid"
-                                    src="./../../images/resources/books/Book02.png"
-                                    alt="Card image cap">
-                            </div>
-                            <div class="card-body">
-                                <a href="#" class="btn btn-outline">Download | Buy Book</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col b-item wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="card">
-                            <div class="img-box">
-                                <img class="img-fluid"
-                                    src="./../../images/resources/books/Book03.png"
-                                    alt="Card image cap">
-                            </div>
-                            <div class="card-body">
-                                <a href="#" class="btn btn-outline">Download | Buy Book</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col b-item wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="card">
-                            <div class="img-box">
-                                <img class="img-fluid"
-                                    src="./../../images/resources/books/Book04.png"
-                                    alt="Card image cap">
-                            </div>
-                            <div class="card-body">
-                                <a href="#" class="btn btn-outline">Download | Buy Book</a>
-                            </div>
-                        </div>
-                    </div>
+        <header id="header" class="fixed-top">
+            <div class="container">
+                <div class="logo float-left">
+                    <a href="./../../index.html" class="scrollto">
+                        <img src="./../../assets/images/logo.png" alt="" class="img-fluid"></a>
                 </div>
-                <div class="row mt-3 gutter-2 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="col-sm-6 my-auto">
-                        <div class="card card-block d-flex">
-                            <a data-fancybox
-                                href="https://www.youtube.com/watch?v=XFG0i1cv2zY&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0">
-                                <i class="fa fa-play p-btn fa-3x"></i>
+                <nav class="main-nav float-right d-none d-lg-block">
+                    <ul>
+                        <li class="drop-down menu" id="mujib" data-value="mujib/timeline">
+                            <a href="./../../index.html">
+                                Mujib
+                                <span class="fa-arrow"></span>
                             </a>
-                            <img class="card-img-top img-fluid"
-                                src="./../../images/resources/Background.png" alt="historic">
-                            <div class="card-body row documentary">
-                                <div class="col-7 border-right">
-                                    <p class="card-title">Historic Documentaries</p>
-                                </div>
-                                <div class="col my-auto">
-                                    <a href="#" class="btn btn-default btn-sm btn-block">Watch</a>
-                                </div>
-                            </div>
-                        </div>
+                            <ul>
+                                <li><a href="./../mujib/timeline.html">Timeline</a></li>
+                                <li><a href="./../mujib/speeches.html">Speeches</a></li>
+                                <li><a href="./../mujib/recognition.html">Recognition</a></li>
+                                <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
+                                <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="celebration">
+                            <a href="./../celebration/index.html">
+                                Celebration
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../celebration/index.html">Media Gallery</a></li>
+                                <li><a href="./../celebration/stamp.html">Stamp</a></li>
+                                <li><a href="./../celebration/index.html">Merchandise</a></li>
+                                <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="resources">
+                            <a href="./index.html">
+                                Resources
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./book-publication.html">Books & Publications</a>
+                                </li>
+                                <li><a href="./documentaries.html">Documentaries</a></li>
+                                <li><a href="./letters.html">Letters</a></li>
+                                <li><a href="./index.html">Apps</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="events">
+                            <a href="./../events/index.html">
+                                Events
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../events/index.html">Today's Event</a></li>
+                                <li><a href="./../events/index.html">Upcoming</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="committee">
+                            <a href="./../committee/index.html">
+                                Committee
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="#">National Committee</a></li>
+                                <li><a href="#">Implementation Committee</a></li>
+                                <li><a href="#">Website Content Selection Committee</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="media">
+                            <a href="./../media-news/index.html">
+                                Media & News
+                                <span class="fa-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="./../media-news/index.html">Press Release</a></li>
+                                <li><a href="./../media-news/index.html">Notice</a></li>
+                            </ul>
+                        </li>
+                        <li id="logo-com">
+                            <a href="./../logo/index.html">Logo Submission</a>
+                        </li>
+                        <li id="contact-us">
+                            <a href="./../contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="drop-down">
+                            <a href="#">
+                                <i class="fa fa-language"></i>
+                                <span>English</span>
+                                <span class="fa fa-angle-down"></span>
+                            </a>
+                            <ul>
+                                <li onclick="localSaveEnglish()">English</li>
+                                <li onclick="localSaveBangla()">বাংলা</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+
+        <main id="main">
+            <section id="letter">
+                <div class="container-fluid">
+                    <div class="section-header mt-3">
+                        <h3 class="text-uppercase">Letters</h3>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="row">
-                            <div class="col-12 r-item mb-2">
-                                <div class="card card-block d-flex">
-                                    <div class="d-img">
-                                        <img class="card-img-top img-fluid"
-                                            src="./../../images/resources/Cover.png"
-                                            alt="historic">
-                                    </div>
-                                    <div class="card-body row documentary">
-                                        <div class="col-4 border-right">
-                                            <p class="r-card-title">Publications</p>
-                                        </div>
-                                        <div class="col my-auto">
-                                            <p class="text-left r-desc" style="margin: 0">Publications written about the
-                                                legendary life and achievements of Bangabandhu</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="card p-2" style="background: #fff">
-                                    <div class="row gutter-2">
-                                        <div class="col-sm-5 bm-item border-right-r">
-                                            <div class="bm-img">
-                                                <img class="d-block w-100 "
-                                                    src="./../../images/resources/letter.png"
-                                                    alt="">
+
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-6 justify-content-center h-100">
+                                        <div class="letter-item">
+                                            <div class="letter-box">
+                                                <img src="./../../assets/images/resources/letters/letter 1.png"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
-                                        <div class="col-sm-7 desc">
-                                            <h3 style="margin: 9px">Historic Letters</h3>
-                                            <p style="font-size: 14px; margin: 0; line-height:normal">Explore the
-                                                collection of letters written by Bangabandhu, Sheikh Mujibur Rahman to
-                                                people across the nation and world</p>
-                                            <br><a href="#" class="btn btn-default">Read</a>
+
+                                    </div>
+                                    <div class="col-md-6 my-auto">
+                                        <div class="card">
+                                            <div class="card-body letter-left">
+                                                <h5 class="card-title text-muted">Letters written by</h5>
+                                                <h6 class="card-subtitle mb-2">Sheikh Mujibur Rahman</h6>
+                                                <div class="col-sm-4 offset-sm-4">
+                                                    <hr style="border-top:2px solid #f4b800">
+                                                </div>
+                                                <p class="card-text">Letter written by <b>Bangabandhu</b> to his
+                                                    daughter
+                                                    <b>Sheikh Hasina</b> on <b>13 June 1969</b>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6 justify-content-center h-100">
+                                        <div class="letter-item">
+                                            <div class="letter-box">
+                                                <img src="./../../assets/images/resources/letters/letter 2.png"
+                                                    class="img-fluid" alt="">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 my-auto h-100">
+                                        <div class="card">
+                                            <div class="card-body letter-left">
+                                                <h5 class="card-title text-muted">Letters written by</h5>
+                                                <h6 class="card-subtitle mb-2">Sheikh Mujibur Rahman</h6>
+                                                <div class="col-sm-4 offset-sm-4">
+                                                    <hr style="border-top:2px solid #f4b800">
+                                                </div>
+                                                <p class="card-text">Letter written by <b>Bangabandhu</b> to his
+                                                    daughter
+                                                    <b>Sheikh Hasina</b> on <b>13 June 1969</b>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="letter-indicator">
+                            <a href="#carouselExampleFade" data-slide="prev"
+                                class="carousel-control  btn btn-default btn-circle"><i
+                                    class="fa fa-angle-left"></i></a>
+                            <a href="#carouselExampleFade" data-slide="next"
+                                class="btn btn-default btn-circle carousel-control"><i
+                                    class="fa fa-angle-right"></i></a>
+                        </div>
+
+
+
+
+
+
+
+
+
 
                     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
-                <div class="row bg-white mnt-12 pb-mobile">
-                    <div class="col-sm-8 app-item">
-                        <div class="app-img overlay">
-                            <img src="./../../images/resources/cover2.png" class="img-fluid"
-                                alt="">
+            </section>
+
+            <div class="video-lib letter-lib">
+
+                <section>
+                    <div class="container-fluid single-videolib">
+                        <div class="row now_playing_list">
+                            <div class="col-md-4 m-b-c">
+                                <div class="letter-item  carousel-item active">
+                                    <a href="./../../assets/images/resources/letters/letter 1.png"
+                                        data-fancybox-trigger="letter" class="letter-box" data-fancybox="images"
+                                        data-width="1048" data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 1.png"
+                                            class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 m-b-c">
+                                <div class="letter-item  carousel-item active">
+                                    <a href="./../../assets/images/resources/letters/letter 2.png" class="letter-box"
+                                        data-fancybox-trigger="letter" data-fancybox="images" data-width="1048"
+                                        data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 2.png"
+                                            class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 m-b-c">
+                                <div class="letter-item  carousel-item active">
+                                    <a href="./../../assets/images/resources/letters/letter 1.png" class="letter-box"
+                                        data-fancybox-trigger="letter" data-fancybox="images" data-width="1048"
+                                        data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 1.png"
+                                            class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 border-left d-app my-auto text-center">
-                        <h3 class="d-title">Download the App</h3>
-                        <div class="row gutter-2 dapp-pad">
-                            <div class="col-6">
-                                <a href="#">
-                                    <img src="./../../images//icons/app-store.png"
-                                        class="img-fluid" alt="">
-                                </a>
+                </section>
+                <section>
+                    <div class="container-fluid single-videolib">
+                        <div class="row now_playing_list">
+                            <div class="col-md-4 m-b-c">
+                                <div class="letter-item  carousel-item active">
+                                    <a href="./../../assets/images/resources/letters/letter 2.png" class="letter-box"
+                                        data-fancybox-trigger="letter" data-fancybox="images" data-width="1048"
+                                        data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 2.png"
+                                            class="img-fluid" alt="">
+                                    </a>
+                                </div>
                             </div>
-                            <div class="col-6">
-                                <a href="#">
-                                    <img src="./../../images/icons/google-play.png"
-                                        class="img-fluid" alt="">
-                                </a>
+                            <div class="col-md-4 m-b-c">
+                                <div class="letter-item  carousel-item active">
+                                    <a href="./../../assets/images/resources/letters/letter 1.png" class="letter-box"
+                                        data-fancybox-trigger="letter" data-fancybox="images" data-width="1048"
+                                        data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 1.png"
+                                            class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 m-b-c">
+                                <div class="letter-item  carousel-item active">
+                                    <a href="./../../assets/images/resources/letters/letter 2.png" class="letter-box"
+                                        data-fancybox-trigger="letter" data-fancybox="images" data-width="1048"
+                                        data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 2.png"
+                                            class="img-fluid" alt="">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
-        </section>
-    </main>
+        </main>
 
 
-    <!--==========================
+        <!--==========================
   Footer
 ============================-->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Mujib</h4>
-                        <ul>
-                            <li><a href="./../mujib/timeline.html">Timeline</a></li>
-                            <li><a href="./../mujib/speeches.html">Speeches</a></li>
-                            <li><a href="./../mujib/recognition.html">Recognition</a></li>
-                            <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
-                            <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Celebration</h4>
-                        <ul>
-                            <li><a href="#">Media Gallery</a></li>
-                            <li><a href="./../celebration/stamp.html">Stamp</a></li>
-                            <li><a href="./../celebration/index.html">Merchandise</a></li>
-                            <li><a href="./../celebration/contribute.html">Contribute</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links pl-2">
-                        <h4>Resources</h4>
-                        <ul>
-                            <li><a href="./index.html">Books & Publications</a></li>
-                            <li><a href="./documentaries.html">Documentaries</a></li>
-                            <li><a href="./letters.html">Letters</a></li>
-                            <li><a href="#">Apps</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>Events</h4>
-                        <ul>
-                            <li><a href="./../events/index.html">Today's Event</a></li>
-                            <li><a href="./../events/index.html">Upcoming</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>Committee</h4>
-                        <ul>
-                            <li><a href="./../committee/index.html">National Committee</a></li>
-                            <li><a href="#">Implementation Committee</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>Media & News</h4>
-                        <ul>
-                            <li><a href="./../media-news/index.html">Press Release</a></li>
-                            <li><a href="./../media-news/index.html">Notice</a></li>
-                        </ul>
-                    </div>
-                    <div class="ml-20 col-md col-xs-6 footer-links">
-                        <h4>Contact Us</h4>
-                        <ul>
-                            <li>
-                                <i class="fa fa-map-marker"></i>
-                                Shaheed Captain Mansur Ali Road, 1/Ka, Segun Bagicha,Dhaka-1000
-                            </li>
-                            <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
-                            <li><i class="fa fa-phone"></i> +88-02-55130313
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130314
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130315 </li>
-                        </ul>
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Mujib</h4>
+                            <ul>
+                                <li><a href="./../mujib/timeline.html">Timeline</a></li>
+                                <li><a href="./../mujib/speeches.html">Speeches</a></li>
+                                <li><a href="./../mujib/recognition.html">Recognition</a></li>
+                                <li><a href="./../mujib/photo-archive.html">Photo Archive</a></li>
+                                <li><a href="./../mujib/graphic-novel.html">Graphic Novel “Mujib”</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Celebration</h4>
+                            <ul>
+                                <li><a href="#">Media Gallery</a></li>
+                                <li><a href="./../celebration/stamp.html">Stamp</a></li>
+                                <li><a href="./../celebration/index.html">Merchandise</a></li>
+                                <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links pl-2">
+                            <h4>Resources</h4>
+                            <ul>
+                                <li><a href="./index.html">Books & Publications</a></li>
+                                <li><a href="./documentaries.html">Documentaries</a></li>
+                                <li><a href="./letters.html">Letters</a></li>
+                                <li><a href="#">Apps</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>Events</h4>
+                            <ul>
+                                <li><a href="./../events/index.html">Today's Event</a></li>
+                                <li><a href="./../events/index.html">Upcoming</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>Committee</h4>
+                            <ul>
+                                <li><a href="./../committee/index.html">National Committee</a></li>
+                                <li><a href="#">Implementation Committee</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>Media & News</h4>
+                            <ul>
+                                <li><a href="./../media-news/index.html">Press Release</a></li>
+                                <li><a href="./../media-news/index.html">Notice</a></li>
+                            </ul>
+                        </div>
+                        <div class="ml-20 col-md col-xs-6 footer-links">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-map-marker"></i>
+                                    Shaheed Captain Mansur Ali Road, 1/Ka, Segun Bagicha,Dhaka-1000
+                                </li>
+                                <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
+                                <li><i class="fa fa-phone"></i> +88-02-55130313
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130314
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+88-02-55130315 </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="bg-gray py-3">
-            <div class="container-fluid text-center">
-                <span>Developed & Operated By <a class="footer-link" href="https://ictd.gov.bd/" target="_blank"><b>ICT
-                            Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+            <div class="bg-gray py-3">
+                <div class="container-fluid text-center">
+                    <span>Developed & Operated By <a class="footer-link" href="https://ictd.gov.bd/"
+                            target="_blank"><b>ICT
+                                Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+                </div>
             </div>
-        </div>
-    </footer>
-</div>
-<div class="bn">
+        </footer>
+    </div>
+    <div class="bn">
         <div id="m-active">mujib</div>
-    <!--==========================
+        <!--==========================
     Header
     ============================-->
-    <header id="header" class="fixed-top">
+        <header id="header" class="fixed-top">
             <div class="container">
                 <div class="logo float-left">
                     <a href="./../../index.html" class="scrollto">
@@ -703,9 +713,8 @@ Header
                             <a href="#"><i class="fa fa-language"></i>
                                 <span>বাংলা</span> <span class="fa fa-angle-down"></span></a>
                             <ul>
-                                <li onclick="localSaveEnglish()"> English</li>
-
-                                <li onclick="localSaveBangla()">বাংলা</a></li>
+                                <li onclick="localSaveEnglish()">English</li>
+                                <li onclick="localSaveBangla()">বাংলা</li>
                             </ul>
                         </li>
 
@@ -714,58 +723,66 @@ Header
                 </nav><!-- .main-nav -->
 
             </div>
-    </header>
-    
-    
+        </header>
+
+
         <main id="main">
             <section id="letter">
                 <div class="container-fluid">
                     <div class="section-header mt-3">
                         <h3 class="text-uppercase">চিঠিপত্র</h3>
                     </div>
-    
+
                     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item">
+                            <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-md-6 justify-content-center h-100">
                                         <div class="letter-item">
                                             <div class="letter-box">
-                                                <img src="./Letters _ 100 Years of Mujib_files/letter 2.png" class="img-fluid" alt="">
+                                                <img src="./../../assets/images/resources/letters/letter 2.png"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
-    
+
                                     </div>
                                     <div class="col-md-6 my-auto">
                                         <div class="card">
                                             <div class="card-body letter-left">
-                                                <h6 class="card-subtitle mb-2">বঙ্গবন্ধুর চিঠিপত্র</h6>                                            <div class="col-sm-4 offset-sm-4">
+                                                <h6 class="card-subtitle mb-2">বঙ্গবন্ধুর চিঠিপত্র</h6>
+                                                <div class="col-sm-4 offset-sm-4">
                                                     <hr style="border-top:2px solid #f4b800">
                                                 </div>
-                                                <p class="card-text">Letter written by <b>Bangabandhu</b> to his daughter <b>Sheikh Hasina</b>  on <b>13 June 1969</b>
+                                                <p class="card-text">Letter written by <b>Bangabandhu</b> to his
+                                                    daughter
+                                                    <b>Sheikh Hasina</b> on <b>13 June 1969</b>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item active">
+                            <div class="carousel-item">
                                 <div class="row">
                                     <div class="col-md-6 justify-content-center h-100">
                                         <div class="letter-item">
                                             <div class="letter-box">
-                                                <img src="./Letters _ 100 Years of Mujib_files/letter 2.png" class="img-fluid" alt="">
+                                                <img src="./../../assets/images/resources/letters/letter 2.png"
+                                                    class="img-fluid" alt="">
                                             </div>
                                         </div>
-    
+
                                     </div>
                                     <div class="col-md-6 my-auto h-100">
                                         <div class="card">
                                             <div class="card-body letter-left">
-                                                <h6 class="card-subtitle mb-2">বঙ্গবন্ধুর চিঠিপত্র</h6>                                            <div class="col-sm-4 offset-sm-4">
+                                                <h6 class="card-subtitle mb-2">বঙ্গবন্ধুর চিঠিপত্র</h6>
+                                                <div class="col-sm-4 offset-sm-4">
                                                     <hr style="border-top:2px solid #f4b800">
                                                 </div>
-                                                <p class="card-text">Letter written by <b>Bangabandhu</b> to his daughter <b>Sheikh Hasina</b>  on <b>13 June 1969</b>
+                                                <p class="card-text">Letter written by <b>Bangabandhu</b> to his
+                                                    daughter
+                                                    <b>Sheikh Hasina</b> on <b>13 June 1969</b>
                                                 </p>
                                             </div>
                                         </div>
@@ -774,97 +791,110 @@ Header
                             </div>
                         </div>
                         <div class="letter-indicator">
-                            <a href="./letters#carouselExampleFade" data-slide="prev" class="carousel-control  btn btn-default btn-circle"><i class="fa fa-angle-left"></i></a>
-                            <a href="./letters#carouselExampleFade" data-slide="next" class="btn btn-default btn-circle carousel-control"><i class="fa fa-angle-right"></i></a>
+                            <a href="#carouselExampleFade" data-slide="prev"
+                                class="carousel-control  btn btn-default btn-circle"><i
+                                    class="fa fa-angle-left"></i></a>
+                            <a href="#carouselExampleFade" data-slide="next"
+                                class="btn btn-default btn-circle carousel-control"><i
+                                    class="fa fa-angle-right"></i></a>
                         </div>
-    
-    
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
+
+
+
+
+
+
+
+
+
+
                     </div>
-    
-    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
             </section>
-    
+
             <div class="video-lib letter-lib">
-    
+
                 <section>
                     <div class="container-fluid single-videolib">
                         <div class="row now_playing_list">
                             <div class="col-md-4 m-b-c">
                                 <div class="letter-item  carousel-item active">
-                                    <a href="./Letters _ 100 Years of Mujib_files/letter 1.png" data-fancybox-trigger="letter" class="letter-box" data-fancybox="images" data-width="1048" data-height="1365">
-                                        <img src="./Letters _ 100 Years of Mujib_files/letter 1.png" class="img-fluid" alt="">
+                                    <a href="./../../assets/images/resources/letters/letter 1.png"
+                                        data-fancybox-trigger="letter" class="letter-box" data-fancybox="images"
+                                        data-width="1048" data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 1.png"
+                                            class="img-fluid" alt="">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-4 m-b-c">
                                 <div class="letter-item  carousel-item active">
-                                    <a href="./Letters _ 100 Years of Mujib_files/letter 2.png" class="letter-box" data-fancybox-trigger="letter" data-fancybox="images" data-width="1048" data-height="1365">
-                                        <img src="./Letters _ 100 Years of Mujib_files/letter 2.png" class="img-fluid" alt="">
+                                    <a href="./../../assets/images/resources/letters/letter 2.png" class="letter-box"
+                                        data-fancybox-trigger="letter" data-fancybox="images" data-width="1048"
+                                        data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 2.png"
+                                            class="img-fluid" alt="">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-4 m-b-c">
                                 <div class="letter-item  carousel-item active">
-                                    <a href="./Letters _ 100 Years of Mujib_files/letter 1.png" class="letter-box" data-fancybox-trigger="letter" data-fancybox="images" data-width="1048" data-height="1365">
-                                        <img src="./Letters _ 100 Years of Mujib_files/letter 1.png" class="img-fluid" alt="">
+                                    <a href="./../../assets/images/resources/letters/letter 1.png" class="letter-box"
+                                        data-fancybox-trigger="letter" data-fancybox="images" data-width="1048"
+                                        data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 1.png"
+                                            class="img-fluid" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -876,22 +906,31 @@ Header
                         <div class="row now_playing_list">
                             <div class="col-md-4 m-b-c">
                                 <div class="letter-item  carousel-item active">
-                                    <a href="./Letters _ 100 Years of Mujib_files/letter 2.png" class="letter-box" data-fancybox-trigger="letter" data-fancybox="images" data-width="1048" data-height="1365">
-                                        <img src="./Letters _ 100 Years of Mujib_files/letter 2.png" class="img-fluid" alt="">
+                                    <a href="./../../assets/images/resources/letters/letter 2.png" class="letter-box"
+                                        data-fancybox-trigger="letter" data-fancybox="images" data-width="1048"
+                                        data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 2.png"
+                                            class="img-fluid" alt="">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-4 m-b-c">
                                 <div class="letter-item  carousel-item active">
-                                    <a href="./Letters _ 100 Years of Mujib_files/letter 3.png" class="letter-box" data-fancybox-trigger="letter" data-fancybox="images" data-width="1048" data-height="1365">
-                                        <img src="./Letters _ 100 Years of Mujib_files/letter 3.png" class="img-fluid" alt="">
+                                    <a href="./../../assets/images/resources/letters/letter 1.png" class="letter-box"
+                                        data-fancybox-trigger="letter" data-fancybox="images" data-width="1048"
+                                        data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 1.png"
+                                            class="img-fluid" alt="">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-4 m-b-c">
                                 <div class="letter-item  carousel-item active">
-                                    <a href="./Letters _ 100 Years of Mujib_files/letter 3b.png" class="letter-box" data-fancybox-trigger="letter" data-fancybox="images" data-width="1048" data-height="1365">
-                                        <img src="./Letters _ 100 Years of Mujib_files/letter 3b.png" class="img-fluid" alt="">
+                                    <a href="./../../assets/images/resources/letters/letter 2.png" class="letter-box"
+                                        data-fancybox-trigger="letter" data-fancybox="images" data-width="1048"
+                                        data-height="1365">
+                                        <img src="./../../assets/images/resources/letters/letter 2.png"
+                                            class="img-fluid" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -900,81 +939,84 @@ Header
                 </section>
             </div>
         </main>
-    
-    <!--==========================
+        <!--==========================
       Footer
     ============================-->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>মুজিব</h4>
-                        <ul>
-                            <li><a href="./../mujib/timeline">মহাজীবনের ঘটনাপ্রবাহ</a></li>
-                            <li><a href="./../mujib/speeches">বক্তৃতা </a></li>
-                            <li><a href="./../mujib/recognition">উদ্ধৃতি</a></li>
-                            <li><a href="./../mujib/photo-archive">ফটো আর্কাইভ</a></li>
-                            <li><a href="./../mujib/graphic-novel">গ্রাফিক নভেল “মুজিব”</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>শতবর্ষ উদযাপন</h4>
-                        <ul>
-                            <li><a href="./../celebration/letters#">মিডিয়া গ্যালারি</a></li>
-                            <li><a href="./../celebration/stamp">ডাকটিকিট</a></li>
-                            <li><a href="./../celebration">মার্চেন্ডাইজ</a></li>
-                            <li><a href="./../celebration/contribute">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links pl-2">
-                        <h4>তথ্যভাণ্ডার</h4>
-                        <ul>
-                            <li><a href="./resources">গ্রন্থ ও প্রকাশনা</a></li>
-                            <li><a href="./documentaries">তথ্যচিত্র</a></li>
-                            <li><a href="./letters">চিঠিপত্র</a></li>
-                            <li><a href="./resources#">অ্যাপ</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>ইভেন্টস</h4>
-                        <ul>
-                            <li><a href="./../events">আজকের ইভেন্ট </a></li>
-                            <li><a href="./../events">আসন্ন ইভেন্ট</a></li>
-                        </ul>
-                    </div>
-                    <div class=" col-md col-xs-6 footer-links">
-                        <h4>কমিটি</h4>
-                        <ul>
-                            <li><a href="./../committee">জাতীয় কমিটি </a></li>
-                            <li><a href="./../resources/letters#">উৎসব বাস্তবায়ন কমিটি </a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md col-xs-6 footer-links">
-                        <h4>মিডিয়া ও সংবাদ</h4>
-                        <ul>
-                            <li><a href="./../media-news">সংবাদ বিজ্ঞপ্তি</a></li>
-                            <li><a href="./../media-news">বিজ্ঞপ্তি</a></li>
-                        </ul>
-                    </div>
-                    <div class="ml-20 col-md col-xs-6 footer-links">
-                        <h4>যোগাযোগ করুন</h4>
-                        <ul>
-                            <li><i class="fa fa-map-marker"></i> শহীদ ক্যাপ্টেন মনসুর আলী রোড, ১/ক, সেগুনবাগিচা, ঢাকা-১০০০</li>
-                            <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
-                            <li><i class="fa fa-phone"></i> +৮৮-০২-৫৫১৩০৩১৩                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৪ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৫                        </li>
-                        </ul>
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>মুজিব</h4>
+                            <ul>
+                                <li><a href="./../mujib/timeline">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                                <li><a href="./../mujib/speeches">বক্তৃতা </a></li>
+                                <li><a href="./../mujib/recognition">উদ্ধৃতি</a></li>
+                                <li><a href="./../mujib/photo-archive">ফটো আর্কাইভ</a></li>
+                                <li><a href="./../mujib/graphic-novel">গ্রাফিক নভেল “মুজিব”</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>শতবর্ষ উদযাপন</h4>
+                            <ul>
+                                <li><a href="./../celebration/letters#">মিডিয়া গ্যালারি</a></li>
+                                <li><a href="./../celebration/stamp">ডাকটিকিট</a></li>
+                                <li><a href="./../celebration">মার্চেন্ডাইজ</a></li>
+                                <li><a href="./../celebration/contribute">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links pl-2">
+                            <h4>তথ্যভাণ্ডার</h4>
+                            <ul>
+                                <li><a href="./resources">গ্রন্থ ও প্রকাশনা</a></li>
+                                <li><a href="./documentaries">তথ্যচিত্র</a></li>
+                                <li><a href="./letters">চিঠিপত্র</a></li>
+                                <li><a href="./resources#">অ্যাপ</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>ইভেন্টস</h4>
+                            <ul>
+                                <li><a href="./../events">আজকের ইভেন্ট </a></li>
+                                <li><a href="./../events">আসন্ন ইভেন্ট</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>কমিটি</h4>
+                            <ul>
+                                <li><a href="./../committee">জাতীয় কমিটি </a></li>
+                                <li><a href="./../resources/letters#">উৎসব বাস্তবায়ন কমিটি </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>মিডিয়া ও সংবাদ</h4>
+                            <ul>
+                                <li><a href="./../media-news">সংবাদ বিজ্ঞপ্তি</a></li>
+                                <li><a href="./../media-news">বিজ্ঞপ্তি</a></li>
+                            </ul>
+                        </div>
+                        <div class="ml-20 col-md col-xs-6 footer-links">
+                            <h4>যোগাযোগ করুন</h4>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i> শহীদ ক্যাপ্টেন মনসুর আলী রোড, ১/ক, সেগুনবাগিচা,
+                                    ঢাকা-১০০০</li>
+                                <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
+                                <li><i class="fa fa-phone"></i> +৮৮-০২-৫৫১৩০৩১৩
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৪
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৫ </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="bg-gray py-3">
-            <div class="container-fluid text-center">
-                <span>Developed &amp; Operated By <a class="footer-link" href="https://ictd.gov.bd/" target="_blank"><b>ICT Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+            <div class="bg-gray py-3">
+                <div class="container-fluid text-center">
+                    <span>Developed &amp; Operated By <a class="footer-link" href="https://ictd.gov.bd/"
+                            target="_blank"><b>ICT Division</b></a>. Powered By <b>Bangabandhu Memorial Trust</b></span>
+                </div>
             </div>
-        </div>
-    </footer>
-    
+        </footer>
+
     </div>
     <!-- #footer -->
 
