@@ -1198,7 +1198,7 @@ section#cd-timeline {
 .muj-time {
     text-align: left;
     padding: 29px 39px;
-    height: 300px;
+    min-height: 300px;
 }
 
 .muj-play .playBtn {
