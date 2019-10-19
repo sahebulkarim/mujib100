@@ -9,7 +9,7 @@ function myFunction1920En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -25,7 +25,7 @@ function myFunction1939En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -41,7 +41,7 @@ function myFunction1946En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -57,7 +57,7 @@ function myFunction1948En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -73,7 +73,7 @@ function myFunction1949En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -89,7 +89,7 @@ function myFunction1952En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -105,7 +105,7 @@ function myFunction1956En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -122,7 +122,7 @@ function myFunction1964En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -139,7 +139,7 @@ function myFunction1966En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -156,7 +156,7 @@ function myFunction1968En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -174,7 +174,7 @@ function myFunction1969En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -192,7 +192,7 @@ function myFunction1970En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -208,7 +208,7 @@ function myFunction1971En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -224,7 +224,7 @@ function myFunction1972En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -240,7 +240,7 @@ function myFunction1974En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -256,7 +256,7 @@ function myFunction1975En() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -288,7 +288,7 @@ function myFunction1920Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -304,7 +304,7 @@ function myFunction1939Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -320,7 +320,7 @@ function myFunction1946Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -336,7 +336,7 @@ function myFunction1948Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -352,7 +352,7 @@ function myFunction1949Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -368,7 +368,7 @@ function myFunction1952Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -384,7 +384,7 @@ function myFunction1956Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -401,7 +401,7 @@ function myFunction1964Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -418,7 +418,7 @@ function myFunction1966Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -435,7 +435,7 @@ function myFunction1968Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -453,7 +453,7 @@ function myFunction1969Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -471,7 +471,7 @@ function myFunction1970Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -487,7 +487,7 @@ function myFunction1971Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -503,7 +503,7 @@ function myFunction1972Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -519,7 +519,7 @@ function myFunction1974Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
@@ -535,7 +535,7 @@ function myFunction1975Bn() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.style.display = "none";
         moreText.style.display = "inline";
     }
 }
