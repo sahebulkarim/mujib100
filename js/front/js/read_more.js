@@ -260,3 +260,282 @@ function myFunction1975En() {
         moreText.style.display = "inline";
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function myFunction1920Bn() {
+    var dots = document.getElementById("dots-1920-bn");
+    var moreText = document.getElementById("more-1920-bn");
+    var btnText = document.getElementById("myBtn-1920-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1939Bn() {
+    var dots = document.getElementById("dots-1939-bn");
+    var moreText = document.getElementById("more-1939-bn");
+    var btnText = document.getElementById("myBtn-1939-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1946Bn() {
+    var dots = document.getElementById("dots-1946-bn");
+    var moreText = document.getElementById("more-1946-bn");
+    var btnText = document.getElementById("myBtn-1946-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1948Bn() {
+    var dots = document.getElementById("dots-1948-bn");
+    var moreText = document.getElementById("more-1948-bn");
+    var btnText = document.getElementById("myBtn-1948-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1949Bn() {
+    var dots = document.getElementById("dots-1949-bn");
+    var moreText = document.getElementById("more-1949-bn");
+    var btnText = document.getElementById("myBtn-1949-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1952Bn() {
+    var dots = document.getElementById("dots-1952-bn");
+    var moreText = document.getElementById("more-1952-bn");
+    var btnText = document.getElementById("myBtn-1952-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1956Bn() {
+    var dots = document.getElementById("dots-1956-bn");
+    var moreText = document.getElementById("more-1956-bn");
+    var btnText = document.getElementById("myBtn-1956-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+
+function myFunction1964Bn() {
+    var dots = document.getElementById("dots-1964-bn");
+    var moreText = document.getElementById("more-1964-bn");
+    var btnText = document.getElementById("myBtn-1964-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+
+function myFunction1966Bn() {
+    var dots = document.getElementById("dots-1966-bn");
+    var moreText = document.getElementById("more-1966-bn");
+    var btnText = document.getElementById("myBtn-1966-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+
+function myFunction1968Bn() {
+    var dots = document.getElementById("dots-1968-bn");
+    var moreText = document.getElementById("more-1968-bn");
+    var btnText = document.getElementById("myBtn-1968-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+
+
+function myFunction1969Bn() {
+    var dots = document.getElementById("dots-1969-bn");
+    var moreText = document.getElementById("more-1969-bn");
+    var btnText = document.getElementById("myBtn-1969-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+
+
+function myFunction1970Bn() {
+    var dots = document.getElementById("dots-1970-bn");
+    var moreText = document.getElementById("more-1970-bn");
+    var btnText = document.getElementById("myBtn-1970-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1971Bn() {
+    var dots = document.getElementById("dots-1971-bn");
+    var moreText = document.getElementById("more-1971-bn");
+    var btnText = document.getElementById("myBtn-1971-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1972Bn() {
+    var dots = document.getElementById("dots-1972-bn");
+    var moreText = document.getElementById("more-1972-bn");
+    var btnText = document.getElementById("myBtn-1972-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1974Bn() {
+    var dots = document.getElementById("dots-1974-bn");
+    var moreText = document.getElementById("more-1974-bn");
+    var btnText = document.getElementById("myBtn-1974-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1975Bn() {
+    var dots = document.getElementById("dots-1975-bn");
+    var moreText = document.getElementById("more-1975-bn");
+    var btnText = document.getElementById("myBtn-1975-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+}
