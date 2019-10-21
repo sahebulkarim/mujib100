@@ -1580,13 +1580,23 @@ Banner Section
 
 */
 .card {
-  height: 400px;
+  max-height: 800px;
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
   max-width: 300px;
   margin: auto;
   text-align: center;
   font-family: arial;
 }
+
+.card--letter {
+  height: 400px;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background: white 
+}
+
 
 .title {
   color: grey;
