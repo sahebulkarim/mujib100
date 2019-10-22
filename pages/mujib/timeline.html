@@ -2110,6 +2110,20 @@
             });
 
         });
+
+
+        $(function () {
+            $("bn").not(":visible").each(function () {
+                $(this).data("src", this.src);
+                this.src = "";
+            });
+
+            $("en").not(":visible").each(function () {
+                $(this).data("src", this.src);
+                this.src = "";
+            });
+        });
+
     </script>
 </body>
 
