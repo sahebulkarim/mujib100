@@ -551,9 +551,102 @@
 </head>
 
 <body>
-    <div class="en">
+    <div>
         <div id="m-active">mujib</div>
-        <header id="header" class="fixed-top">
+        <header id="header" class="bn fixed-top header-scrolled">
+            <div class="container">
+                <div class="logo float-left">
+                    <a href="./index.html" class="scrollto"><img src="./../../assets/images/logo.png" alt=""
+                            class="img-fluid"></a>
+                </div>
+                <nav class="main-nav float-right d-none d-lg-block">
+                    <ul>
+                        <li class="drop-down menu" id="mujib" data-value="logo">
+                            <a href="./../../index.html">মুজিব <span class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="./timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                                <li><a href="./speeches.html">বক্তৃতা</a></li>
+                                <li><a href="./recognition.html">স্মরণে মুজিব</a></li>
+                                <li><a href="./photo-archive.html">ফটো আর্কাইভ</a></li>
+                                <li><a href="./graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="celebration"><a href="./../celebration/index.html">শতবর্ষ উদযাপন <span
+                                    class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="./../celebration/index.html">মিডিয়া গ্যালারি</a></li>
+                                <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
+                                <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
+                                <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="resources"><a href="./../resources/index.html">তথ্যভাণ্ডার <span
+                                    class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="./../resources/book-publication.html">গ্রন্থ ও প্রকাশনা</a></li>
+                                <li><a href="./../resources/documentaries.html">তথ্যচিত্র</a></li>
+                                <li><a href="./../resources/letters.html">চিঠিপত্র</a></li>
+                                <li><a href="./../resources/index.html">অ্যাপ</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="events"><a href="./../events/index.html">ইভেন্টস <span
+                                    class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="./../events/index.html">আজকের ইভেন্ট</a></li>
+                                <li><a href="./../events/index.html">আসন্ন ইভেন্ট</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="committee"><a href="./../committee/index.html">কমিটি <span
+                                    class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="#">জাতীয় কমিটি </a></li>
+                                <li><a href="#">উৎসব বাস্তবায়ন কমিটি </a></li>
+                                <li><a href="#">কন্টেন্ট নির্বাচক কমিটি</a></li>
+                            </ul>
+                        </li>
+                        <li class="drop-down" id="media"><a href="./../media-news/index.html">মিডিয়া ও সংবাদ <span
+                                    class="fa-arrow"></span></a>
+                            <ul>
+                                <li><a href="./../media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
+                                <li><a href="./../media-news/index.html">বিজ্ঞপ্তি</a></li>
+                            </ul>
+                        </li>
+                        <li id="logo-com" class="active">
+                            <a href="./../logo/index.html">লোগো সাবমিশন</a>
+                        </li>
+                        <li id="contact-us"><a href="./../contact-us.html">যোগাযোগ করুন</a></li>
+                        <li class="drop-down">
+                            <a href="#">
+                                <i class="fa fa-language"></i>
+                                <span>বাংলা</span>
+                                <span class="fa fa-angle-down"></span>
+                            </a>
+                            <ul>
+                                <li onclick="localSaveEnglish()">
+                                    <a href="#">
+                                        English
+                                    </a>
+                                </li>
+
+                                <li onclick="localSaveBangla()">
+                                    <a href="#">
+                                        বাংলা
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </nav><!-- .main-nav -->
+
+            </div>
+        </header>
+
+
+
+
+        <header id="header" class="en fixed-top">
             <div class="container">
                 <div class="logo float-left">
                     <a href="./../../index.html" class="scrollto">
@@ -699,8 +792,27 @@
                                 <div class="card">
 
 
+                                    <div class="card-body muj-time bn" id="year-1920">
+                                        <h2>১৯২০</h2>
+                                        <p id="description-1920">
+                                            জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান ১৯২০ সালের ১৭ই মার্চ ফরিদপুর জেলার
+                                            গোপালগঞ্জ মহকুমার টুঙ্গিপাড়া গ্রামে এক সম্রাান্ত মুসলিম পরিবারে জন্মগ্রহন
+                                            করেন।
+                                            <span id="dots-1920-bn">...</span>
+                                            <span id="more-1920-bn">
+                                                বাবা শেখ লুৎফর রহমান ও মাতা মোসাম্মৎ সাহারা খাতুনের চার কন্যা ও দুই
+                                                পুত্রের মধ্যে তৃতীয় সন্তান শেখ মুজিব। বাবা মা
+                                                ডাকতেন খোকা বলে।
+                                            </span>
+                                        </p>
 
-                                    <div class="card-body muj-time" id="year-1920">
+                                        <button onclick="myFunction1920Bn()" id="myBtn-1920-bn" data-year="1920"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1920">
                                         <h2>1920</h2>
                                         <p id="description-1920">
                                             On March 17, 1920, the Father of the Nation Sheikh Mujibur Rahman was born
@@ -710,7 +822,8 @@
                                             <span id="more-1920-en">
                                                 His father Sheikh Lutfor Rahman and
                                                 his mother Mosammot Shahara Khatun had four
-                                                daughters and two sons of which Sheikh Mujibur Rahman was the third child. His
+                                                daughters and two sons of which Sheikh Mujibur Rahman was the third
+                                                child. His
                                                 parents used to adoringly call him "khoka".
                                             </span>
                                         </p>
@@ -720,6 +833,7 @@
                                             Read More
                                         </button>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -728,28 +842,41 @@
                     <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
                         <div class="cd-timeline-img cd-picture "></div>
                         <div class="cd-timeline-content">
-                                <div class="">
-                                        <!-- slider -->
-                                        <div class="owl-carousel testimonials-carousel">
-                                            <div class="slid-item">
-                                                <img src="./../../assets/images/timeline/1938-1.jpeg"
-                                                    class="testimonial-img" alt="">
-                                            </div>
-                                            <div class="slid-item">
-                                                <img src="./../../assets/images/timeline/1938-2.jpg"
-                                                    class="testimonial-img" alt="">
-                                            </div>
-                                            <div class="slid-item">
-                                                    <img src="./../../assets/images/timeline/1938-3.jpg"
-                                                        class="testimonial-img" alt="">
-                                            </div>
-                                        </div>
-                                        <!-- end slider -->
-        
+                            <div class="">
+                                <!-- slider -->
+                                <div class="owl-carousel testimonials-carousel">
+                                    <div class="slid-item">
+                                        <img src="./../../assets/images/timeline/1938-1.jpeg" class="testimonial-img"
+                                            alt="">
+                                    </div>
+                                    <div class="slid-item">
+                                        <img src="./../../assets/images/timeline/1938-2.jpg" class="testimonial-img"
+                                            alt="">
+                                    </div>
+                                    <div class="slid-item">
+                                        <img src="./../../assets/images/timeline/1938-3.jpg" class="testimonial-img"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <!-- end slider -->
+
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1938">
+                                    <div class="card-body muj-time bn" id="year-1938">
+                                        <h2>১৯৩৮</h2>
+                                        <p id="description-1938">
+                                            অবিভক্ত বাংলার প্রধানমন্ত্রী শেরে বাংলা এ কে ফজলুল হক এবং শ্রমমন্ত্রী হোসেন
+                                            শহীদ সোহরাওয়ার্দী গোপালগঞ্জ মিশন
+                                            স্কুল পরিদর্শনে আসেন। কিশোর শেখ মুজিবুর রহমান স্কুলের বিভিন্ন দাবি-দাওয়া
+                                            তাঁদের সামনে তুলে ধরেন। মুজিবের সাহস
+                                            এবং নেতৃত্বগুণ দেখে সোহরাওয়ার্দী মুগ্ধ হন। এবং এই ঘটনার সূত্রে পরবর্তীতে
+                                            তাঁদের মধ্যে একটা স্থায়ী সম্পর্ক গড়ে
+                                            উঠে।
+                                        </p>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1938">
                                         <h2>1938</h2>
                                         <p id="description-1938">
                                             At the age of 18, Sheikh Mujibur Rahman married Begum Fazilatunnesa and they
@@ -769,7 +896,29 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1939">
+                                    <div class="card-body muj-time bn" id="year-1939">
+                                        <h2>১৯৩৯</h2>
+                                        <p id="description-1939-bn">
+                                            তারুণ্যে রাজপথে মিছিল আর পরিপূর্ণ রাজনীতিক হওয়ার আগে বঙ্গবন্ধু শেখ মুজিব
+                                            অন্য দশ কিশোরের মতো খেলার মাঠকেই বেশি
+                                            ভালবাসতেন।
+                                            <span id="dots-1939-bn">...</span>
+                                            <span id="more-1939-bn">
+                                                বঙ্গবন্ধু শেখ মুজিব অন্য দশ কিশোরের মতো খেলার মাঠকেই বেশি ভালবাসতেন। আর
+                                                তাই প্রিয় ফুটবল নিয়ে দুরন্তপনায় মেতে উঠতেন।
+                                                কৈশোরে ফুটবলার হিসেবে তাঁর খ্যাতির কোন ঘাটতি ছিল না। প্রতিযোগিতামূলত
+                                                ফুটবল আসরের তিনি নিয়মিত এক কুশীলব ছিলেন। ভাল ফুটবল
+                                                খেলোয়াড় হিসেবে কৈশোরে পুরস্কারও তিনি পেয়েছেন।
+                                            </span>
+                                        </p>
+
+                                        <button onclick="myFunction1939Bn()" id="myBtn-1939-bn" data-year="1939"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1939">
                                         <h2>1939</h2>
                                         <p id="description-1939-en">
                                             Before moving into the student movements and becoming a full politician,
@@ -790,6 +939,7 @@
                                             Read More
                                         </button>
                                     </div>
+
                                 </div>
                             </div>
                         </div> <!-- cd-timeline-content -->
@@ -804,7 +954,16 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1946">
+                                    <div class="card-body muj-time bn" id="year-1946">
+                                        <h2>১৯৪৬</h2>
+                                        <p id="description-1946">
+                                            বঙ্গবন্ধু ইসলামিয়া কলেজ ছাত্র সংসদের সাধারণ সম্পাদক নির্বাচিত হন। দেশভাগের
+                                            আগে বঙ্গবন্ধু তার নেতা হোসেন শহীদ
+                                            সোহরাওয়ার্দী ও ভারতীয় জাতির পিতা মহত্মা গান্ধী এক শান্তি সমাবেশে।
+                                        </p>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1946">
                                         <h2>1946</h2>
                                         <p id="description-1946">
                                             Sheikh Mujibur Rahman was elected as the General Secretary of Islamia
@@ -836,7 +995,28 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1948">
+                                    <div class="card-body muj-time bn" id="year-1948">
+                                        <h2>১৯৪৮</h2>
+                                        <p id="description-1948">
+                                            ৪ঠা জানুয়ারি বঙ্গবন্ধুর হাত ধরে গঠিত হয় উপমহাদেশের সর্ববৃহৎ ছাত্রসংগঠন পূর্ব
+                                            পাকিস্তান মুসলিম ছাত্র লীগ বর্তমান বাংলাদেশ
+                                            ছাত্রলীগ।
+                                            <span id="dots-1948-bn">...</span>
+                                            <span id="more-1948-bn">
+                                                ১১ মার্চ ১৯৪৮ তারিখে ঢাকায় ধর্মঘট পালিত হয়। ধর্মঘট পালনকালে শেখ
+                                                মুজিবসহ আরো কয়েকজন রাজনৈতিক কর্মীকে সচিবালয় ভবনের
+                                                সামনে থেকে গ্রেফতার করা হয়। কিন্তু ছাত্রসমাজের তীব্র প্রতিবাদের মুখে ১৫
+                                                মার্চ শেখ মুজিব এবং অন্য ছাত্র নেতাদেরকে মুক্তি
+                                                দেয়া হয়।
+                                            </span>
+                                        </p>
+                                        <button onclick="myFunction1948Bn()" id="myBtn-1948-bn" data-year="1949"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1948">
                                         <h2>1948</h2>
                                         <p id="description-1948">
                                             Sheikh Mujibur Rahman joined the Law Department of Dhaka University and on
@@ -885,7 +1065,30 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1949">
+                                    <div class="card-body muj-time bn" id="year-1949">
+                                        <h2>১৯৪৯</h2>
+                                        <p id="description-1949">
+                                            ১৯৪৮ সালের ১৯ মার্চ বঙ্গবন্ধু ঢাকা বিশ্ববিদ্যালয়ের চতুর্থ শ্রেণীর
+                                            কর্মচারীদের অধিকার আদায়ের লক্ষ্যে একটি আন্দোলন
+                                            পরিচালনা করেন।
+                                            <span id="dots-1949-bn">...</span>
+                                            <span id="more-1949-bn">
+                                                এতে ১১ সেপ্টেম্বর ১৯৪৮ তারিখে তাকে আটক করা হয় এবং বহিষ্কৃত হন। ১৯৪৯
+                                                খ্রিস্টাব্দের ২১ জানুয়ারি শেখ মুজিবকে জেল থেকে
+                                                মুক্তি পান। জেল থেকে বেরিয়ে তিনি চতুর্থ শ্রেণীর কর্মচারীদের দাবী আদায়ে
+                                                আবার আন্দোলনে নামেন। তাকে আবারও আটক করা হয়। ২৩
+                                                জুন সোহরাওয়ার্দী এবং মাওলানা ভাসানী “পূর্ব পাকিস্তান আওয়ামী মুসলিম
+                                                লীগ” গঠন করেন, জেলে আটক থাকা অবস্থায় দলের যুগ্ম
+                                                সাধারণ সম্পাদক নির্বাচিত করা হয় বঙ্গবন্ধু শেখ মুজিব কে।
+                                            </span>
+                                        </p>
+                                        <button onclick="myFunction1949Bn()" id="myBtn-1949-bn" data-year="1949"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1949">
                                         <h2>1949</h2>
                                         <p id="description-1949">
                                             He was released from prison on 21st January, 1949.
@@ -897,11 +1100,13 @@
                                                 He was arrested but on 23rd January, the "East Pakistan Awami Muslim
                                                 League"
                                                 was established and Sheikh Mujibur Rahman was elected as the General
-                                                Secretary while still in prison.</span>
-                                            <button onclick="myFunction1949En()" id="myBtn-1949-en" data-year="1949"
-                                                id="read-more">
-                                                Read More
-                                            </button>
+                                                Secretary while still in prison.
+                                            </span>
+                                        </p>
+                                        <button onclick="myFunction1949En()" id="myBtn-1949-en" data-year="1949"
+                                            id="read-more">
+                                            Read More
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -927,16 +1132,42 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1952">
+                                    <div class="card-body muj-time bn" id="year-1952">
+                                        <h2>১৯৫২</h2>
+                                        <p id="description-1952">
+                                            ২৬ জানুয়ারি খাজা নাজিমুদ্দিন ঘোষণা করেন ‘পাকিস্তানের রাষ্ট্রভাষা হবে
+                                            উর্দু’।
+                                            <span id="dots-1952-bn">...</span>
+                                            <span id="more-1952-bn">
+                                                এর প্রতিবাদে বন্দি থাকা অবস্থায় ২১ ফেব্রুয়ারিকে রাজবন্দি মুক্তি এবং
+                                                বাংলাকে রাষ্ট্রভাষা করার দাবি দিবস হিসেবে পালন
+                                                করার জন্য বঙ্গবন্ধু রাষ্ট্রভাষা সংগ্রাম পরিষদের প্রতি আহ্বান জানান। ১৪
+                                                ফেব্রুয়ারি বঙ্গবন্ধু এ দাবিতে জেলখানায় অনশন
+                                                শুরু করেন। ২১ ফেব্রুয়ারি রাষ্ট্রভাষা বাংলার দাবিতে ছাত্র সমাজ ১৪৪ ধারা
+                                                ভঙ্গ করে মিছিল বের করে। মিছিলে পুলিশ গুলি চালালে
+                                                সালাম, বরকত, রফিক, শফিউর শহীদ হন। বঙ্গবন্ধু জেলখানা থেকে এক বিবৃতিতে
+                                                ছাত্র মিছিলে পুলিশের গুলিবর্ষণের তীব্র নিন্দা ও
+                                                প্রতিবাদ জানান। একটানা ১৭ দিন অনশন অব্যাহত রাখেন।
+                                            </span>
+                                        </p>
+                                        <button onclick="myFunction1952Bn()" id="myBtn-1952-bn" data-year="1952"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1952">
                                         <h2>1952</h2>
                                         <p id="description-1952">
                                             On 26th January, Khaja Nazimuddin announced that, "Urdu will be Pakistan's
                                             state language".
                                             <span id="dots-1952-en">...</span>
                                             <span id="more-1952-en">
-                                                While in captivity, Sheikh Mujibur Rahman urged the state language movement council to help him be released
+                                                While in captivity, Sheikh Mujibur Rahman urged the state language
+                                                movement council to help him be released
                                                 and to observe Bangla as the state language on
-                                                21st February. On 14th February Sheikh Mujibur Rahman started a hunger strike in
+                                                21st February. On 14th February Sheikh Mujibur Rahman started a hunger
+                                                strike in
                                                 prison. On 21st February, the student society
                                                 came out in strike to establish Bangla as the state language by refusing
                                                 to abide by section 144. Salam, Barkat, Rafiq,
@@ -952,6 +1183,7 @@
                                             Read More
                                         </button>
                                     </div>
+
                                 </div>
                             </div>
                         </div> <!-- cd-timeline-content -->
@@ -966,7 +1198,31 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1956">
+                                    <div class="card-body muj-time bn" id="year-1956">
+                                        <h2>১৯৫৬</h2>
+                                        <p id="description-1956">
+                                            ১৯৫৫ সালের ২১ অক্টোবর বাংলাদেশ আওয়ামী মুসলিম লীগের বিশেষ অধিবেশনে
+                                            সর্বসম্মতিক্রমে দলের নাম থেকে "মুসলিম" শব্দটি বাদ
+                                            দেয়া হয়।
+                                            <span id="dots-1956-bn">...</span>
+                                            <span id="more-1956-bn">
+                                                শেখ মুজিব পুনরায় দলের মহাসচিব নির্বাচিত হন। ১৯৫৬ সালের ৪ সেপ্টেম্বর
+                                                বঙ্গবন্ধুর নেতৃত্বে ১৪৪ ধারা ভঙ্গ করে খাদ্যের
+                                                দাবিতে ভুখা মিছিল বের করা হয়। চকবাজার এলাকায় পুলিশ মিছিলে গুলি চালালে
+                                                ৩ জন নিহত হয়। ১৬ সেপ্টেম্বর শেখ মুজিব কোয়ালিশন
+                                                সরকারে যোগ দিয়ে একযোগে শিল্প, বাণিজ্য, শ্রম, দুর্নীতিরোধ এবং গ্রামীণ
+                                                সহায়তা মন্ত্রণালয়ের দায়িত্ব পান। তিনি দলের জন্য
+                                                সম্পূর্ণ সময় ব্যয় করার তাগিদে ১৯৫৭ সালে ৩০ মে মন্ত্রীপরিষদ থেকে
+                                                পদত্যাগ করেন।
+                                            </span>
+                                        </p>
+                                        <button onclick="myFunction1956Bn()" id="myBtn-1956-bn" data-year="1956"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1956">
                                         <h2>1956</h2>
                                         <p id="description-1956">
                                             In the special session of the Bangladesh Awami Muslim League on 21st October
@@ -974,7 +1230,7 @@
                                             removed from the name of the party.
                                             <span id="dots-1956-en">...</span>
                                             <span id="more-1956-en">
-                                                    Sheikh Mujibur Rahman was again elected the
+                                                Sheikh Mujibur Rahman was again elected the
                                                 Secretary General of the party. Around this time,
                                                 3 people lost their lives in police firing at Chawkbazar. On 16th
                                                 September,
@@ -1005,10 +1261,36 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1964">
+                                    <div class="card-body muj-time bn" id="year-1964">
+                                        <h2>১৯৬৪</h2>
+                                        <p id="description-1964">
+                                            ২৫ জানুয়ারি বঙ্গবন্ধুর বাসভবনে অনুষ্ঠিত এক সভায় আওয়ামী লীগকে পুনরুজ্জীবিত
+                                            করা হয়।
+                                            <span id="dots-1964-bn">...</span>
+                                            <span id="more-1964-bn">
+                                                এই সভায় দেশের প্রাপ্তবয়স্ক নাগরিকদের ভোটের মাধ্যমে সংসদীয় সরকার
+                                                ব্যবস্থা প্রবর্তনের দাবি সাধারণ মানুষের ন্যায্য
+                                                অধিকার আদায় সম্বলিত প্রস্তাব গৃহীত হয়। সভায় মাওলানা আবদুর রশীদ
+                                                তর্কবাগীশ ও বঙ্গবন্ধু শেখ মুজিব যথাক্রমে সভাপতি ও
+                                                সাধারণ সম্পাদক নির্বাচিত হন। ১১ মার্চ বঙ্গবন্ধুর নেতৃত্বে সর্বদলীয়
+                                                সংগ্রাম পরিষদ গঠন হয়। সাম্প্রদায়িক দাঙ্গার
+                                                বিরুদ্ধে বঙ্গবন্ধুর নেতৃত্বে দাঙ্গা প্রতিরোধ কমিটি গঠিত হয়। দাঙ্গার পর
+                                                আইয়ুব বিরোধী ঐক্যবদ্ধ আন্দোলনের প্রস্তুতি
+                                                গ্রহণের জন্য বঙ্গবন্ধুর উদ্যোগ গ্রহণ করেন। রাষ্ট্রপতি নির্বাচনের ১৪ দিন
+                                                পূর্বে বঙ্গবন্ধুকে গ্রেফতার করা হয়।
+                                            </span>
+                                        </p>
+                                        <button onclick="myFunction1964Bn()" id="myBtn-1964-bn" data-year="1964"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1964">
                                         <h2>1964</h2>
                                         <p id="description-1964">
-                                            On January 25, Awami League was revived at a meeting held at Sheikh Mujibur Rahman's
+                                            On January 25, Awami League was revived at a meeting held at Sheikh Mujibur
+                                            Rahman's
                                             residence.
                                             <span id="dots-1964-en">...</span>
                                             <span id="more-1964-en">
@@ -1016,13 +1298,17 @@
                                                 containing the right of general people to get the demand of introducing
                                                 parliamentary government system through voting
                                                 of adult citizens of the country were accepted. In the meeting, Maulana
-                                                Abdur Rashid Tarkabagish and Sheikh Mujibur Rahman were elected President and General Secretary respectively. On 11th
+                                                Abdur Rashid Tarkabagish and Sheikh Mujibur Rahman were elected
+                                                President and General Secretary respectively. On 11th
                                                 March, the All-Party Sramik Parishad was formed
-                                                under the leadership of Sheikh Mujibur Rahman. The Riot Resistance Committee was
+                                                under the leadership of Sheikh Mujibur Rahman. The Riot Resistance
+                                                Committee was
                                                 formed against the communal riots under the
-                                                leadership of Sheikh Mujibur Rahman. After the riots, Sheikh Mujibur Rahman took the
+                                                leadership of Sheikh Mujibur Rahman. After the riots, Sheikh Mujibur
+                                                Rahman took the
                                                 initiative to prepare for a united movement against
-                                                Ayub. Sheikh Mujibur Rahman was arrested 14 days before the presidential election.
+                                                Ayub. Sheikh Mujibur Rahman was arrested 14 days before the presidential
+                                                election.
                                             </span>
                                         </p>
                                         <button onclick="myFunction1964En()" id="myBtn-1964-en" data-year="1964"
@@ -1063,17 +1349,39 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1966">
+                                    <div class="card-body muj-time bn" id="year-1966">
+                                        <h2>১৯৬৬</h2>
+                                        <p id="description-1966">
+                                            ৫ ফেব্রুয়ারি লাহোরে বিরোধী দলসমূহের জাতীয় সম্মেলনের বিষয় নির্বাচনী
+                                            কমিটিতে বঙ্গবন্ধু ঐতিহাসিক ৬ দফা দাবি পেশ করেন।
+                                            <span id="dots-1966-bn">...</span>
+                                            <span id="more-1966-bn">
+                                                প্রস্তাবিত ৬ দফা ছিল বাঙালি জাতির মুক্তি সনদ। বঙ্গবন্ধু ৬ দফার পক্ষে
+                                                জনমত সৃষ্টির উদ্দেশ্যে সারা বাংলায় গণসংযোগ সফর
+                                                শুরু করেন। এ সময় তাকে সিলেটে, ময়মনসিংহ ও ঢাকায় বার বার গ্রেফতার করা
+                                                হয়। বঙ্গবন্ধু এ বছরের প্রথম তিন মাসে আট বার
+                                                গ্রেফতার হন।
+                                            </span>
+                                        </p>
+                                        <button onclick="myFunction1966Bn()" id="myBtn-1966-bn" data-year="1966"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1966">
                                         <h2>1966</h2>
                                         <p id="description-1966">
-                                                Sheikh Mujibur Rahman presented a historic 6-point demand in the electoral committee
+                                            Sheikh Mujibur Rahman presented a historic 6-point demand in the electoral
+                                            committee
                                             on the national conference of opposition
                                             parties in Lahore on 5th February.
                                             <span id="dots-1966-en">...</span>
                                             <span id="more-1966-en">
                                                 The proposed 6 points was the liberation
                                                 certificate of the people of Bangladesh. In
-                                                order to gain support for his 6 point demand, Sheikh Mujibur Rahman travelled far
+                                                order to gain support for his 6 point demand, Sheikh Mujibur Rahman
+                                                travelled far
                                                 and
                                                 wide across the country. He was repeatedly
                                                 arrested in Sylhet, Mymensingh and Dhaka. Throughout the year, he was
@@ -1099,7 +1407,28 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1968">
+                                    <div class="card-body muj-time bn" id="year-1968">
+                                        <h2>১৯৬৮</h2>
+                                        <p id="description-1968">
+                                            ৩ জানুয়ারি পাকিস্তান সরকার বঙ্গবন্ধুকে এক নম্বর আসামি করে মোট ৩৫ জন বাঙালি
+                                            সেনা ও সি এস পি অফিসারের বিরুদ্ধে
+                                            পাকিস্তানকে বিচ্ছিন্ন করার অভিযোগ এনে আগরতলা ষড়যন্ত্র মামলা দায়ের করে।
+                                            <span id="dots-1968-bn">...</span><span id="more-1968-bn">
+                                                ১৭ জানুয়ারি বঙ্গবন্ধুকে জেল থেকে মুক্তি দিয়ে পুনরায় জেল গেট থেকে
+                                                গ্রেফতার করে ঢাকা সেনানিবাসে আটক রাখা হয়।
+                                                বঙ্গবন্ধুসহ আগরতলা ষড়যন্ত্র মামলার অভিযুক্ত আসামিদের মুক্তির দাবিতে
+                                                সারাদেশে বিক্ষোভ শুরু হয়। ১৯ জুন ঢাকা সেনানিবাসে
+                                                কঠোর নিরাপত্তার মধ্যে আগরতলা ষড়যন্ত্র মামলার আসামিদের বিচার কার্য শুরু
+                                                হয়।
+                                            </span>
+                                        </p>
+                                        <button onclick="myFunction1968Bn()" id="myBtn-1968-bn" data-year="1949"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1968">
                                         <h2>1968</h2>
                                         <p id="description-1968">
                                             On 3rd January, the Government of Pakistan filed the ‘Agartala Conspiracy
@@ -1107,11 +1436,13 @@
                                             collaborator along with a total of 35 Bengali soldiers and C.S.P officers
                                             for trying to destabilize Pakistan.
                                             <span id="dots-1968-en">...</span><span id="more-1968-en">
-                                                    Sheikh Mujibur Rahman was arrested again from ‘Jail Gate’ after he was released
+                                                Sheikh Mujibur Rahman was arrested again from ‘Jail Gate’ after he was
+                                                released
                                                 from Dhaka Central Jail and was kept imprisoned at
                                                 Dhaka Cantonment. Mass movement spread around the country demanding the
                                                 release of all the accused including
-                                                Sheikh Mujibur Rahman. On 19th June, the trial of the accused began at Dhaka
+                                                Sheikh Mujibur Rahman. On 19th June, the trial of the accused began at
+                                                Dhaka
                                                 Cantonment under intense security.
                                             </span>
                                         </p>
@@ -1119,7 +1450,6 @@
                                             id="read-more">
                                             Read More
                                         </button>
-
                                     </div>
                                 </div>
                             </div>
@@ -1146,7 +1476,33 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1969">
+                                    <div class="card-body muj-time bn" id="year-1969">
+                                        <h2>১৯৬৯</h2>
+                                        <p id="description-1969">
+                                            আগরতলা ষড়যন্ত্র মামলা প্রত্যাহার ও বঙ্গবন্ধুর মুক্তির দাবিতে দেশব্যাপী
+                                            ছাত্র আন্দোলন শুরু করে।
+                                            <span id="dots-1969-bn">...</span>
+                                            <span id="more-1969-bn">
+                                                ২২ ফেব্রুয়ারি জনগণের অব্যাহত চাপের মুখে কেন্দ্রীয় সরকার আগরতলা
+                                                ষড়যন্ত্র মামলা প্রত্যাহার করে বঙ্গবন্ধুসহ অন্যান্য
+                                                আসামিকে মুক্তি দানে বাধ্য হয়।
+                                                ২৩ ফেব্রুয়ারি রেসকোর্স (সোহরাওয়ার্দী উদ্যান) ময়দানে কেন্দ্রীয় ছাত্র
+                                                সংগ্রাম পরিষদের উদ্যোগে প্রায় ১০ লাখ ছাত্র
+                                                জনতার সংবর্ধনা সমাবেশে শেখ মুজিবুর রহমানকে আনুষ্ঠানিকভাবে ‘বঙ্গবন্ধু’
+                                                উপাধিতে ভূষিত করা হয়।
+
+                                                ৫ ডিসেম্বর শহীদ সোহরাওয়ার্দীর মৃত্যুবার্ষিকী উপলক্ষে আওয়ামী লীগের
+                                                আলোচনা সভায় বঙ্গবন্ধু পূর্ব বাংলার নামকরণ করেন
+                                                ‘বাংলাদেশ’।
+                                            </span>
+                                        </p>
+                                        <button onclick="myFunction1969Bn()" id="myBtn-1969-bn" data-year="1949"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1969">
                                         <h2>1969</h2>
                                         <p id="description-1969">
                                             The Agartala conspiracy started a nationwide student movement demanding the
@@ -1156,13 +1512,16 @@
                                             <span id="more-1969-en">
                                                 With the continuing pressure of the public on the central government, on
                                                 22nd February, it was forced to
-                                                withdraw the Agartala conspiracy case and release Sheikh Mujibur Rahman and others
+                                                withdraw the Agartala conspiracy case and release Sheikh Mujibur Rahman
+                                                and others
                                                 wrongly accused. Sheikh Mujibur Rahman was
                                                 officially awarded the title 'Bangabandhu' at the reception of 10 lakh
                                                 students in a rally organized by the Central
-                                                Student Sangram Parishad on Race Course (Renamed as: Suhrawardy Udyan) on 23rd
+                                                Student Sangram Parishad on Race Course (Renamed as: Suhrawardy Udyan)
+                                                on 23rd
                                                 February. On 5th December, on the death anniversary
-                                                of Shaheed Suhrawardy, Bangabandhu Sheikh Mujibur Rahman named East Bengal as 'Bangladesh' in
+                                                of Shaheed Suhrawardy, Bangabandhu Sheikh Mujibur Rahman named East
+                                                Bengal as 'Bangladesh' in
                                                 an Awami League discussion.
                                             </span>
                                         </p>
@@ -1208,10 +1567,32 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1970">
+                                    <div class="card-body muj-time bn" id="year-1970">
+                                        <h2>১৯৭০</h2>
+                                        <p id="description-1970">
+                                            বঙ্গবন্ধু ৬ দফার প্রসঙ্গ আওয়ামীলীগ কে নির্বাচিত করার জন্য দেশবাসীর প্রতি
+                                            আহ্বান জানান।
+                                            <span id="dots-1970-bn">...</span><span id="more-1970-bn">
+                                                দলের নির্বাচনী প্রতীক হিসেবে ‘নৌকা’ প্রতীক পছন্দ করেন। ১২ নভেম্বরের
+                                                গোর্কিতে উপকূলীয় এলাকার ১০ লক্ষ মানুষের প্রাণহানি
+                                                ঘটলে বঙ্গবন্ধু নির্বাচনী প্রচারণা বাতিল করে দুর্গত এলাকায় চলে যান। ৭
+                                                ডিসেম্বরে সাধারণ নির্বাচনে আওয়ামী লীগ নিরঙ্কুশ
+                                                সংখ্যাগরিষ্ঠতা অর্জন করে। আওয়ামী লীগ তৎকালীন পূর্ব পাকিস্তানে জাতীয়
+                                                পরিষদের ১৬৯টি আসনের মধ্যে ১৬৭টি আসন এবং প্রাদেশিক
+                                                পরিষদের ৩১০টি আসনের মধ্যে ৩০৫টি আসন লাভ করে।
+                                            </span>
+                                        </p>
+                                        <button onclick="myFunction1970Bn()" id="myBtn-1970-bn" data-year="1970"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1970">
                                         <h2>1970</h2>
                                         <p id="description-1970">
-                                                Sheikh Mujibur Rahman urged the countrymen to elect Awami League in light of the 6
+                                            Sheikh Mujibur Rahman urged the countrymen to elect Awami League in light of
+                                            the 6
                                             points. He chose the symbol of a 'boat' to
                                             symbolize the Awami League party.
                                             <span id="dots-1970-en">...</span><span id="more-1970-en">
@@ -1263,7 +1644,30 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1971">
+                                    <div class="card-body muj-time bn" id="year-1971">
+                                        <h2>১৯৭১</h2>
+                                        <p id="description-1971">
+                                            ৭ মার্চ রেসকোর্সের জনসমুদ্র থেকে বঙ্গবন্ধু শেখ মুজিবুর রহমান ঘোষণা করেন
+                                            ‘এবারের সংগ্রাম আমাদের মুক্তির সংগ্রাম, এবারের
+                                            সংগ্রাম স্বাধীনতার সংগ্রাম, জয় বাংলা’।
+                                            <span id="dots-1971-bn">...</span><span id="more-1971-bn">
+                                                ৭ মার্চ থেকে ২৫ মার্চ বাংলাদেশ স্বাধীন দেশ হিসেবে বঙ্গবন্ধুই
+                                                রাষ্ট্রপরিচালনা করেছেন। ১৬ মার্চ ঢাকায় ক্ষমতা হস্তান্তর
+                                                প্রসঙ্গ মুজিব-ইয়াহিয়া বৈঠক শুরু হয়। আলোচনার জন্য জনাব ভুট্টো ও ঢাকায়
+                                                আসেন। ২৪ মার্চ পর্যন্ত ইয়াহিয়া-মুজিব-ভুট্টো
+                                                আলোচনা হয়। ২৫ মার্চ আলোচনা ব্যর্থ হবার পর সন্ধ্যায় ইয়াহিয়ার ঢাকা
+                                                ত্যাগ। ২৫ মার্চ দিবাগত রাতে নিরীহ নিরস্ত্র বাঙালির
+                                                ওপর পাকিস্তান সেনাবাহিনী ঝাঁপিয়ে পড়ে। বঙ্গবন্ধু ২৫শে মার্চ রাত ১২টা ২০
+                                                মিনিটে বাংলাদেশের স্বাধীনতা ঘোষণা করেন।
+                                            </span>
+                                        </p>
+                                        <button onclick="myFunction1971Bn()" id="myBtn-1971-bn" data-year="1971"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1971">
                                         <h2>1971</h2>
                                         <p id="description-1971">
                                             On 7th March, Bangabandhu Sheikh Mujibur Rahman delivered a speech to a sea
@@ -1272,7 +1676,8 @@
                                             independence, Joy Bangla'.
                                             <span id="dots-1971-en">...</span><span id="more-1971-en">
                                                 From 1 March,
-                                                Sheikh Mujibur Rahman came into power of an independent Bangladesh after a long
+                                                Sheikh Mujibur Rahman came into power of an independent Bangladesh after
+                                                a long
                                                 non-cooperation movement. Sheikh Mujibur Rahman &
                                                 Yahya's meeting began in the context of power transfer in Dhaka on 16th
                                                 March. Bhutto came to Dhaka as well to
@@ -1280,7 +1685,8 @@
                                                 24th March. After the discussions ended on 25th
                                                 March, Yahya left Dhaka in the evening. On the night of 25 March, the
                                                 Pakistani army attacked the innocent unarmed
-                                                Bengalis and Sheikh Mujibur Rahman declared the independence of Bangladesh on
+                                                Bengalis and Sheikh Mujibur Rahman declared the independence of
+                                                Bangladesh on
                                                 March 25th at 12:20 AM.
                                             </span>
                                         </p>
@@ -1326,15 +1732,42 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1972">
+                                    <div class="card-body muj-time bn" id="year-1972">
+                                        <h2>১৯৭২</h2>
+                                        <p id="description-1972">
+                                            ৮ জানুয়ারি পাকিস্তান সরকার আন্তর্জাতিক চাপে বঙ্গবন্ধুকে মুক্তি দেয়। সেদিনই
+                                            বঙ্গবন্ধু ঢাকার উদ্দেশ্যে লন্ডন যাত্রা
+                                            করেন।
+                                            <span id="dots-1972-bn">...</span><span id="more-1972-bn">লন্ডনে পৌছে হোটেলে
+                                                এক জনাকীর্ণ সংবাদ সম্মেলনে গণমাধ্যমের মুখোমুখি হন। ৯ জানুয়ারি লন্ডনে
+                                                ব্রিটিশ প্রধানমন্ত্রী এডওয়ার্ড
+                                                হীথের সাথে সাক্ষাৎ হয়। লন্ডন থেকে ঢাকা আসার পথে বঙ্গবন্ধু দিল্লি−তে
+                                                যাত্রা বিরতি করেন। বিমানবন্দরে ভারতের রাষ্ট্রপতি
+                                                ভি. ভি. গিরি ও প্রধানমন্ত্রী মিসেস ইন্দিরা গান্ধী বঙ্গবন্ধুকে স্বাগত
+                                                জানান। জাতির জনক বঙ্গবন্ধু ১০ জানুয়ারি ঢাকায়
+                                                পৌঁছলে তাকে অবিস্মরণীয় সংবর্ধনা জ্ঞাপন করা হয়। বঙ্গবন্ধু বিমান বন্দর
+                                                থেকে সরাসরি রেসকোর্স ময়দানে গিয়ে লক্ষ জনতার
+                                                সমাবেশ থেকে অশ্রুসিক্ত নয়নে জাতির উদ্দেশ্যে ভাষণ দেন। ১২ জানুয়ারি
+                                                বঙ্গবন্ধু প্রধানমন্ত্রীর দায়িত্ব গ্রহণ করেন। </span>
+                                        </p>
+                                        <button onclick="myFunction1972Bn()" id="myBtn-1972-bn" data-year="1972"
+                                            id="read-more">
+                                            আরো পড়ুন
+                                        </button>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1972">
                                         <h2>1972</h2>
                                         <p id="description-1972">
-                                            On January 8, the government of Pakistan was forced to release Sheikh Mujibur Rahman
+                                            On January 8, the government of Pakistan was forced to release Sheikh
+                                            Mujibur Rahman
                                             under international pressure.
                                             <span id="dots-1972-en">...</span><span id="more-1972-en">On that very
-                                                day, Sheikh Mujibur Rahman traveled to London. There, in London at a crowded press
+                                                day, Sheikh Mujibur Rahman traveled to London. There, in London at a
+                                                crowded press
                                                 conference at his hotel, he spoke to the media.
-                                                On 9th January, Sheikh Mujibur Rahman met the British Prime Minister, Edward
+                                                On 9th January, Sheikh Mujibur Rahman met the British Prime Minister,
+                                                Edward
                                                 Heath.
                                                 Prior to returning to Dhaka, he stopped to
                                                 Delhi. At the Indian airport, President V. V. Giri and Prime Minister
@@ -1344,7 +1777,8 @@
                                                 reception was given to him. Sheikh Mujibur Rahman went
                                                 straight from the airport to the Race Course Maidan now renamed
                                                 Suhrawardy Udyan where millions of people awaited him.
-                                                On 12th January, Sheikh Mujibur Rahman took charge as the Prime Minister of Bangladesh. </span>
+                                                On 12th January, Sheikh Mujibur Rahman took charge as the Prime Minister
+                                                of Bangladesh. </span>
                                         </p>
                                         <button onclick="myFunction1972En()" id="myBtn-1972-en" data-year="1972"
                                             id="read-more">
@@ -1365,7 +1799,16 @@
                             </div>
                             <div class="cd-date">
                                 <div class="card">
-                                    <div class="card-body muj-time" id="year-1974">
+                                    <div class="card-body muj-time bn" id="year-1974">
+                                        <h2>১৯৭৪</h2>
+                                        <p id="description-1974">
+                                            ২৪ সেপ্টেম্বর নিউইয়র্কে জাতিসংঘের ২৯তম সাধারণ অধিবেশনে বাংলায় ভাষণ দেন। এর
+                                            আটদিন আগে ১৭ সেপ্টেম্বর তুমুল করতালির মধ্যে নবীন রাষ্ট্র বাংলাদেশ বাংলাদেশে
+                                            জাতিসংঘের ১৩৬তম সদস্য দেশ হিসেবে মর্যাদা লাভ করে।
+                                        </p>
+                                    </div>
+
+                                    <div class="card-body muj-time en" id="year-1974">
                                         <h2>1974</h2>
                                         <p id="description-1974">
                                             On 25th September 1974, at the 29th General Conference of United Nation, he
@@ -1402,19 +1845,42 @@
                                             <img class="card-img-top" src="./../../assets/images/timeline/img-05.png"
                                                 alt="Card image cap">
                                         </div>
-                                        <div class="col-md-6 timel " style="text-align: left;padding-top: 26px;">
+                                        <div class="col-md-6 timel bn" style="text-align: left;padding-top: 26px;">
+                                            <h2>১৯৭৫</h2>
+                                            <p class="card-text">১৫ আগস্টের ভোরে হাজার বছরের শ্রেষ্ঠ বাঙালি, বাংলাদেশের
+                                                স্থপতি, বাঙালি জাতির জনক বঙ্গবন্ধু শেখ
+                                                মুজিবুর রহমান নিজ বাসভবনে সেনাবাহিনীর কতিপয় বিপথগামী ও উচ্চাভিলাষী
+                                                বিশ্বাসঘাতক অফিসারদের হাতে সপরিবারে নিহত হন।
+                                                তারা পরিবারের সবাইকে ঠাণ্ডা মাথায় খুন করে! শেখ হাসিনা এবং শেখ রেহানা,
+                                                ভাগ্যক্রমে ঐ সময়টাতে দেশের বাহিরে ছিলেন।
+                                                <span id="dots-1975-bn">...</span><span id="more-1975-bn">
+                                                    ১৯৭৫ সালের ১৫ আগস্ট বাঙালি জাতির ইতিহাসে অন্ধকারতম দিন। বাঙালি জাতি
+                                                    এই দিনটিকে জাতীয় শোক দিবস হিসেবে পালন
+                                                    করে।
+                                                </span>
+                                            </p>
+                                            <button onclick="myFunction1975Bn()" id="myBtn-1975-bn" data-year="1975"
+                                                id="read-more">
+                                                আরো পড়ুন
+                                            </button>
+                                        </div>
+
+                                        <div class="col-md-6 timel en" style="text-align: left;padding-top: 26px;">
                                             <h2>1975</h2>
                                             <p class="card-text">In the pre-dawn hours of 15th August, the noblest and
                                                 greatest of Bengalis, Sheikh Mujibur Rahman, the architect of
                                                 Bangladesh and the Father of the nation, was assassinated by a handful
                                                 of renegades backed by a larger political
-                                                conspiracy.<span id="dots-1975-en">...</span><span id="more-1975-en">
+                                                conspiracy.
+                                                <span id="dots-1975-en">...</span>
+                                                <span id="more-1975-en">
                                                     They murdered in cold blood every member of his family
                                                     except Sheikh Hasina and Sheikh Rehana, who by some
                                                     fortune were at that time outside the country. August 15th, 1975 is
                                                     the
                                                     darkest day in Bangladesh’s history and the
-                                                    nation observes it as the National Mourning Day.</span>
+                                                    nation observes it as the National Mourning Day.
+                                                </span>
                                             </p>
                                             <button onclick="myFunction1975En()" id="myBtn-1975-en" data-year="1975"
                                                 id="read-more">
@@ -1437,7 +1903,82 @@
         <!--==========================
   Footer
 ============================-->
-        <footer id="footer">
+
+        <footer id="footer" class="bn">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>মুজিব</h4>
+                            <ul>
+                                <li><a href="./../mujib/timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                                <li><a href="./../mujib/speeches.html">বক্তৃতা </a></li>
+                                <li><a href="./../mujib/recognition.html">স্মরণে মুজিব</a></li>
+                                <li><a href="./../mujib/photo-archive.html">ফটো আর্কাইভ</a></li>
+                                <li><a href="./../mujib/graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>শতবর্ষ উদযাপন</h4>
+                            <ul>
+                                <li><a href="./../celebration/index.html">মিডিয়া গ্যালারি</a></li>
+                                <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
+                                <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
+                                <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশিন</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links pl-2">
+                            <h4>তথ্যভাণ্ডার</h4>
+                            <ul>
+                                <li><a href="./../resources/index.html">গ্রন্থ ও প্রকাশনা</a></li>
+                                <li><a href="./../resources/documentaries.html">তথ্যচিত্র</a></li>
+                                <li><a href="./../resources/letters.html">চিঠিপত্র</a></li>
+                                <li><a href="#">অ্যাপ</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>ইভেন্টস</h4>
+                            <ul>
+                                <li><a href="./../events/index.html">আজকের ইভেন্ট </a></li>
+                                <li><a href="./../events/index.html">আসন্ন ইভেন্ট</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-md col-xs-6 footer-links">
+                            <h4>কমিটি</h4>
+                            <ul>
+                                <li><a href="./../committee/index.html">জাতীয় কমিটি </a></li>
+                                <li><a href="./../committee/index.html">উৎসব বাস্তবায়ন কমিটি </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-xs-6 footer-links">
+                            <h4>মিডিয়া ও সংবাদ</h4>
+                            <ul>
+                                <li><a href="./../media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
+                                <li><a href="./../media-news/index.html">বিজ্ঞপ্তি</a></li>
+                            </ul>
+                        </div>
+                        <div class="ml-20 col-md col-xs-6 footer-links">
+                            <h4>যোগাযোগ করুন</h4>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i> শহীদ ক্যাপ্টেন মনসুর আলী রোড, ১/ক, সেগুনবাগিচা,
+                                    ঢাকা-১০০০</li>
+                                <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
+                                <li><i class="fa fa-phone"></i> +৮৮-০২-৫৫১৩০৩১৩
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৪
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৫ </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray py-3">
+                <div class="container-fluid text-center">
+                    <span>Developed &amp; Operated By <a class="footer-link" href="https://ictd.gov.bd/"
+                            target="_blank"><b>ICT
+                                Division</b></a>. Powered By <b>Bangabandhu Memorial Trust.</b></span>
+                </div>
+        </footer>
+        <footer id="footer" class="en">
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
@@ -1514,928 +2055,12 @@
                 </div>
             </div>
         </footer>
+
+
     </div>
-    <div class="bn">
-        <div id="m-active">mujib</div>
-        <!--==========================
-    Header
-    ============================-->
-        <header id="header" class="fixed-top header-scrolled">
-            <div class="container">
-                <div class="logo float-left">
-                    <a href="./index.html" class="scrollto"><img src="./../../assets/images/logo.png" alt=""
-                            class="img-fluid"></a>
-                </div>
-                <nav class="main-nav float-right d-none d-lg-block">
-                    <ul>
-                        <li class="drop-down menu" id="mujib" data-value="logo">
-                            <a href="./../../index.html">মুজিব <span class="fa-arrow"></span></a>
-                            <ul>
-                                <li><a href="./timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
-                                <li><a href="./speeches.html">বক্তৃতা</a></li>
-                                <li><a href="./recognition.html">স্মরণে মুজিব</a></li>
-                                <li><a href="./photo-archive.html">ফটো আর্কাইভ</a></li>
-                                <li><a href="./graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down" id="celebration"><a href="./../celebration/index.html">শতবর্ষ উদযাপন <span
-                                    class="fa-arrow"></span></a>
-                            <ul>
-                                <li><a href="./../celebration/index.html">মিডিয়া গ্যালারি</a></li>
-                                <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
-                                <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
-                                <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down" id="resources"><a href="./../resources/index.html">তথ্যভাণ্ডার <span
-                                    class="fa-arrow"></span></a>
-                            <ul>
-                                <li><a href="./../resources/book-publication.html">গ্রন্থ ও প্রকাশনা</a></li>
-                                <li><a href="./../resources/documentaries.html">তথ্যচিত্র</a></li>
-                                <li><a href="./../resources/letters.html">চিঠিপত্র</a></li>
-                                <li><a href="./../resources/index.html">অ্যাপ</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down" id="events"><a href="./../events/index.html">ইভেন্টস <span
-                                    class="fa-arrow"></span></a>
-                            <ul>
-                                <li><a href="./../events/index.html">আজকের ইভেন্ট</a></li>
-                                <li><a href="./../events/index.html">আসন্ন ইভেন্ট</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down" id="committee"><a href="./../committee/index.html">কমিটি <span
-                                    class="fa-arrow"></span></a>
-                            <ul>
-                                <li><a href="#">জাতীয় কমিটি </a></li>
-                                <li><a href="#">উৎসব বাস্তবায়ন কমিটি </a></li>
-                                <li><a href="#">কন্টেন্ট নির্বাচক কমিটি</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down" id="media"><a href="./../media-news/index.html">মিডিয়া ও সংবাদ <span
-                                    class="fa-arrow"></span></a>
-                            <ul>
-                                <li><a href="./../media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
-                                <li><a href="./../media-news/index.html">বিজ্ঞপ্তি</a></li>
-                            </ul>
-                        </li>
-                        <li id="logo-com" class="active">
-                            <a href="./../logo/index.html">লোগো সাবমিশন</a>
-                        </li>
-                        <li id="contact-us"><a href="./../contact-us.html">যোগাযোগ করুন</a></li>
-                        <li class="drop-down">
-                            <a href="#">
-                                <i class="fa fa-language"></i>
-                                <span>বাংলা</span>
-                                <span class="fa fa-angle-down"></span>
-                            </a>
-                            <ul>
-                                <li onclick="localSaveEnglish()">
-                                    <a href="#">
-                                        English
-                                    </a>
-                                </li>
-
-                                <li onclick="localSaveBangla()">
-                                    <a href="#">
-                                        বাংলা
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                    </ul>
-
-                </nav><!-- .main-nav -->
-
-            </div>
-        </header>
 
 
 
-        <!-- TIME LINE START -->
-        <div class="background-image"></div>
-        <div class="container-fluid timeline">
-            <div class="row" style="background-color: #c3c3c3;
-        opacity: 0.9;">
-
-
-                <!-- time line -->
-
-                <section class="container">
-                    <div class="row">
-                        <div class="offset-md-3 col-md-6 head-time">
-                            <div class="time-sec ">
-                                <div class="card wow zoomIn" style="background-color: transparent;">
-                                    <div class="card-body time-sec row top-vid">
-                                        <video controls width="100%" height="100%"
-                                            poster="./../../assets/images/timeline/time-vid.PNG" class="doc-video">
-                                            <source src="./../../assets/images/videos/time-vid.mp4" type="video/mp4">
-                                            <source src="./../../assets/images/videos/time-vid.mp4" type="video/ogg">
-                                            Your browser does not support HTML5 video.
-                                        </video>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- time line -->
-
-                <section id="cd-timeline" class="cd-container">
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture "></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="timeImg">
-                                <img src="./../../assets/images/timeline/epKuEAyiEpFKAavymYWYcSxLtKcPjh.png">
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-
-
-
-                                    <div class="card-body muj-time" id="year-1920">
-                                        <h2>১৯২০</h2>
-                                        <p id="description-1920">
-                                            জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান ১৯২০ সালের ১৭ই মার্চ ফরিদপুর জেলার
-                                            গোপালগঞ্জ মহকুমার টুঙ্গিপাড়া গ্রামে এক সম্রাান্ত মুসলিম পরিবারে জন্মগ্রহন
-                                            করেন।
-                                            <span id="dots-1920-bn">...</span>
-                                            <span id="more-1920-bn">
-                                                বাবা শেখ লুৎফর রহমান ও মাতা মোসাম্মৎ সাহারা খাতুনের চার কন্যা ও দুই
-                                                পুত্রের মধ্যে তৃতীয় সন্তান শেখ মুজিব। বাবা মা
-                                                ডাকতেন খোকা বলে।
-                                            </span>
-                                        </p>
-
-                                        <button onclick="myFunction1920Bn()" id="myBtn-1920-bn" data-year="1920"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                            <div class="cd-timeline-img cd-picture "></div>
-                            <div class="cd-timeline-content">
-                                <div class="">
-                                            <!-- slider -->
-                                            <div class="owl-carousel testimonials-carousel">
-                                                <div class="slid-item">
-                                                    <img src="./../../assets/images/timeline/1938-1.jpeg"
-                                                        class="testimonial-img" alt="">
-                                                </div>
-                                                <div class="slid-item">
-                                                    <img src="./../../assets/images/timeline/1938-2.jpg"
-                                                        class="testimonial-img" alt="">
-                                                </div>
-                                                <div class="slid-item">
-                                                        <img src="./../../assets/images/timeline/1938-3.jpg"
-                                                            class="testimonial-img" alt="">
-                                                </div>
-                                            </div>
-                                            <!-- end slider -->
-            
-                                </div>
-                                <div class="cd-date">
-                                    <div class="card">
-                                        <div class="card-body muj-time" id="year-1938">
-                                            <h2>১৯৩৮</h2>
-                                            <p id="description-1938">
-                                                    অবিভক্ত বাংলার প্রধানমন্ত্রী শেরে বাংলা এ কে ফজলুল হক এবং শ্রমমন্ত্রী হোসেন শহীদ সোহরাওয়ার্দী গোপালগঞ্জ মিশন স্কুল পরিদর্শনে আসেন। কিশোর শেখ মুজিবুর রহমান স্কুলের বিভিন্ন দাবি-দাওয়া তাঁদের সামনে তুলে ধরেন। মুজিবের সাহস এবং নেতৃত্বগুণ দেখে সোহরাওয়ার্দী মুগ্ধ হন। এবং এই ঘটনার সূত্রে পরবর্তীতে তাঁদের মধ্যে একটা স্থায়ী সম্পর্ক গড়ে উঠে।  
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- cd-timeline-content -->
-                    </div>
-
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture "></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="timeImg">
-                                <img src="./../../assets/images/timeline/BLMUpQQkNKXlEzgszqmiTqLCXPxtJX.png">
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1939">
-                                        <h2>১৯৩৯</h2>
-                                        <p id="description-1939-bn">
-                                            তারুণ্যে রাজপথে মিছিল আর পরিপূর্ণ রাজনীতিক হওয়ার আগে বঙ্গবন্ধু শেখ মুজিব
-                                            অন্য দশ কিশোরের মতো খেলার মাঠকেই বেশি
-                                            ভালবাসতেন।
-                                            <span id="dots-1939-bn">...</span>
-                                            <span id="more-1939-bn">
-                                                বঙ্গবন্ধু শেখ মুজিব অন্য দশ কিশোরের মতো খেলার মাঠকেই বেশি ভালবাসতেন। আর
-                                                তাই প্রিয় ফুটবল নিয়ে দুরন্তপনায় মেতে উঠতেন।
-                                                কৈশোরে ফুটবলার হিসেবে তাঁর খ্যাতির কোন ঘাটতি ছিল না। প্রতিযোগিতামূলত
-                                                ফুটবল আসরের তিনি নিয়মিত এক কুশীলব ছিলেন। ভাল ফুটবল
-                                                খেলোয়াড় হিসেবে কৈশোরে পুরস্কারও তিনি পেয়েছেন।
-                                            </span>
-                                        </p>
-
-                                        <button onclick="myFunction1939Bn()" id="myBtn-1939-bn" data-year="1939"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture "></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="timeImg">
-                                <img src="./../../assets/images/timeline/1946.jpg">
-
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1946">
-                                        <h2>১৯৪৬</h2>
-                                        <p id="description-1946">
-                                            বঙ্গবন্ধু ইসলামিয়া কলেজ ছাত্র সংসদের সাধারণ সম্পাদক নির্বাচিত হন। দেশভাগের
-                                            আগে বঙ্গবন্ধু তার নেতা হোসেন শহীদ
-                                            সোহরাওয়ার্দী ও ভারতীয় জাতির পিতা মহত্মা গান্ধী এক শান্তি সমাবেশে।
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture eight"></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="">
-                                <!-- slider -->
-                                <div class="owl-carousel testimonials-carousel">
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/cPgsrDdakmOUORqSSFnEGfNJKfuczY.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/bPbOABeSPbfjBCGqnTfnIAggRoBWUJ.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                </div>
-                                <!-- end slider -->
-
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1948">
-                                        <h2>১৯৪৮</h2>
-                                        <p id="description-1948">
-                                            ৪ঠা জানুয়ারি বঙ্গবন্ধুর হাত ধরে গঠিত হয় উপমহাদেশের সর্ববৃহৎ ছাত্রসংগঠন পূর্ব
-                                            পাকিস্তান মুসলিম ছাত্র লীগ বর্তমান বাংলাদেশ
-                                            ছাত্রলীগ।
-                                            <span id="dots-1948-bn">...</span>
-                                            <span id="more-1948-bn">
-                                                ১১ মার্চ ১৯৪৮ তারিখে ঢাকায় ধর্মঘট পালিত হয়। ধর্মঘট পালনকালে শেখ
-                                                মুজিবসহ আরো কয়েকজন রাজনৈতিক কর্মীকে সচিবালয় ভবনের
-                                                সামনে থেকে গ্রেফতার করা হয়। কিন্তু ছাত্রসমাজের তীব্র প্রতিবাদের মুখে ১৫
-                                                মার্চ শেখ মুজিব এবং অন্য ছাত্র নেতাদেরকে মুক্তি
-                                                দেয়া হয়।
-                                            </span>
-                                        </p>
-                                        <button onclick="myFunction1948Bn()" id="myBtn-1948-bn" data-year="1949"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture eight"></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="">
-                                <!-- slider -->
-                                <div class="owl-carousel testimonials-carousel">
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/zHofWSSGUgUSdGSeUlCPBkZpTGJaQT.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/VvnFSIahychSiSvJDBSKnceLyLPgcr.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/feUyIKTKaEPevvSMXNZBLHAijwbYdz.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                </div>
-                                <!-- end slider -->
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1949">
-                                        <h2>১৯৪৯</h2>
-                                        <p id="description-1949">
-                                            ১৯৪৮ সালের ১৯ মার্চ বঙ্গবন্ধু ঢাকা বিশ্ববিদ্যালয়ের চতুর্থ শ্রেণীর
-                                            কর্মচারীদের অধিকার আদায়ের লক্ষ্যে একটি আন্দোলন
-                                            পরিচালনা করেন।
-                                            <span id="dots-1949-bn">...</span><span id="more-1949-bn">
-                                                এতে ১১ সেপ্টেম্বর ১৯৪৮ তারিখে তাকে আটক করা হয় এবং বহিষ্কৃত হন। ১৯৪৯
-                                                খ্রিস্টাব্দের ২১ জানুয়ারি শেখ মুজিবকে জেল থেকে
-                                                মুক্তি পান। জেল থেকে বেরিয়ে তিনি চতুর্থ শ্রেণীর কর্মচারীদের দাবী আদায়ে
-                                                আবার আন্দোলনে নামেন। তাকে আবারও আটক করা হয়। ২৩
-                                                জুন সোহরাওয়ার্দী এবং মাওলানা ভাসানী “পূর্ব পাকিস্তান আওয়ামী মুসলিম
-                                                লীগ” গঠন করেন, জেলে আটক থাকা অবস্থায় দলের যুগ্ম
-                                                সাধারণ সম্পাদক নির্বাচিত করা হয় বঙ্গবন্ধু শেখ মুজিব কে।</span>
-                                            <button onclick="myFunction1949Bn()" id="myBtn-1949-bn" data-year="1949"
-                                                id="read-more">
-                                                আরো পড়ুন
-                                            </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture eight"></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="">
-                                <!-- slider -->
-                                <div class="owl-carousel testimonials-carousel">
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/hxWMdQEWsvgbkcrydtWVGhtPdibpUh.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/NkZwUnSZwNkObDkjafhFgKEXHowyMa.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                </div>
-                                <!-- end slider -->
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1952">
-                                        <h2>১৯৫২</h2>
-                                        <p id="description-1952">
-                                            ২৬ জানুয়ারি খাজা নাজিমুদ্দিন ঘোষণা করেন ‘পাকিস্তানের রাষ্ট্রভাষা হবে
-                                            উর্দু’।
-                                            <span id="dots-1952-bn">...</span>
-                                            <span id="more-1952-bn">
-                                                এর প্রতিবাদে বন্দি থাকা অবস্থায় ২১ ফেব্রুয়ারিকে রাজবন্দি মুক্তি এবং
-                                                বাংলাকে রাষ্ট্রভাষা করার দাবি দিবস হিসেবে পালন
-                                                করার জন্য বঙ্গবন্ধু রাষ্ট্রভাষা সংগ্রাম পরিষদের প্রতি আহ্বান জানান। ১৪
-                                                ফেব্রুয়ারি বঙ্গবন্ধু এ দাবিতে জেলখানায় অনশন
-                                                শুরু করেন। ২১ ফেব্রুয়ারি রাষ্ট্রভাষা বাংলার দাবিতে ছাত্র সমাজ ১৪৪ ধারা
-                                                ভঙ্গ করে মিছিল বের করে। মিছিলে পুলিশ গুলি চালালে
-                                                সালাম, বরকত, রফিক, শফিউর শহীদ হন। বঙ্গবন্ধু জেলখানা থেকে এক বিবৃতিতে
-                                                ছাত্র মিছিলে পুলিশের গুলিবর্ষণের তীব্র নিন্দা ও
-                                                প্রতিবাদ জানান। একটানা ১৭ দিন অনশন অব্যাহত রাখেন।
-                                            </span>
-                                        </p>
-                                        <button onclick="myFunction1952Bn()" id="myBtn-1952-bn" data-year="1952"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture "></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="timeImg">
-                                <img src="./../../assets/images/timeline/irGzuRbjjUSiJYeClEGMviMGjiezLs.png">
-
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1956">
-                                        <h2>১৯৫৬</h2>
-                                        <p id="description-1956">
-                                            ১৯৫৫ সালের ২১ অক্টোবর বাংলাদেশ আওয়ামী মুসলিম লীগের বিশেষ অধিবেশনে
-                                            সর্বসম্মতিক্রমে দলের নাম থেকে "মুসলিম" শব্দটি বাদ
-                                            দেয়া হয়।
-                                            <span id="dots-1956-bn">...</span>
-                                            <span id="more-1956-bn">
-                                                শেখ মুজিব পুনরায় দলের মহাসচিব নির্বাচিত হন। ১৯৫৬ সালের ৪ সেপ্টেম্বর
-                                                বঙ্গবন্ধুর নেতৃত্বে ১৪৪ ধারা ভঙ্গ করে খাদ্যের
-                                                দাবিতে ভুখা মিছিল বের করা হয়। চকবাজার এলাকায় পুলিশ মিছিলে গুলি চালালে
-                                                ৩ জন নিহত হয়। ১৬ সেপ্টেম্বর শেখ মুজিব কোয়ালিশন
-                                                সরকারে যোগ দিয়ে একযোগে শিল্প, বাণিজ্য, শ্রম, দুর্নীতিরোধ এবং গ্রামীণ
-                                                সহায়তা মন্ত্রণালয়ের দায়িত্ব পান। তিনি দলের জন্য
-                                                সম্পূর্ণ সময় ব্যয় করার তাগিদে ১৯৫৭ সালে ৩০ মে মন্ত্রীপরিষদ থেকে
-                                                পদত্যাগ করেন।
-                                            </span>
-                                        </p>
-                                        <button onclick="myFunction1956Bn()" id="myBtn-1956-bn" data-year="1956"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture "></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="timeImg">
-                                <img src="./../../assets/images/timeline/nBfDNdtvJFHMZFmMIsxdTqSYPKjXvS.jpg">
-
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1964">
-                                        <h2>১৯৬৪</h2>
-                                        <p id="description-1964">
-                                            ২৫ জানুয়ারি বঙ্গবন্ধুর বাসভবনে অনুষ্ঠিত এক সভায় আওয়ামী লীগকে পুনরুজ্জীবিত
-                                            করা হয়।
-                                            <span id="dots-1964-bn">...</span>
-                                            <span id="more-1964-bn">
-                                                এই সভায় দেশের প্রাপ্তবয়স্ক নাগরিকদের ভোটের মাধ্যমে সংসদীয় সরকার
-                                                ব্যবস্থা প্রবর্তনের দাবি সাধারণ মানুষের ন্যায্য
-                                                অধিকার আদায় সম্বলিত প্রস্তাব গৃহীত হয়। সভায় মাওলানা আবদুর রশীদ
-                                                তর্কবাগীশ ও বঙ্গবন্ধু শেখ মুজিব যথাক্রমে সভাপতি ও
-                                                সাধারণ সম্পাদক নির্বাচিত হন। ১১ মার্চ বঙ্গবন্ধুর নেতৃত্বে সর্বদলীয়
-                                                সংগ্রাম পরিষদ গঠন হয়। সাম্প্রদায়িক দাঙ্গার
-                                                বিরুদ্ধে বঙ্গবন্ধুর নেতৃত্বে দাঙ্গা প্রতিরোধ কমিটি গঠিত হয়। দাঙ্গার পর
-                                                আইয়ুব বিরোধী ঐক্যবদ্ধ আন্দোলনের প্রস্তুতি
-                                                গ্রহণের জন্য বঙ্গবন্ধুর উদ্যোগ গ্রহণ করেন। রাষ্ট্রপতি নির্বাচনের ১৪ দিন
-                                                পূর্বে বঙ্গবন্ধুকে গ্রেফতার করা হয়।
-                                            </span>
-                                        </p>
-                                        <button onclick="myFunction1964Bn()" id="myBtn-1964-bn" data-year="1964"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture eight"></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="">
-                                <!-- slider -->
-                                <div class="owl-carousel testimonials-carousel">
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/MhrceeRLzfhVnQCmfpefWLNJCHgpqS.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/EvMFLLTEbaGsRQWJXRuMxQjGUpImru.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/OgQpbUYtwaWacrbGoOtojBejtwPKCz.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/PknBFGdEmjUMGaKHFqFmsPZtULtaLW.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                </div>
-                                <!-- end slider -->
-
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1966">
-                                        <h2>১৯৬৬</h2>
-                                        <p id="description-1966">
-                                            ৫ ফেব্রুয়ারি লাহোরে বিরোধী দলসমূহের জাতীয় সম্মেলনের বিষয় নির্বাচনী
-                                            কমিটিতে বঙ্গবন্ধু ঐতিহাসিক ৬ দফা দাবি পেশ করেন।
-                                            <span id="dots-1966-bn">...</span>
-                                            <span id="more-1966-bn">
-                                                প্রস্তাবিত ৬ দফা ছিল বাঙালি জাতির মুক্তি সনদ। বঙ্গবন্ধু ৬ দফার পক্ষে
-                                                জনমত সৃষ্টির উদ্দেশ্যে সারা বাংলায় গণসংযোগ সফর
-                                                শুরু করেন। এ সময় তাকে সিলেটে, ময়মনসিংহ ও ঢাকায় বার বার গ্রেফতার করা
-                                                হয়। বঙ্গবন্ধু এ বছরের প্রথম তিন মাসে আট বার
-                                                গ্রেফতার হন।
-                                            </span>
-                                        </p>
-                                        <button onclick="myFunction1966Bn()" id="myBtn-1966-bn" data-year="1966"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture "></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="timeImg">
-                                <img src="./../../assets/images/timeline/wibNYmJvQvWaaCOJZrJYXZmjBknirj.jpg">
-
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1968">
-                                        <h2>১৯৬৮</h2>
-                                        <p id="description-1968">
-                                            ৩ জানুয়ারি পাকিস্তান সরকার বঙ্গবন্ধুকে এক নম্বর আসামি করে মোট ৩৫ জন বাঙালি
-                                            সেনা ও সি এস পি অফিসারের বিরুদ্ধে
-                                            পাকিস্তানকে বিচ্ছিন্ন করার অভিযোগ এনে আগরতলা ষড়যন্ত্র মামলা দায়ের করে।
-                                            <span id="dots-1968-bn">...</span><span id="more-1968-bn">
-                                                ১৭ জানুয়ারি বঙ্গবন্ধুকে জেল থেকে মুক্তি দিয়ে পুনরায় জেল গেট থেকে
-                                                গ্রেফতার করে ঢাকা সেনানিবাসে আটক রাখা হয়।
-                                                বঙ্গবন্ধুসহ আগরতলা ষড়যন্ত্র মামলার অভিযুক্ত আসামিদের মুক্তির দাবিতে
-                                                সারাদেশে বিক্ষোভ শুরু হয়। ১৯ জুন ঢাকা সেনানিবাসে
-                                                কঠোর নিরাপত্তার মধ্যে আগরতলা ষড়যন্ত্র মামলার আসামিদের বিচার কার্য শুরু
-                                                হয়।
-                                            </span>
-                                        </p>
-                                        <button onclick="myFunction1968Bn()" id="myBtn-1968-bn" data-year="1949"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture eight"></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="">
-                                <!-- slider -->
-                                <div class="owl-carousel testimonials-carousel">
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/FiWFvLUZUJHIDpXkYdfZlZoXDnRWZc.jpg"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/gKCLvdoRXFMPRVOfliLwMZGztiXeGI.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                </div>
-                                <!-- end slider -->
-
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1969">
-                                        <h2>১৯৬৯</h2>
-                                        <p id="description-1969">
-                                            আগরতলা ষড়যন্ত্র মামলা প্রত্যাহার ও বঙ্গবন্ধুর মুক্তির দাবিতে দেশব্যাপী
-                                            ছাত্র আন্দোলন শুরু করে।
-                                            <span id="dots-1969-bn">...</span>
-                                            <span id="more-1969-bn">
-                                                ২২ ফেব্রুয়ারি জনগণের অব্যাহত চাপের মুখে কেন্দ্রীয় সরকার আগরতলা
-                                                ষড়যন্ত্র মামলা প্রত্যাহার করে বঙ্গবন্ধুসহ অন্যান্য
-                                                আসামিকে মুক্তি দানে বাধ্য হয়।
-                                                ২৩ ফেব্রুয়ারি রেসকোর্স (সোহরাওয়ার্দী উদ্যান) ময়দানে কেন্দ্রীয় ছাত্র
-                                                সংগ্রাম পরিষদের উদ্যোগে প্রায় ১০ লাখ ছাত্র
-                                                জনতার সংবর্ধনা সমাবেশে শেখ মুজিবুর রহমানকে আনুষ্ঠানিকভাবে ‘বঙ্গবন্ধু’
-                                                উপাধিতে ভূষিত করা হয়।
-
-                                                ৫ ডিসেম্বর শহীদ সোহরাওয়ার্দীর মৃত্যুবার্ষিকী উপলক্ষে আওয়ামী লীগের
-                                                আলোচনা সভায় বঙ্গবন্ধু পূর্ব বাংলার নামকরণ করেন
-                                                ‘বাংলাদেশ’।
-                                            </span>
-                                        </p>
-                                        <button onclick="myFunction1969Bn()" id="myBtn-1969-bn" data-year="1949"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture eight"></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="">
-                                <!-- slider -->
-                                <div class="owl-carousel testimonials-carousel">
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/LbGVIDpplkGqSepACEydzVNAxTJAXk.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/XLwXFUkrRmkTZkIHErjqjDdyNeVmbi.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/KyhXHRtbWWJdEZQOZdVncAgGMwGOgk.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/RLSoetsXhyLBeKjSQFqRaXLjihrJue.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/VSaCzKEXcHGZfOnxvCSSGHlmyefqtO.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                </div>
-                                <!-- end slider -->
-
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1970">
-                                        <h2>১৯৭০</h2>
-                                        <p id="description-1970">
-                                            বঙ্গবন্ধু ৬ দফার প্রসঙ্গ আওয়ামীলীগ কে নির্বাচিত করার জন্য দেশবাসীর প্রতি
-                                            আহ্বান জানান।
-                                            <span id="dots-1970-bn">...</span><span id="more-1970-bn">
-                                                দলের নির্বাচনী প্রতীক হিসেবে ‘নৌকা’ প্রতীক পছন্দ করেন। ১২ নভেম্বরের
-                                                গোর্কিতে উপকূলীয় এলাকার ১০ লক্ষ মানুষের প্রাণহানি
-                                                ঘটলে বঙ্গবন্ধু নির্বাচনী প্রচারণা বাতিল করে দুর্গত এলাকায় চলে যান। ৭
-                                                ডিসেম্বরে সাধারণ নির্বাচনে আওয়ামী লীগ নিরঙ্কুশ
-                                                সংখ্যাগরিষ্ঠতা অর্জন করে। আওয়ামী লীগ তৎকালীন পূর্ব পাকিস্তানে জাতীয়
-                                                পরিষদের ১৬৯টি আসনের মধ্যে ১৬৭টি আসন এবং প্রাদেশিক
-                                                পরিষদের ৩১০টি আসনের মধ্যে ৩০৫টি আসন লাভ করে।
-                                            </span>
-                                        </p>
-                                        <button onclick="myFunction1970Bn()" id="myBtn-1970-bn" data-year="1970"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture eight"></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="">
-                                <!-- slider -->
-                                <div class="owl-carousel testimonials-carousel">
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/rVoZadUGHaraVmwKlFiJicOZuALwqh.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/XTJHwhnJjLSDQfvNaTfRViXcUyaNVx.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/yhiXHcIocDHXDlnVZRXSUvyZnKwKDk.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/lclOfAuFmMtvYoyZAJNUQWaPfhirDS.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                </div>
-                                <!-- end slider -->
-
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1971">
-                                        <h2>১৯৭১</h2>
-                                        <p id="description-1971">
-                                            ৭ মার্চ রেসকোর্সের জনসমুদ্র থেকে বঙ্গবন্ধু শেখ মুজিবুর রহমান ঘোষণা করেন
-                                            ‘এবারের সংগ্রাম আমাদের মুক্তির সংগ্রাম, এবারের
-                                            সংগ্রাম স্বাধীনতার সংগ্রাম, জয় বাংলা’।
-                                            <span id="dots-1971-bn">...</span><span id="more-1971-bn">
-                                                ৭ মার্চ থেকে ২৫ মার্চ বাংলাদেশ স্বাধীন দেশ হিসেবে বঙ্গবন্ধুই
-                                                রাষ্ট্রপরিচালনা করেছেন। ১৬ মার্চ ঢাকায় ক্ষমতা হস্তান্তর
-                                                প্রসঙ্গ মুজিব-ইয়াহিয়া বৈঠক শুরু হয়। আলোচনার জন্য জনাব ভুট্টো ও ঢাকায়
-                                                আসেন। ২৪ মার্চ পর্যন্ত ইয়াহিয়া-মুজিব-ভুট্টো
-                                                আলোচনা হয়। ২৫ মার্চ আলোচনা ব্যর্থ হবার পর সন্ধ্যায় ইয়াহিয়ার ঢাকা
-                                                ত্যাগ। ২৫ মার্চ দিবাগত রাতে নিরীহ নিরস্ত্র বাঙালির
-                                                ওপর পাকিস্তান সেনাবাহিনী ঝাঁপিয়ে পড়ে। বঙ্গবন্ধু ২৫শে মার্চ রাত ১২টা ২০
-                                                মিনিটে বাংলাদেশের স্বাধীনতা ঘোষণা করেন।
-                                            </span>
-                                        </p>
-                                        <button onclick="myFunction1971Bn()" id="myBtn-1971-bn" data-year="1971"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture eight"></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="">
-                                <!-- slider -->
-                                <div class="owl-carousel testimonials-carousel">
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/lLeauoFktnmLhNdeyRYEtVnyGbNFaL.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/lDpFeCIJyVeUumCcoxWgPelFsMHUmd.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/cUgSrtgbMYvSMCiqQbCMJdvCGEUqxM.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/DqhDZFuTBIHICyIJnhcZyHmSVaGxUM.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                    <div class="slid-item">
-                                        <img src="./../../assets/images/timeline/rnXmFwhhXbcoSpreBDavrUrkxcgNlx.png"
-                                            class="testimonial-img" alt="">
-                                    </div>
-                                </div>
-                                <!-- end slider -->
-
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1972">
-                                        <h2>১৯৭২</h2>
-                                        <p id="description-1972">
-                                            ৮ জানুয়ারি পাকিস্তান সরকার আন্তর্জাতিক চাপে বঙ্গবন্ধুকে মুক্তি দেয়। সেদিনই
-                                            বঙ্গবন্ধু ঢাকার উদ্দেশ্যে লন্ডন যাত্রা
-                                            করেন।
-                                            <span id="dots-1972-bn">...</span><span id="more-1972-bn">লন্ডনে পৌছে হোটেলে
-                                                এক জনাকীর্ণ সংবাদ সম্মেলনে গণমাধ্যমের মুখোমুখি হন। ৯ জানুয়ারি লন্ডনে
-                                                ব্রিটিশ প্রধানমন্ত্রী এডওয়ার্ড
-                                                হীথের সাথে সাক্ষাৎ হয়। লন্ডন থেকে ঢাকা আসার পথে বঙ্গবন্ধু দিল্লি−তে
-                                                যাত্রা বিরতি করেন। বিমানবন্দরে ভারতের রাষ্ট্রপতি
-                                                ভি. ভি. গিরি ও প্রধানমন্ত্রী মিসেস ইন্দিরা গান্ধী বঙ্গবন্ধুকে স্বাগত
-                                                জানান। জাতির জনক বঙ্গবন্ধু ১০ জানুয়ারি ঢাকায়
-                                                পৌঁছলে তাকে অবিস্মরণীয় সংবর্ধনা জ্ঞাপন করা হয়। বঙ্গবন্ধু বিমান বন্দর
-                                                থেকে সরাসরি রেসকোর্স ময়দানে গিয়ে লক্ষ জনতার
-                                                সমাবেশ থেকে অশ্রুসিক্ত নয়নে জাতির উদ্দেশ্যে ভাষণ দেন। ১২ জানুয়ারি
-                                                বঙ্গবন্ধু প্রধানমন্ত্রীর দায়িত্ব গ্রহণ করেন। </span>
-                                        </p>
-                                        <button onclick="myFunction1972Bn()" id="myBtn-1972-bn" data-year="1972"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block wow fadeIn" data-wow-delay="0.2s">
-                        <div class="cd-timeline-img cd-picture "></div> <!-- cd-timeline-dot -->
-                        <div class="cd-timeline-content">
-                            <div class="timeImg">
-                                <img src="./../../assets/images/timeline/AxgamcrFOFKwsZdWBKoffjKiXcDYaD.png">
-
-                            </div>
-                            <div class="cd-date">
-                                <div class="card">
-                                    <div class="card-body muj-time" id="year-1974">
-                                        <h2>১৯৭৪</h2>
-                                        <p id="description-1974">
-                                            ২৪ সেপ্টেম্বর নিউইয়র্কে জাতিসংঘের ২৯তম সাধারণ অধিবেশনে বাংলায় ভাষণ দেন। এর
-                                            আটদিন আগে ১৭ সেপ্টেম্বর তুমুল করতালির মধ্যে নবীন রাষ্ট্র বাংলাদেশ বাংলাদেশে
-                                            জাতিসংঘের ১৩৬তম সদস্য দেশ হিসেবে মর্যাদা লাভ করে।
-                                            <!-- <span id="dots-1974-bn">...</span><span id="more-1974-bn">
-                                                Moreover, 7
-                                                days prior to this, on 17th September, Bangladesh received recognition
-                                                by
-                                                becoming the 136th member of United Nation
-                                                with an incredible round of applause.</span> -->
-                                        </p>
-                                        <!-- <button onclick="myFunction1974Bn()" id="myBtn-1974-bn" data-year="1974"
-                                            id="read-more">
-                                            আরো পড়ুন
-                                        </button> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                </section> <!-- cd-timeline -->
-
-                <!-- end of TIME LINE -->
-                <!-- end time line -->
-                <!-- 1975 -->
-                <section class="container">
-                    <div class="row">
-                        <div class="offset-md-2 col-md-8">
-                            <div class="time-sec">
-                                <div class="card wow bounceInUp" style="margin-bottom: 20px;">
-                                    <div class="card-body time-sec row">
-                                        <div class="col-md-5 img-cvr">
-                                            <img class="card-img-top" src="./../../assets/images/timeline/img-05.png"
-                                                alt="Card image cap">
-                                        </div>
-                                        <div class="col-md-6 timel " style="text-align: left;padding-top: 26px;">
-                                            <h2>1975</h2>
-                                            <p class="card-text">১৫ আগস্টের ভোরে হাজার বছরের শ্রেষ্ঠ বাঙালি, বাংলাদেশের স্থপতি, বাঙালি জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান নিজ বাসভবনে সেনাবাহিনীর কতিপয় বিপথগামী ও উচ্চাভিলাষী বিশ্বাসঘাতক অফিসারদের হাতে সপরিবারে নিহত হন।
-                                                তারা পরিবারের সবাইকে ঠাণ্ডা মাথায় খুন করে! শেখ হাসিনা এবং শেখ রেহানা, ভাগ্যক্রমে ঐ সময়টাতে দেশের বাহিরে ছিলেন। 
-                                                <span id="dots-1975-bn">...</span><span id="more-1975-bn">
-                                                    ১৯৭৫ সালের ১৫ আগস্ট বাঙালি জাতির ইতিহাসে অন্ধকারতম দিন। বাঙালি জাতি এই দিনটিকে জাতীয় শোক দিবস হিসেবে পালন করে। 
-                                                    </span>
-                                            </p>
-                                            <button onclick="myFunction1975Bn()" id="myBtn-1975-bn" data-year="1975"
-                                                id="read-more">
-                                                আরো পড়ুন
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> 
-            </div>
-        </div>
-
-        <footer id="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md col-xs-6 footer-links">
-                            <h4>মুজিব</h4>
-                            <ul>
-                                <li><a href="./../mujib/timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
-                                <li><a href="./../mujib/speeches.html">বক্তৃতা </a></li>
-                                <li><a href="./../mujib/recognition.html">স্মরণে মুজিব</a></li>
-                                <li><a href="./../mujib/photo-archive.html">ফটো আর্কাইভ</a></li>
-                                <li><a href="./../mujib/graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md col-xs-6 footer-links">
-                            <h4>শতবর্ষ উদযাপন</h4>
-                            <ul>
-                                <li><a href="./../celebration/index.html">মিডিয়া গ্যালারি</a></li>
-                                <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
-                                <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
-                                <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশিন</a></li>
-                            </ul>
-                        </div>
-                        <div class=" col-md col-xs-6 footer-links pl-2">
-                            <h4>তথ্যভাণ্ডার</h4>
-                            <ul>
-                                <li><a href="./../resources/index.html">গ্রন্থ ও প্রকাশনা</a></li>
-                                <li><a href="./../resources/documentaries.html">তথ্যচিত্র</a></li>
-                                <li><a href="./../resources/letters.html">চিঠিপত্র</a></li>
-                                <li><a href="#">অ্যাপ</a></li>
-                            </ul>
-                        </div>
-                        <div class=" col-md col-xs-6 footer-links">
-                            <h4>ইভেন্টস</h4>
-                            <ul>
-                                <li><a href="./../events/index.html">আজকের ইভেন্ট </a></li>
-                                <li><a href="./../events/index.html">আসন্ন ইভেন্ট</a></li>
-                            </ul>
-                        </div>
-                        <div class=" col-md col-xs-6 footer-links">
-                            <h4>কমিটি</h4>
-                            <ul>
-                                <li><a href="./../committee/index.html">জাতীয় কমিটি </a></li>
-                                <li><a href="./../committee/index.html">উৎসব বাস্তবায়ন কমিটি </a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md col-xs-6 footer-links">
-                            <h4>মিডিয়া ও সংবাদ</h4>
-                            <ul>
-                                <li><a href="./../media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
-                                <li><a href="./../media-news/index.html">বিজ্ঞপ্তি</a></li>
-                            </ul>
-                        </div>
-                        <div class="ml-20 col-md col-xs-6 footer-links">
-                            <h4>যোগাযোগ করুন</h4>
-                            <ul>
-                                <li><i class="fa fa-map-marker"></i> শহীদ ক্যাপ্টেন মনসুর আলী রোড, ১/ক, সেগুনবাগিচা,
-                                    ঢাকা-১০০০</li>
-                                <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
-                                <li><i class="fa fa-phone"></i> +৮৮-০২-৫৫১৩০৩১৩
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৪
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৫ </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-gray py-3">
-                <div class="container-fluid text-center">
-                    <span>Developed &amp; Operated By <a class="footer-link" href="https://ictd.gov.bd/"
-                            target="_blank"><b>ICT
-                                Division</b></a>. Powered By <b>Bangabandhu Memorial Trust.</b></span>
-                </div>
-        </footer>
-    </div>
 
     <!-- #footer -->
 
