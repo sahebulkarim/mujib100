@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Documentaries | 100 Years of Mujib</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta
+        content="100 years,Bangabandhu Sheikh Mujibur Rahman, Mujib, Logo Competition,Bangabadhu 100,বঙ্গবন্ধু জন্ম শতবার্ষিকী"
+        name="keywords">
+    <meta
+        content="100 Years of Mujib| Learn about the legendary life and philosophy of Bangabandhu, Sheikh Mujibur Rahman"
+        name="description">
+
+    <!-- Favicons -->
+    <link href="./../../assets/images/favicon.ico" rel="icon">
+    <link href="./../../assets/images/favicon.ico" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+
+    <link href="./../../css/bootstrap.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="./../../css/dist/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./../../css/front/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./../../css/front/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./../../css/front/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="./../../css/front/css/according.css" rel="stylesheet">
+    <link href="./../../css/front/css/video.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <!--  <link href="css/responsive.min.css" rel="stylesheet">-->
+    <link href="./../../css/front/css/style.css" rel="stylesheet">
+    <script src="./../../js/front/js/lang.js"></script>
+
+
+    <style>
+        .video-item {
+            height: 278px;
+        }
+
+        .video-item img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .html5-endscreen {
+            display: none !important;
+        }
+
+        #documentaries-section {
+            padding-top: 65px;
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .doc-video {
+            width: 100%;
+            object-fit: cover;
+            height: 500px;
+        }
+
+        #video {
+            background: #f4f4f4;
+            padding-bottom: 12px;
+        }
+
+        .video-item {
+            cursor: pointer;
+            position: relative;
+            display: block;
+        }
+
+        .video-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            opacity: 0;
+            -webkit-transition: opacity 0.6s;
+            -moz-transition: opacity 0.6s;
+            transition: opacity 0.6s;
+            vertical-align: middle;
+            line-height: 200px;
+        }
+
+        .video-btn:hover {
+            opacity: 1;
+        }
+
+        .video-btn .duration {
+            display: none;
+        }
+
+        .video-btn .vx-btn {
+            color: white;
+            margin-top: 14%;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 18px;
+        }
+
+        .video-item .duration {
+            position: absolute;
+            top: 10px;
+            left: 87%;
+        }
+
+        .video-btn .vx-btn:hover {
+            color: white;
+            border: 1px solid #f4b800;
+            background: none;
+        }
+
+        .video-title {
+            position: absolute;
+            top: 70%;
+            color: #fff;
+            line-height: 25px !important;
+            padding: 10px;
+            margin: 0 !important;
+            text-align: justify;
+        }
+
+        .video-caption {
+            margin-top: 5px;
+            padding: 0 5px;
+        }
+
+        @media all and (max-width: 480px) {
+            .video-btn .vx-btn {
+                color: white;
+                margin-top: 6%;
+            }
+
+            .m-12 {
+                padding-bottom: 12px;
+            }
+
+            .doc-video {
+                width: 100%;
+                /*height: 150px;*/
+            }
+
+            #documentaries-section {
+                padding-top: 46px;
+            }
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144893823-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-144893823-1');
+    </script>
+</head>
+
+<body>
+
+    <div id="m-active">mujib</div>
+    <!--==========================
+    Header
+    ============================-->
+    <header id="header" class="fixed-top">
+        <div class="container">
+            <div class="logo float-left">
+                <a href="./../../index.html" class="scrollto">
+                    <img src="./../../assets/images/logo.png" alt="" class="img-fluid"></a>
+            </div>
+            <nav class="main-nav float-right d-none d-lg-block">
+                <ul>
+                    <li class="drop-down menu" id="mujib" data-value="resources">
+                        <a href="./../../index.html">মুজিব <span class="fa-arrow"></span></a>
+                        <ul>
+                            <li><a href="./../mujib/timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                            <li><a href="./../mujib/speeches.html">বক্তৃতা</a></li>
+                            <li><a href="./../mujib/recognition.html">স্মরণে মুজিব</a></li>
+                            <li><a href="./../mujib/photo-archive.html">ফটো আর্কাইভ</a></li>
+                            <li><a href="./../mujib/graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down" id="celebration">
+                        <a href="./../celebration/index.html">শতবর্ষ উদযাপন <span class="fa-arrow"></span></a>
+                        <ul>
+                            <li><a href="./../celebration/index.html">মিডিয়া গ্যালারি</a></li>
+                            <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
+                            <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
+                            <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ নিন</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down active" id="resources">
+                        <a href="./index.html">তথ্যভাণ্ডার <span class="fa-arrow"></span></a>
+                        <ul>
+                            <li><a href="./book-publication.html">গ্রন্থ ও প্রকাশনা</a></li>
+                            <li><a href="./documentaries.html">তথ্যচিত্র</a></li>
+                            <li><a href="./letters.html">চিঠিপত্র</a></li>
+                            <li><a href="./index.html">অ্যাপ</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down" id="events">
+                        <a href="./../events/index.html">ইভেন্টস <span class="fa-arrow"></span></a>
+                        <ul>
+                            <li><a href="./../events/index.html">আজকের ইভেন্ট</a></li>
+                            <li><a href="./../events/index.html">আসন্ন ইভেন্ট</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down" id="committee"><a href="./../committee/index.html">কমিটি <span
+                                class="fa-arrow"></span></a>
+                        <ul>
+                            <li><a href="#">জাতীয় কমিটি </a></li>
+                            <li><a href="#">উৎসব বাস্তবায়ন কমিটি </a></li>
+                            <li><a href="#">কন্টেন্ট নির্বাচক কমিটি</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down" id="media"><a href="./../media-news/index.html">মিডিয়া ও সংবাদ
+                            <span class="fa-arrow"></span></a>
+                        <ul>
+                            <li><a href="./../media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
+                            <li><a href="./../media-news/index.html">বিজ্ঞপ্তি</a></li>
+                        </ul>
+                    </li>
+                    <li id="logo-com">
+                        <a href="./../logo/index.html">লোগো সাবমিশন</a>
+                    </li>
+                    <li id="contact-us">
+                        <a href="./../contact-us.html">যোগাযোগ করুন</a>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#"><i class="fa fa-language"></i>
+                            <span>বাংলা</span> <span class="fa fa-angle-down"></span></a>
+                        <ul>
+                            <li onclick="localSaveEnglish()"><a href="#"> English</a></li>
+
+                            <li onclick="localSaveBangla()"><a href="#">বাংলা</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </nav><!-- .main-nav -->
+
+        </div>
+    </header>
+
+
+    <section class="container-fluid" id="documentaries-section">
+        <div class="card">
+            <div class="card-body custom-card-body">
+                <!-- video -->
+                <video controls poster="./../../assets/images/resources/documentaries/img-56.png" class="doc-video">
+
+                    <source src="./../../assets/images/videos/video1.mp4" type="video/mp4">
+                    <source src="./../../assets/images/videos/video1.mp4" type="video/ogg">
+                    Your browser does not support HTML5 video.
+                </video>
+                <!--          <div class="video-container"> https://www.youtube.com/watch?v=2Gi5VkMxLsA&feature=youtu.be&t=60-->
+                <!--            <iframe id="current-video" width="100%" height="600" src="https://www.youtube.com/embed/XFG0i1cv2zY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                <!--          </div>-->
+                <!-- end  video  -->
+                <!-- video desc + views -->
+                <div class="video-desc row">
+                    <div class="video-desc-left col-md-8">
+                        <h4>বঙ্গবন্ধুর স্বদেশ প্রত্যাবর্তন</h4>
+                        <p>
+                            ৪৭ বছর পূর্বে সাড়ে নয় মাস কারাবন্দী থেকে জানুয়ারি ১০, ১৯৭২ সালের এই দিনে জাতির পিতা
+                            বঙ্গবন্ধু শেখ মুজিবুর রহমান ফিরে আসেন তাঁর সদ্য স্বাধীন ভূখণ্ড বাংলাদেশে। </p>
+                    </div>
+                    <div class="hr-line d-none d-md-block"></div>
+                    <div class="video-desc-right col-md-3">
+
+                    </div>
+
+                </div>
+                <!-- end video -->
+            </div>
+        </div>
+    </section>
+    <section id="video">
+        <div class="container-fluid">
+            <div class="row gutter-2">
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/4QYtZv4V3no/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">04:23</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=4QYtZv4V3no"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">বঙ্গবন্ধু শেখ মুজিবুর রহমানের ঐতিহাসিক ৭ মার্চের ভাষণ
+                                    নিয়ে নির্মিত তথ্যচিত্র ( ১৮ মার্চ, ২০১৮ )</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/QC3UpyRO4sw/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">28:33</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=QC3UpyRO4sw"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">রহমান, দ্য ফাদার অব বেঙ্গল- জাপানি চলচ্চিত্র পরিচালক
+                                    নাগিসা ওসিমা নির্মিত একটি চলচ্চিত্র (১৯৭৩)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/4kb0FSszCbE/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">1:08</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=4kb0FSszCbE"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">১৯৭৩ সালে জাতীয় নির্বাচনে বিপুল বিজয়ের পর গণসংবর্ধনায়
+                                    শেখ মুজিবর রহমান</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/S-zIuuMfSB0/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">2:06</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=S-zIuuMfSB0"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">১৯৭৩ সালের ৭ মার্চ বাংলাদেশের প্রথম সাধারণ নির্বাচনে
+                                    ভোট দিচ্ছেন শেখ মুজিবর রহমান</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/SuiRQJA2KcQ/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">1:05</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=SuiRQJA2KcQ"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">মিশরের রাষ্ট্রপতি আনোয়ার সাদাতের বাংলাদেশে আগমণ এবং
+                                    শেখ মুজিবুর রহমান কতৃক সংবর্ধনা ( ২৬ ফেব্রুয়ারি, ১৯৭৪)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/-nBKDS2DbhY/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">0:53</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=-nBKDS2DbhY"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">মিশরের রাষ্ট্রপতি আনোয়ার সাদাতের গিজার বাসভবনে
+                                    আলোচনায় শেখ মুজিবুর রহমান (৯ নভেম্বর, ১৯৭৪)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/6Xfzeq3Gnjo/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">1:13</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=6Xfzeq3Gnjo"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">শেখ মুজিবর রহমানের মিশরে পৌঁছানোর পর মিশরের
+                                    প্রধানমন্ত্রী
+                                    আজিজ মুহাম্মদ হেজাজি কতৃক সংবর্ধনা ( ৬ নভেম্বর, ১৯৭৪)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/1popPDuTGxc/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">0:38</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=1popPDuTGxc"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">১৯৭২ সালের ১৪ সেপ্টেম্বর, ইউরোপে চিকিৎসা শেষে দেশে
+                                    ফিরলেন শেখ মুজিবর রহমান</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/ghU19lAKN4U/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">2:23</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=ghU19lAKN4U"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">কলকাতায় চূড়ান্ত আলোচনার পূর্বে শেখ মুজিবুর রহমান ও
+                                    ইন্দিরা
+                                    গান্ধী (৭ ফেব্রুয়ারি, ১৯৭২)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/oyHZBQr_vQQ/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">3:15</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=oyHZBQr_vQQ"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">৩০ সদস্যের প্রতিনিধিদল নিয়ে বাগদাদে শেখ মুজিবুর রহমান
+                                    (৮
+                                    অক্টোবর, ১৯৭৪)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/V7dcmZNLE08/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">1:31</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=V7dcmZNLE08"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">বাংলাদেশের গ্রাম ও শহরাঞ্চলজুড়ে নির্বাচনী পোস্টার ও
+                                    শ্লোগান, দলীয় সংবর্ধনা গ্রহণ করছেন শেখ মুজিবুর রহমান ( ১১ ফেব্রুয়ারি, ১৯৭৩)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/w_DcPBay_Cs/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">2:05</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=w_DcPBay_Cs"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">ঢাকায় শেখ মুজিবর রহমানের সাথে সাক্ষাৎ করছেন মার্কিন
+                                    সিনেটর
+                                    এডওয়ার্ড কেনেডি ( ১৬ ফেব্রুয়ারি, ১৯৭২)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/82dMH-c1xIM/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">0:26</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=82dMH-c1xIM"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">অস্ত্রপচারের জন্য লন্ডন সফর পর ১৯৭২ সালের ২১ আগস্ট
+                                    লন্ডন ত্যাগ করছেন শেখ মুজিবর রহমান</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/NUwmR2JbXV4/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">0:43</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=NUwmR2JbXV4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">জেনারেলদের সাথে সাক্ষাৎ করছেন শেখ মুজিবুর রহমান ( ১৩
+                                    জানুয়ারি, ১৯৭২)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/-xjry0hIqkM/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">1:26</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=-xjry0hIqkM"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">পশ্চিম পাকিস্তান কারাগারে ৯ মাসের বন্দীত্ব থেকে
+                                    মুক্তির পর পরিবারের সাথে শেখ মুজিবর রহমানর সাক্ষাৎ (১০ জানুয়ারি, ১৯৭২)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/hjCkU-kXuzM/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">5:19</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=hjCkU-kXuzM"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">শেখ মুজিবুর রহমান বাংলাদেশের প্রধানমন্ত্রী হওয়ায়
+                                    ঢাকাজুড়ে
+                                    উদযাপন (১৮ ডিসেম্বর, ১৯৭২)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/X4D7y2UWQTE/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">1:31</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=X4D7y2UWQTE"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">আনুষ্ঠানিকভাবে ভারতীয় সেনা প্রত্যাহার কুজকাওয়াজে
+                                    শেখ মুজিবুর রহমান ও ভারতীয় জেনারেল অরোরা ( ১২ মার্চ, ১৯৭২)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/0xa0hDRmNzA/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">1:00</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=0xa0hDRmNzA"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">এয়ারপোর্টে শেখ মুজিবর রহমানর সাথে সাক্ষাৎ করেন
+                                    ভুটানের রাজা
+                                    ( ২৯ ডিসেম্বর, ১৯৭৪)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/i-sXuH1F4Lk/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">1:13</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=i-sXuH1F4Lk"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">অস্ত্রপচারের জন্য লন্ডনে পৌঁছানোর পর শেখ মুজিবর
+                                    রহমানকে
+                                    স্বাগত জানাচ্ছেন প্রবাসী বাংলাদেশি ও সমর্থকরা (২৭ জুলাই, ১৯৭২)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/jRiOkouHx8Q/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">1:55</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=jRiOkouHx8Q"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">বিটিভি পরিদর্শনে বঙ্গবন্ধু শেখ মুজিবুর রহমান (১৮ মে,
+                                    ১৯৭৫)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB_1stVictoryCelebration1972.png"
+                                    class="img-fluid" />
+                                <span class="badge badge-dark duration">10:11</span>
+                                <div class="video-btn">
+                                    <a data-fancybox
+                                        href="./../../assets/images/videos/বঙ্গবন্ধু প্রথম বিজয় দিবস উদযাপন ১৯৭২ .mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">শেখ মুজিবর রহমান এর উপস্থিতিতে বাংলাদেশের প্রথম বিজয়
+                                    দিবস
+                                    উদযাপন ( ১৬ ডিসেম্বর, ১৯৭২)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB First Awami League Counchil.png"
+                                    class="img-fluid" />
+                                <span class="badge badge-dark duration">6:08</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="./../../assets/images/videos/আওয়ামী লীগ কাউন্সিল ১৯৭৪.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">শেখ মুজিবর রহমান এর উপস্থিতিতে আওয়ামীলীগের কাউন্সিল
+                                    (১৮
+                                    জানুয়ারি, ১৯৭৪)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB Kuwet Tour.png" class="img-fluid" />
+                                <span class="badge badge-dark duration">8:31</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="./../../assets/images/videos/বঙ্গবন্ধু_র কুয়েত সফর.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">শেখ মুজিবর রহমান এর কুয়েত সফর ( ১০ নভেম্বর, ১৯৭৪)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB Jamaica Tour.png" class="img-fluid" />
+                                <span class="badge badge-dark duration">17:16</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="./../../assets/images/videos/বঙ্গবন্ধুর জ্যামাইকা সফর.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">জ্যামাইকা সফরে শেখ মুজিবুর রহমান (মে, ১৯৭৫)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB Japan Tour.png" class="img-fluid" />
+                                <span class="badge badge-dark duration">11:52</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="./../../assets/images/videos/বঙ্গবন্ধুর জাপান সফর.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">জাপান সফরে শেখ মুজিবুর রহমান (অক্টোবর, ১৯৭৩)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB_Iraq Tour.png" class="img-fluid" />
+                                <span class="badge badge-dark duration">15:47</span>
+                                <div class="video-btn">
+                                    <a data-fancybox href="./../../assets/images/videos/বঙ্গবন্ধু_র ইরাক সফর.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">ইরাক সফরে শেখ মুজিবুর রহমান (অক্টোবর, ১৯৭৪)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB First Perlament Meeting.png"
+                                    class="img-fluid" />
+                                <span class="badge badge-dark duration">3:25</span>
+                                <div class="video-btn">
+                                    <a data-fancybox
+                                        href="./../../assets/images/videos/বঙ্গবন্ধু বাংলাদেশের প্রথম সংসদীয় বউথক ১০-০৪-১৯৭২.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">শেখ মুজিবর রহমান এর নেতৃত্বে প্রথম সংসদীয় সভা ( ১০
+                                    এপ্রিল,
+                                    ১৯৭৪)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="./../../assets/images/doc_thumbnail/BB on Benapol Border.png"
+                                    class="img-fluid">
+                                <span class="badge badge-dark duration">3:37</span>
+                                <div class="video-btn">
+                                    <a data-fancybox=""
+                                        href="./../../assets/images/videos/বঙ্গবন্ধু বেনাপোল সীমান্ত পরিদর্শন.mp4"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">বেনাপোল বর্ডার পরিদর্শনে শেখ মুজিবুর রহমান ( ২৩
+                                    জানুয়ারি,
+                                    ১৯৭৪)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 m-12 col-sm-6 col-xs-12 mnt-12">
+                    <div class="card h-100">
+                        <div class="video-box">
+                            <div class="video-item">
+                                <img src="https://img.youtube.com/vi/PN52BYxTHmo/hqdefault.jpg" class="img-fluid">
+                                <span class="badge badge-dark duration">2:14</span>
+                                <div class="video-btn">
+                                    <a data-fancybox="" href="https://www.youtube.com/watch?v=PN52BYxTHmo?rel=0"
+                                        class="btn btn-sm vx-btn btn-outline-warning">এখন দেখুন </a>
+                                    <!--                                <div class="video-title">Rahman, The Father of Bengal-A Film by Japanese Film Director Nagisa Oshima.</div>-->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-left">শেখ মুজিবুর রহমান বাকশালের গঠনতন্ত্র প্রদান করেন ( ২৪
+                                    জানুয়ারি, ১৯৭৫)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--==========================
+      Footer
+    ============================-->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md col-xs-6 footer-links">
+                        <h4>মুজিব</h4>
+                        <ul>
+                            <li><a href="./../mujib/timeline.html">মহাজীবনের ঘটনাপ্রবাহ</a></li>
+                            <li><a href="./../mujib/speeches.html">বক্তৃতা </a></li>
+                            <li><a href="./../mujib/recognition.html">স্মরণে মুজিব</a></li>
+                            <li><a href="./../mujib/photo-archive.html">ফটো আর্কাইভ</a></li>
+                            <li><a href="./../mujib/graphic-novel.html">গ্রাফিক নভেল “মুজিব”</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md col-xs-6 footer-links">
+                        <h4>শতবর্ষ উদযাপন</h4>
+                        <ul>
+                            <li><a href="#">মিডিয়া গ্যালারি</a></li>
+                            <li><a href="./../celebration/stamp.html">ডাকটিকিট</a></li>
+                            <li><a href="./../celebration/index.html">মার্চেন্ডাইজ</a></li>
+                            <li><a href="./../celebration/contribute.html">ওয়েবসাইটটি সমৃদ্ধ করতে অংশ
+                                    নিন</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-md col-xs-6 footer-links pl-2">
+                        <h4>তথ্যভাণ্ডার</h4>
+                        <ul>
+                            <li><a href="./book-publication.html">গ্রন্থ ও প্রকাশনা</a></li>
+                            <li><a href="./documentaries.html">তথ্যচিত্র</a></li>
+                            <li><a href="./letters.html">চিঠিপত্র</a></li>
+                            <li><a href="#">অ্যাপ</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-md col-xs-6 footer-links">
+                        <h4>ইভেন্টস</h4>
+                        <ul>
+                            <li><a href="./../events/index.html">আজকের ইভেন্ট </a></li>
+                            <li><a href="./../events/index.html">আসন্ন ইভেন্ট</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-md col-xs-6 footer-links">
+                        <h4>কমিটি</h4>
+                        <ul>
+                            <li><a href="./../committee/index.html">জাতীয় কমিটি </a></li>
+                            <li><a href="#">উৎসব বাস্তবায়ন কমিটি </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md col-xs-6 footer-links">
+                        <h4>মিডিয়া ও সংবাদ</h4>
+                        <ul>
+                            <li><a href="./../media-news/index.html">সংবাদ বিজ্ঞপ্তি</a></li>
+                            <li><a href="./../media-news/index.html">বিজ্ঞপ্তি</a></li>
+                        </ul>
+                    </div>
+                    <div class="ml-20 col-md col-xs-6 footer-links">
+                        <h4>যোগাযোগ করুন</h4>
+                        <ul>
+                            <li><i class="fa fa-map-marker"></i> শহীদ ক্যাপ্টেন মনসুর আলী রোড, ১/ক, সেগুনবাগিচা,
+                                ঢাকা-১০০০, বাংলাদেশ</li>
+                            <li><i class="fa fa-envelope"></i> info@mujib100.gov.bd</li>
+                            <li><i class="fa fa-phone"></i> +৮৮-০২-৫৫১৩০৩১৩
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৪
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+৮৮-০২-৫৫১৩০৩১৫ </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray py-3">
+            <div class="container-fluid text-center">
+                <span>Developed &amp; Operated By <a class="footer-link" href="https://ictd.gov.bd/"
+                        target="_blank"><b>ICT
+                            Division</b></a>. Powered By <b>Bangabandhu Memorial Trust.</b></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- #footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="./../../js/front/lib/jquery/jquery.min.js"></script>
+    <script src="./../../js/front/fancybox-master/dist/jquery.fancybox.min.js"></script>
+    <script src="./../../js/front/lib/jquery/jquery-migrate.min.js"></script>
+    <script src="./../../js/front/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./../../js/front/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="./../../js/front/lib/easing/easing.min.js"></script>
+    <script src="./../../js/front/lib/mobile-nav/mobile-nav.js"></script>
+    <script src="./../../js/front/lib/wow/wow.min.js"></script>
+    <!-- Template Main Javascript File -->
+    <script src="./../../js/front/js/main.js"></script>
+
+
+
+</body>
+
+</html>
