@@ -25,3 +25,8 @@ function localSaveBangla() {
     // for (let i = 0; i < en.length; i++)
     //     en[i].style.display = "none"
 }
+
+function dont_change_style(){
+    const ob = document.getElementsByClassName('btn mb-2 ')
+    ob.style.background = 
+}
