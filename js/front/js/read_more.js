@@ -30,10 +30,58 @@ function myFunction1939En() {
     }
 }
 
+function myFunction1942En() {
+    var dots = document.getElementById("dots-1942-en");
+    var moreText = document.getElementById("more-1942-en");
+    var btnText = document.getElementById("myBtn-1942-en");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.style.display = "none";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1943En() {
+    var dots = document.getElementById("dots-1943-en");
+    var moreText = document.getElementById("more-1943-en");
+    var btnText = document.getElementById("myBtn-1943-en");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.style.display = "none";
+        moreText.style.display = "inline";
+    }
+}
+
 function myFunction1946En() {
     var dots = document.getElementById("dots-1946-en");
     var moreText = document.getElementById("more-1946-en");
     var btnText = document.getElementById("myBtn-1946-en");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.style.display = "none";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction1947En() {
+    var dots = document.getElementById("dots-1947-en");
+    var moreText = document.getElementById("more-1947-en");
+    var btnText = document.getElementById("myBtn-1947-en");
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
@@ -94,10 +142,43 @@ function myFunction1952En() {
     }
 }
 
+function myFunction1954En() {
+    var dots = document.getElementById("dots-1954-en");
+    var moreText = document.getElementById("more-1954-en");
+    var btnText = document.getElementById("myBtn-1954-en");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.style.display = "none";
+        moreText.style.display = "inline";
+    }
+}
+
 function myFunction1956En() {
     var dots = document.getElementById("dots-1956-en");
     var moreText = document.getElementById("more-1956-en");
     var btnText = document.getElementById("myBtn-1956-en");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.style.display = "none";
+        moreText.style.display = "inline";
+    }
+}
+
+
+function myFunction1962En() {
+    var dots = document.getElementById("dots-1962-en");
+    var moreText = document.getElementById("more-1962-en");
+    var btnText = document.getElementById("myBtn-1962-en");
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
@@ -373,6 +454,22 @@ function myFunction1952Bn() {
     }
 }
 
+function myFunction1954Bn() {
+    var dots = document.getElementById("dots-1954-bn");
+    var moreText = document.getElementById("more-1954-bn");
+    var btnText = document.getElementById("myBtn-1954-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.style.display = "none";
+        moreText.style.display = "inline";
+    }
+}
+
 function myFunction1956Bn() {
     var dots = document.getElementById("dots-1956-bn");
     var moreText = document.getElementById("more-1956-bn");
@@ -389,6 +486,22 @@ function myFunction1956Bn() {
     }
 }
 
+
+function myFunction1962Bn() {
+    var dots = document.getElementById("dots-1962-bn");
+    var moreText = document.getElementById("more-1962-bn");
+    var btnText = document.getElementById("myBtn-1962-bn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.style.display = "none";
+        moreText.style.display = "inline";
+    }
+}
 
 function myFunction1964Bn() {
     var dots = document.getElementById("dots-1964-bn");
