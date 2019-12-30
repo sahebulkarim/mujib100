@@ -1,0 +1,190 @@
+@charset "utf-8";
+	.NormalCharacterStyle1
+{
+	font-family : Roboto;
+	font-size : 11px;
+	color : #000000;
+	color : rgb(0, 0, 0);
+}
+.NormalCharacterStyle
+{
+	font-family : Roboto;
+	font-size : 11px;
+	color : #000000;
+	color : rgb(0, 0, 0);
+}
+.st0
+{
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	position : absolute ;
+	left : 0px;
+	top : 0px;
+	width : 1366px;
+	height : 115px;
+}
+.image10
+{
+	background-image : url(image10.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 72px;
+	top : 30px;
+	width : 1207px;
+	height : 75px;
+}
+.st1
+{
+	background : #F2B71A;
+	background : rgba(242, 183, 26, 1);
+	position : absolute ;
+	left : 229px;
+	top : 83px;
+	width : 76px;
+	height : 2px;
+}
+.image9
+{
+	background-image : url(image9.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 0px;
+	top : 1281px;
+	width : 1367px;
+	height : 270px;
+}
+.image8
+{
+	background-image : url(image8.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -59px;
+	top : 95px;
+	width : 1413px;
+	height : 528px;
+}
+.image7
+{
+	background-image : url(image7.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 691px;
+	top : 185px;
+	width : 538px;
+	height : 358px;
+}
+.image6
+{
+	background-image : url(image6.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 102px;
+	top : 753px;
+	width : 1156px;
+	height : 756px;
+}
+.st2
+{
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	opacity : 0.9;
+	position : absolute ;
+	left : 121px;
+	top : 818px;
+	width : 426px;
+	height : 185px;
+	border-radius : 9px;
+	-moz-border-radius : 9px;
+	-webkit-border-radius : 9px;
+	filter: alpha(opacity=90) progid:DXImageTransform.Microsoft.Alpha(opacity=90) ;
+}
+.st3
+{
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	opacity : 0.9;
+	position : absolute ;
+	left : 561px;
+	top : 960px;
+	width : 237px;
+	height : 234px;
+	border-radius : 11px;
+	-moz-border-radius : 11px;
+	-webkit-border-radius : 11px;
+	filter: alpha(opacity=90) progid:DXImageTransform.Microsoft.Alpha(opacity=90) ;
+}
+.st4
+{
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	opacity : 0.9;
+	position : absolute ;
+	left : 377px;
+	top : 1012px;
+	width : 175px;
+	height : 172px;
+	border-radius : 11px;
+	-moz-border-radius : 11px;
+	-webkit-border-radius : 11px;
+	filter: alpha(opacity=90) progid:DXImageTransform.Microsoft.Alpha(opacity=90) ;
+}
+.image5
+{
+	background-image : url(image5.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 143px;
+	top : 877px;
+	width : 390px;
+	height : 88px;
+}
+.image4
+{
+	background-image : url(image4.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 560px;
+	top : 818px;
+	width : 251px;
+	height : 133px;
+}
+.image3
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 121px;
+	top : 1017px;
+	width : 242px;
+	height : 138px;
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 102px;
+	top : 796px;
+	width : 1155px;
+	height : 429px;
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 390px;
+	top : 1034px;
+	width : 152px;
+	height : 126px;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 209px;
+	top : 675px;
+	width : 942px;
+	height : 87px;
+}
