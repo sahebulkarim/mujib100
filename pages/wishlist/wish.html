@@ -96,23 +96,30 @@
 		}
 	*/
 		#datetime{
-			position: absolute;
-			left: 63%;
+		width:fit-content;
 			background-color: #ffd54f;
-			padding-bottom: 1%;
-			padding-left: 1%;
-			padding-right: 1%;
+			padding-left: 2%;
+			padding-right: 2%;
 			border-radius: 5px;
 		}
 		#days{
 
 			background-color: #fff;
-border-radius: 5px;
+			border-radius: 5px;
 		}
 		#time{
-		font-weight: bold;font-size:40px;color:#ffd54f;
-			background-color: #fff;border-radius: 5px;
+			font-weight: bold;
+			font-size:30px;
+			color:#ffd54f;
+			background-color: #fff;
+			border-radius: 5px;
 		}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
 
 		
 	</style>
@@ -251,76 +258,57 @@ border-radius: 5px;
 
 
         <!-- TIME LINE START -->
-        <div class="bg"></div>
 			<div class="container-fluid">
 				<div id="full">
 					<img src="./../../assets/images/wishlist/01.svg" style="width:100%;" />
 					<div id="block">
 						<form>
-							<br><textarea rows="4" cols="56" name="message"id="user_input" style="border-radius: 8px;"> </textarea>
+							<br><textarea style="border-radius: 8px; resize: none;" rows="4" cols="56" name="message"id="user_input"> </textarea>
 						</form><br>
 						<button class="button"onclick="showInput();">Submit Message</button>
 						&nbsp &nbsp &nbsp &nbsp &nbsp <span style="font-size: 14px;">Character limit: 0/1000</span>
 					</div>
-					<p><span id='display'></span></p>
+
 				</div>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-<!-- Countdown -->	
-		
-
-				<div id="datetime">
-					DAYS &nbsp &nbsp &nbsp &nbsp  TIME <br>
-					<span style="font-weight: bold;font-size:40px;color:#ffd54f;" id="days"></span><span style="font-size:40px;"> |
-					<span id="time">
-					<span id="hours"></span><span style="font-weight: bold;font-size:45px;color:#ffd54f;"> :</span>
-					<span id="minutes"></span><span style="font-weight: bold;font-size:45px;color:#ffd54f;"> :</span>
-					<span id="seconds"></span>
-					</span>
+				
+				
+				<div class="row">
+				<div class="column">
+					<p><h2 align="right" style="margin:0;padding-right:30px;color:#ffd54f;">MUJIB 100</h3>
+					<p align="right" style="padding-right:30px;"><b>COMING SOON</b></p>
+					</p>
 				</div>
-			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-			<img src="./../../assets/images/wishlist/2nd.svg" />
+				<div class="column">
+					<p style="padding-top:35px;"><b>To the launch of the celebrations of the life and legend of Bangabandhu Sheikh Mujibur Rahman</b><p>
 
-		
-<!-- END Countdown -->	
-		
-		
-		
-		
-		
-		<img src="./../../assets/images/wishlist/3rd.svg" />
+				</div>
+				<div class="column">
+				<br>
+					<div id="datetime">
+						<p style="padding:-10;margin:0;">DAYS &nbsp &nbsp &nbsp &nbsp  TIME</p>
+						<span style="font-weight: bold;font-size:30px;color:#ffd54f;" id="days"></span><span style="font-size:35px;"> |
+						<span id="time">
+						<span id="hours"></span><span style="font-weight: bold;font-size:35px;color:#ffd54f;"> :</span>
+						<span id="minutes"></span><span style="font-weight: bold;font-size:35px;color:#ffd54f;"> :</span>
+						<span id="seconds"></span>
+						</span>
+					</div>
+				</div>
+				</div>
+<div class="container-fluid">
+			<div class="row">
+					<img src="./../../assets/images/wishlist/6.png" style="width:100%;" />
+					<div style="position:absolute; padding: 70px 46px;">
+							<br><textarea style="border-radius: 10px;resize: none;"rows="7" cols="50" id="display" style="border-radius: 8px;" disabled> </textarea>
+					</div>
 
-                
+
+			</div>
+			</div>
+		
+		
+
+        
 
 
 
