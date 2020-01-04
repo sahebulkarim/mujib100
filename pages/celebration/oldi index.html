@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Events | 100 Years of Mujib</title>
+    <title>Celebration | 100 Years of Mujib</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta
         content="100 years,Bangabandhu Sheikh Mujibur Rahman, Mujib, Logo Competition,Bangabadhu 100,বঙ্গবন্ধু জন্ম শতবার্ষিকী"
@@ -12,15 +12,19 @@
         content="100 Years of Mujib| Learn about the legendary life and philosophy of Bangabandhu, Sheikh Mujibur Rahman"
         name="description">
 
+    <!-- Favicons -->
     <link href="./../../assets/images/favicon.ico" rel="icon">
     <link href="./../../assets/images/favicon.ico" rel="apple-touch-icon">
 
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
 
     <link href="./../../css/bootstrap.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
     <link href="./../../css/dist/jquery.fancybox.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="./../../css/front/lib/animate/animate.min.css" rel="stylesheet">
@@ -29,6 +33,8 @@
     <link href="./../../css/front/css/according.css" rel="stylesheet">
     <link href="./../../css/front/css/video.css" rel="stylesheet">
 
+    <!-- Main Stylesheet File -->
+    <!--  <link href="css/responsive.min.css" rel="stylesheet">-->
     <link href="./../../css/front/css/style.css" rel="stylesheet">
     <script src="./../../js/front/js/lang.js"></script>
 
@@ -38,27 +44,24 @@
         body {
             background: #f4f4f4;
         }
-
-        @media all and (max-width: 480px) {
-            .py-3 {
-                padding-top: 0 !important;
-                padding-bottom: 0 !important;
-            }
-
-            .ev-title {
-                text-align: center !important;
-            }
-
-            #event-section .event-item {
-                padding: 14px 14px 14px 14px;
-            }
-        }
     </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144893823-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-144893823-1');
+
+    </script>
 </head>
 
 <body>
     <div>
         <div id="m-active">mujib</div>
+        <!--==========================
+Header
+============================-->
         <header id="header" class="fixed-top">
             <div class="container">
                 <div class="logo float-left">
@@ -81,15 +84,15 @@
                             </ul>
                         </li>
                         <li class="drop-down" id="celebration">
-                            <a href="./../celebration/index.html">
+                            <a href="./index.html">
                                 Celebration
                                 <span class="fa-arrow"></span>
                             </a>
                             <ul>
-                                <li><a href="./../celebration/index.html">Media Gallery</a></li>
-                                <li><a href="./../celebration/stamp.html">Stamp</a></li>
-                                <li><a href="./../celebration/index.html">Merchandise</a></li>
-                                <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                                <li><a href="./index.html">Media Gallery</a></li>
+                                <li><a href="./stamp.html">Stamp</a></li>
+                                <li><a href="./index.html">Merchandise</a></li>
+                                <li><a href="./contribute.html">Contribute</a></li>
                             </ul>
                         </li>
                         <li class="drop-down" id="resources">
@@ -98,20 +101,21 @@
                                 <span class="fa-arrow"></span>
                             </a>
                             <ul>
-                                <li><a href="./../resources/book-publication.html">Books & Publications</a></li>
+                                <li><a href="./../resources/book-publication.html">Books & Publications</a>
+                                </li>
                                 <li><a href="./../resources/documentaries.html">Documentaries</a></li>
                                 <li><a href="./../resources/letters.html">Letters</a></li>
                                 <li><a href="./../resources/index.html">Apps</a></li>
                             </ul>
                         </li>
                         <li class="drop-down" id="events">
-                            <a href="./index.html">
+                            <a href="./../events/index.html">
                                 Events
                                 <span class="fa-arrow"></span>
                             </a>
                             <ul>
-                                <li><a href="./index.html">Today's Event</a></li>
-                                <li><a href="./index.html">Upcoming</a></li>
+                                <li><a href="./../events/index.html">Today's Event</a></li>
+                                <li><a href="./../events/index.html">Upcoming</a></li>
                             </ul>
                         </li>
                         <li class="drop-down" id="committee">
@@ -170,7 +174,6 @@
                                 </li>
                             </ul>
                         </li>
-
                         <li class="link-facebook">
                             <a href="https://www.facebook.com/mujib100celebrations/" target="_blank">
                                 <img style="width: 25px" src="./../../assets/images/icons/facebook.png" />
@@ -184,144 +187,157 @@
 
         <section id="banner" class="mb-12">
             <div class="banner-height">
-                <img src="./../../assets/images/events/1.jpg" class="b-img" alt="img">
+                <img src="./../../assets/images/celebration/50.jpg" class="b-img" alt="img">
             </div>
         </section>
 
-        <section class="container-fluid media-gal-content" id="event-section">
+        <!--==========================
+      Media Gallery Section
+    ===========================-->
+        <section class="container-fluid media-gallery">
+            <div class="card">
+                <div class="card-body custom-card-body">
+                    <!-- video -->
+                    <!-- <div class="image-container">
+                        <img src="./../../assets/images/celebration/cover-img.png" height="350" width="100%">
+                    </div> -->
+                    <!-- end  video  -->
+                    <!-- video desc + views -->
+                    <div class="video-desc row media-gal-desc">
+
+                        <div class="media-gallery-desc-left col-md-3">
+                            <h2>Media Gallery</h2>
+                        </div>
+
+                        <div class="hr-line d-none d-md-block"></div>
+
+                        <div class="media-gallery-desc-right col-md-5" style="margin-left: 15px;">
+                            <p>Take a glimpse of the highlights of the celebrations and events captured on Mujib's 100th
+                                anniversary.</p>
+                        </div>
+                        <div class="media-gallery-desc-right col-md-3">
+                            <a href="#about" class="btn-get-share" style="">View All</a>
+                        </div>
+                    </div>
+                    <!-- end video -->
+                </div>
+            </div>
+        </section>
+        <!-- end of  Media Gallery Section -->
+        <!--==========================
+         Media Gallery  CONTENT
+       ===========================-->
+        <section class="container-fluid media-gal-content">
             <div class="row gutter-2">
-                <div class="col-md-5 m-b-c">
-                    <div class="mujib-borsho">
+                <div class="col-md-6 h-100 m-b-c">
+                    <!-- stamp sec -->
+					
+					
+                    <!-- <div class="stamp-sec mnb-12">
                         <div class="card">
-                            <div class="card-body custom-card-body">
-                                <div class="image-container">
-                                    <img src="./../../assets/images/events/img-27.png" height="180" width="100%">
+                            <div class="card-body stmp-div">
+                                <div class="col-6 stm-content" style="text-align: right;">
+                                    <h2>Stamps</h2>
+                                    <p class="card-text">Preview a rare collection of stamps that have been documented
+                                        and
+                                        preserved in tribute to Sheikh Mujibur Rahman.</p>
+                                    <a href="./stamp.html" style="font-size: 15px;color: #f4b800;">View Collection</a>
                                 </div>
-                                <div class="event-title">
-                                    <span style="font-size: 30px;"><b>Today's Event</b></span>
+                                <div class="hr-line d-none d-md-block"></div>
+                                <div class="col-md-5 stm-img">
+                                    <img class="card-img-top" src="./../../assets/images/celebration/stamp.png"
+                                        alt="Card image cap">
                                 </div>
-                                <div class="video-desc row my-auto media-gal-desc">
-
-                                    <div class="media-gallery-desc-left col-md-5">
-                                        <h2 class="v-date"> March 07, 2019 </h2>
-                                    </div>
-
-                                    <div class="hr-line d-none d-md-block"></div>
-
-                                    <div class="media-gallery-desc-right col-md-6" style="margin-left: 15px;">
-                                        <h3>Joy Bangla Concert 2019</h3>
-                                    </div>
-                                </div>
-                                <div class="events-texts">
-                                    <p>Joy Bangla Concert is organized each year by Young Bangla-CRI on the day of the
-                                        historic 7 March speech of Father of the nation Bangabandhu Sheikh Mujibur
-                                        Rahman.
-                                        The event, staged at the Bangladesh Army stadium, Dhaka…….</p>
-                                    <button type="submit" class="btn mb-2 col-md-5"
-                                        style="color: #fff;background: #f4b800; border-color: #f4b800; ">RSVP </button>
-                                </div>
-                                <!-- end video -->
                             </div>
                         </div>
-                    </div>
-                    <!-- end todays -->
-                </div>
-                <div class="col-md-7">
-                    <div id="dialog-window">
-                        <div id="scrollable-content">
-                            <div class="row">
-                                <div class="col-12 mb-12">
-                                    <div class="event-item">
-                                        <div class="row">
-                                            <div class="col-sm-4 py-3 xy text-center border-right border-warning">
-                                                <h4> March 07, 2020</h4>
-                                            </div>
-                                            <div class="col-sm-5 py-3 text-center">
-                                                <h4 class="ev-title"><span style="color: #f4b800;">Joy Bangla
-                                                    </span>Concert
-                                                    2020</h4>
-                                            </div>
-                                            <div class="col-sm-3 text-center py-3">
-                                                <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-12">
-                                    <div class="event-item">
-                                        <div class="row">
-                                            <div class="col-sm-4 py-3 xy text-center border-right border-warning">
-                                                <h4> March 16, 2020</h4>
-                                            </div>
-                                            <div class="col-sm-5 py-3 text-center">
-                                                <h4 class="ev-title"><span style="color: #f4b800;">Bangabandhu
-                                                        Leadership
-                                                    </span>Talk 2020 </h4>
-                                            </div>
-                                            <div class="col-sm-3 text-center py-3">
-                                                <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-12">
-                                    <div class="event-item">
-                                        <div class="row vdivide">
-                                            <div class="col-sm-4 py-3 xy text-center">
-                                                <h4> March 17, 2020</h4>
-                                            </div>
-                                            <div class="col-sm-5 text-center py-3">
-                                                <h4 class="ev-title""><span style=" color: #f4b800;">Bangabandhu
-                                                    </span>100<sup>th</sup> Birthday Celebration</h4>
-                                            </div>
-                                            <div class="col-sm-3 text-center py-3">
-                                                <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-12">
-                                    <div class="event-item">
-                                        <div class="row vdivide">
-                                            <div class="col-sm-4 py-3 xy text-center">
-                                                <h4> March 26, 2020</h4>
-                                            </div>
-                                            <div class="col-sm-5 py-3 text-center">
-                                                <h4 class="ev-title"><span style="color: #f4b800;">Independence Day
-                                                    </span>Celebration </h4>
-                                            </div>
-                                            <div class="col-sm-3 text-center py-3">
-                                                <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="col-12 mb-12">
-                                    <div class="event-item">
-                                        <div class="row vdivide">
-                                            <div class="col-sm-4 py-3 xy text-center">
-                                                <h4> March 07, 2020</h4>
-                                            </div>
-                                            <div class="col-sm-5 py-3 text-center">
-                                                <h4 class="ev-title"><span style="color: #f4b800;">Joy Bangla
-                                                    </span>Concert
-                                                    2020</h4>
-                                            </div>
-                                            <div class="col-sm-3 text-center py-3">
-                                                <a href="#" class="btn btn-warning btn-block event-btn">RSVP</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </div> -->
+					
+					
+                    <!-- end stamp sec -->
+                    <div class="mnt-12 merchan" data-wow-delay="0.2s">
+                        <div class="card h-100 d-flex">
+                            <div class="row no-gutters">
+                                <!-- <div class="col-sm-5">
+                                    <h3 class="py-3"></h3>
+
                                 </div> -->
+                                <div class="col-sm-10 align-self-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mujib Merchandise</h5>
+                                        <a href="#" class="btn btn-yellow">Store</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
+				
+				<!-- Contribute to the site-->
+				
+                <!--<div class="col-md-6 h-100">
+                    <div class="contribute mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h2>Contribute to the site</h2>
+                                </div>
+                                <form>
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label">Name</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="name" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label">NID</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="nid" name="nid">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label">Phone Number</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="phone" name="nid">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label">Description</label>
+                                        <div class="col-sm-10">
+                                            <textarea type="text" class="form-control" name="description"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 offset-sm-2 contr-btn-seq">
+                                            <div class="col-sm-5">
+                                                <button type="submit" class="btn mb-2"
+                                                    style="color: #fff;padding: .357rem 0">Upload</button>
+                                            </div>
+                                            <div class="col-sm-1">
+                                                <div class="hr-line"></div>
+                                            </div>
+                                            <div class="col-sm-2">
+                                                <label for="file-input">
+                                                    <i class="fa fa-paperclip" style="cursor: pointer;"></i>
+                                                </label>
+                                                <input type="file" id="file-input" style="display: none;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				-->
+				
             </div>
         </section>
 
+        <!-- end of media gallery  CONTENT -->
 
+        <!--==========================
+  Footer
+============================-->
         <footer id="footer">
             <div class="footer-top">
                 <div class="container">
@@ -340,9 +356,9 @@
                             <h4>Celebration</h4>
                             <ul>
                                 <li><a href="./../celebration/index.html">Media Gallery</a></li>
-                                <li><a href="./../celebration/stamp.html">Stamp</a></li>
-                                <li><a href="./../celebration/index.html">Merchandise</a></li>
-                                <li><a href="./../celebration/contribute.html">Contribute</a></li>
+                                <li><a href="./stamp.html">Stamp</a></li>
+                                <li><a href="./index.html">Merchandise</a></li>
+                                <li><a href="./contribute.html">Contribute</a></li>
                             </ul>
                         </div>
                         <div class=" col-md col-xs-6 footer-links pl-2">
@@ -357,15 +373,15 @@
                         <div class=" col-md col-xs-6 footer-links">
                             <h4>Events</h4>
                             <ul>
-                                <li><a href="./index.html">Today's Event</a></li>
-                                <li><a href="./index.html">Upcoming</a></li>
+                                <li><a href="./../events/index.html">Today's Event</a></li>
+                                <li><a href="./../events/index.html">Upcoming</a></li>
                             </ul>
                         </div>
                         <div class=" col-md col-xs-6 footer-links">
                             <h4>Committee</h4>
                             <ul>
-                                <li><a href="./../committee/index.html">Committee</a></li>
-                                <!-- <li><a href="#">Implementation Committee</a></li> -->
+                                <li><a href="./../committee/index.html"> Committee</a></li>
+                                <!-- <li><a href="./../committee/index.html">Implementation Committee</a></li> -->
                             </ul>
                         </div>
                         <div class="col-md col-xs-6 footer-links">
@@ -399,8 +415,8 @@
                 </div>
             </div>
         </footer>
-    </div>
 
+    </div>
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
@@ -409,10 +425,13 @@
     <script src="./../../js/front/lib/jquery/jquery-migrate.min.js"></script>
     <script src="./../../js/front/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./../../js/front/lib/owlcarousel/owl.carousel.min.js"></script>
+
     <script src="./../../js/front/lib/easing/easing.min.js"></script>
     <script src="./../../js/front/lib/mobile-nav/mobile-nav.js"></script>
     <script src="./../../js/front/lib/wow/wow.min.js"></script>
+    <!-- Template Main Javascript File -->
     <script src="./../../js/front/js/main.js"></script>
+
 
 
 
