@@ -955,8 +955,8 @@ Banner Section
   max-width:100%;
   max-height:680px;
   width: auto;
-  height: auto;
-  object-position: top;
+  height: 680 !important;
+  /*object-position: top;*/
   overflow: hidden;
 }
 .banner-height{
