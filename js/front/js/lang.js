@@ -28,5 +28,5 @@ function localSaveBangla() {
 
 function dont_change_style(){
     const ob = document.getElementsByClassName('btn mb-2 ')
-    ob.style.background = 
+    //ob.style.background = 
 }
