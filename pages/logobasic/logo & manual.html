@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Graphic Novel &#039;Mujib&#039; | 100 Years of Mujib</title>
+	<head>
+	 <meta charset="utf-8">
+    <title>WISH & BASIC | 100 Years of Mujib</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta
         content="100 years,Bangabandhu Sheikh Mujibur Rahman, Mujib, Logo Competition,Bangabadhu 100,বঙ্গবন্ধু জন্ম শতবার্ষিকী"
@@ -12,11 +11,13 @@
         content="100 Years of Mujib| Learn about the legendary life and philosophy of Bangabandhu, Sheikh Mujibur Rahman"
         name="description">
 
+
     <!-- Favicons -->
     <link href="./../../assets/images/favicon.ico" rel="icon">
     <link href="./../../assets/images/favicon.ico" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
@@ -28,142 +29,109 @@
     <link href="./../../css/dist/jquery.fancybox.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="./../../css/front/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="./../../css/front/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./../../css/front/lib/owlcarousel/assets/owl.carousel.css" rel="stylesheet">
     <link href="./../../css/front/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="./../../css/front/css/according.css" rel="stylesheet">
     <link href="./../../css/front/css/video.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
     <!--  <link href="css/responsive.min.css" rel="stylesheet">-->
+	
+	
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js">
     <link href="./../../css/front/css/style.css" rel="stylesheet">
     <script src="./../../js/front/js/lang.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+	
+	
+	
+	
+	<style>
+	
+	
+	
+	#full {
+  position: relative;
+  font-family: Arial;
+}
 
+#block {
+  position: absolute;
+  width: 39%;
+  height: 200px;
+  bottom: 15%;
+  right: 10%;
+  background-color: #dcdde1;
+  opacity: 90%;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
 
+}
+  
+.button {
+  width: 25%;
+  background-color: #F2B71A;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 4.042px;
+}
+	
+	
+	
+	/*
+	#content{
+	left: 63%;
+	padding-left:61.8%;
+	padding-top: 4.5%;
+	position: absolute;
+	 width: 106%;
+		}
+	*/
+		#datetime{
+		width:fit-content;
+			background-color: #ffd54f;
+			padding-left: 2%;
+			padding-right: 2%;
+			border-radius: 5px;
+		}
+		#days{
 
+			background-color: #fff;
+			border-radius: 5px;
+		}
+		#time{
+			font-weight: bold;
+			font-size:30px;
+			color:#ffd54f;
+			background-color: #fff;
+			border-radius: 5px;
+		}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
 
-    <style>
-        #video {
-            background: #f4f4f4;
-            padding: 30px 0;
-        }
-
-        .graphic-video {
-            width: 100%;
-            height: 500px;
-            object-fit: cover;
-        }
-
-        .video-container {
-            margin-top: 80px
-        }
-
-        .video-item {
-            cursor: pointer;
-            position: relative;
-            display: block;
-            height: 400px;
-            overflow: hidden;
-        }
-
-
-        .video-btn {
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            text-align: center;
-            background-color: rgba(0, 0, 0, 0.8);
-            opacity: 0;
-            -webkit-transition: opacity 0.6s;
-            -moz-transition: opacity 0.6s;
-            transition: opacity 0.6s;
-            vertical-align: middle;
-            line-height: 200px;
-        }
-
-        .video-btn:hover {
-            opacity: 1;
-        }
-
-        .video-btn .duration {
-            display: none;
-        }
-
-        .video-btn .vx-btn {
-            color: white;
-            top: -18%;
-            position: relative;
-            padding-left: 20px;
-            padding-right: 20px;
-            font-size: 18px;
-        }
-
-        .video-btn .vx-bn-btn {
-            color: white;
-            bottom: -17%;
-            position: relative;
-            padding-left: 20px;
-            padding-right: 20px;
-            font-size: 18px;
-        }
-
-        .video-item .duration {
-            position: absolute;
-            top: 10px;
-            left: 87%;
-        }
-
-        .video-btn .vx-btn:hover,
-        .video-btn .vx-bn-btn:hover {
-            color: white;
-            border: 1px solid #f4b800;
-            background: none;
-        }
-
-        @media all and (max-width: 480px) {
-            .video-container {
-                margin-top: 36px
-            }
-
-            .graphic-video {
-                width: 100%;
-                height: 200px;
-            }
-
-            .video-btn .vx-btn {
-                color: white;
-                margin-top: 6%;
-            }
-
-            .m-12 {
-                padding-bottom: 12px;
-            }
-        }
-
-        .book-img img {
-            width: 100%;
-            transition: transform .8s ease;
-            object-fit: cover;
-            height: 100%;
-            object-position: 2px 2px;
-        }
-
-        .book-img:hover img {
-            transform: scale(1.1);
-        }
-    </style>
-
-
+		
+	</style>
 </head>
-
 <body>
+
     <div>
         <div id="m-active">mujib</div>
-        <!--==========================
-Header
-============================-->
-        <header id="header" class="fixed-top">
+
+
+
+        <header id="header" class=" fixed-top">
             <div class="container">
                 <div class="logo float-left">
                     <a href="./../../index.html" class="scrollto">
@@ -207,7 +175,6 @@ Header
                                 <li><a href="./../resources/documentaries.html">Documentaries</a></li>
                                 <li><a href="./../resources/letters.html">Letters</a></li>
                                 <li><a href="./../resources/index.html">Apps</a></li>
-								<li><a href="./../resources/logo-manual.html">Logo & Manual</a></li>
                             </ul>
                         </li>
                         <li class="drop-down" id="events">
@@ -246,7 +213,7 @@ Header
                                 Guideline</a>
                         </li>
 						
-						<li id="wishlist">
+                        <li class="drop-down" id="wishlist">
 						<a href="./../wishlist/index.html">
                                 Wishes
                                 <span class="fa-arrow"></span>
@@ -270,7 +237,7 @@ Header
                                 </li>
 
                                 <li onclick="localSaveBangla()">
-                                    <a href="./graphic-novel_bn.html">
+                                    <a href="./timeline_bn.html">
                                         বাংলা
                                     </a>
                                 </li>
@@ -295,158 +262,115 @@ Header
         </header>
 
 
-        <section class="container-fluid">
-            <div class="card">
-                <div class="card-body custom-card-body">
-                    <!-- video -->
-                    <div class="video-container">
-                        <video controls class="graphic-video">
-                            <source src="./../../assets/images/videos/mujib.mp4" type="video/mp4">
-                            <source src="./../../assets/images/videos/mujib.ogg" type="video/ogg">
-                            Your browser does not support HTML5 video.
-                        </video>
-                    </div>
-                    <!-- end  video  -->
-                    <!-- video desc + views -->
-                    <div class="video-desc row">
-                        <div class="video-desc-left col-md-8">
-                            <h4>Graphic Novel “Mujib”</h4>
-                            <p>These engaging comics present the life of the Sheikh Mujibur Rahman and his anecdotes in
-                                an effort to pass on the history and knowledge of the Father of the Nation, Sheikh
-                                Mujibur Rahman, to the younger generation.</p>
-                        </div>
 
-                    </div>
-                    <!-- end video -->
-                </div>
-            </div>
-        </section>
+        <!-- TIME LINE START -->
+			<div class="container-fluid">
+				<div id="full">
+					<img style="padding-top: 62px;"src="./../../assets/images/logobasic/icon page_Countdown Page_Countdown Page.svg" style="width:100%;" />
+				</div>
+				</div>
+				
+			<div class="container-fluid" style="padding-bottom:100px;">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-3" style="left:50px;">
+							<div class="row">
+								<img src="./../../assets/images/logobasic/Icons_1-01line-01.svg" style="width:90%;" />
+							</div>
+							<div class="row">
+							
+							<p style="margin:0;font-size:20px;color:#ffd54f;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Logo</b> &nbsp <span style="color:#000;"> Preview</span></p>
+							</div>
+						</div>
+						<div class="col-md-8" style="left:50px;">
+						<br>
+							<p style="margin:0;font-size:25px;color:#ffd54f;"><b> MUJIB 100</b> &nbsp <span style="color:#000;"> Logo Resources</span></p>
+							<div class="row" >
+								<div class="col-md-3">
+									<div class="row">
+										<img src="./../../assets/images/logobasic/Icons_1-01.svg" style="width:85%;" />
+									</div>
+									<div class="row">
+										<input type="submit"
+										style="border-radius:10px;width:90%; color: #fff; background: #f4b800; " 
+										onclick="window.open('https://drive.google.com/file/d/1X_eU-bFbwjdF16Ch103Rrd337N2VAdu_/view')"
+										value="Download Ai">
+									</div>
+								</div>
+								
+								<div class="col-md-3">
+									<div class="row">
+											<img src="./../../assets/images/logobasic/Icons_1-01.svg" style="width:85%;" />
+									</div>
+									<div class="row">
+										<input type="submit"
+										style="border-radius:10px;width:90%; color: #fff; background: #f4b800; " 
+										onclick="window.open('https://drive.google.com/file/d/1X_eU-bFbwjdF16Ch103Rrd337N2VAdu_/view')"
+										value="Download Eps">
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="row">
+											<img src="./../../assets/images/logobasic/Icons_1-01.svg" style="width:85%;" />
+									</div>
+									<div class="row">
+										<input type="submit"
+										style="border-radius:10px;width:90%; color: #fff; background: #f4b800; " 
+										onclick="window.open('https://drive.google.com/file/d/1nRq6Hbl1CxSX_zlR769t72-xrccNp-ee/view')" 
+										value="Download Jpg">
+									</div>
+								</div>
+								
+								
+								
+								<div class="col-md-3">
+									<div class="row">
+											<img src="./../../assets/images/logobasic/Icons_1-01.svg" style="width:85%;" />
+									</div>
+									<div class="row">
+										<input type="submit"
+										style="border-radius:10px;width:90%; color: #fff; background: #f4b800; " 
+										onclick="window.open('https://drive.google.com/file/d/1BwfsrP_Iar0B162Jk2VfgZKNuVXIGpXk/view')"
+										value="Download Png">
+									</div>
+								</div>
 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-        <section id="video">
-            <div class="container-fluid">
-                <div class="row mt-3 mb-3 ml-2">
-                    <div class="col-12 my-auto">
-                        <p>To collect these comic books contact<br />
-                            Distributor: Charcha<br />
-                            Mobile: 01826018665<br />
-                            Email: info@charchabooks.com.bd<br />
-                            Website: charchabooks.com.bd </p>
-                    </div>
-                </div>
-                <div class="row gutter-2" style="margin-top:12px">
-                    <div class="col-lg-3 col-md-3 m-12 col-sm-6 col-xs-12">
-                        <div class="video-box book-img">
-                            <div class="video-item">
-                                <img src="./../../assets/images/mujib/graphic-novel/Mujib-1-Bangla.jpg"
-                                    class="img-fluid" />
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 m-12 col-sm-6 col-xs-12">
-                        <div class="video-box book-img">
-                            <div class="video-item">
-                                <img src="./../../assets/images/mujib/graphic-novel/graphic-novel-02.png"
-                                    class="img-fluid" />
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 m-12 col-sm-6 col-xs-12">
-                        <div class="video-box book-img">
-                            <div class="video-item">
-                                <img src="./../../assets/images/mujib/graphic-novel/graphic-novel-03.png"
-                                    class="img-fluid" />
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 m-12 col-sm-6 col-xs-12">
-                        <div class="video-box book-img">
-                            <div class="video-item">
-                                <img src="./../../assets/images/mujib/graphic-novel/graphic-novel-04.png"
-                                    class="img-fluid" />
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 m-12 col-sm-6 col-xs-12 mnt-12">
-                        <div class="video-box book-img">
-                            <div class="video-item">
-                                <img src="./../../assets/images/mujib/graphic-novel/graphic-novel-05.png"
-                                    class="img-fluid" />
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 m-12 col-sm-6 col-xs-12 mnt-12">
-                        <div class="video-box book-img">
-                            <div class="video-item">
-                                <img src="./../../assets/images/mujib/graphic-novel/graphic-novel-06.png"
-                                    class="img-fluid" />
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row gutter-2" style="margin-top:12px">
-
-                    <div class="col-lg-3 col-md-3 m-12 col-sm-6 col-xs-12">
-                        <div class="video-box book-img">
-                            <div class="video-item">
-                                <img src="./../../assets/images/mujib/graphic-novel/graphic-novel-07.png"
-                                    class="img-fluid" />
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 m-12 col-sm-6 col-xs-12">
-                        <div class="video-box book-img">
-                            <div class="video-item">
-                                <img src="./../../assets/images/mujib/graphic-novel/graphic-novel-08.png"
-                                    class="img-fluid" />
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 m-12 col-sm-6 col-xs-12">
-                        <div class="video-box book-img">
-                            <div class="video-item">
-                                <img src="./../../assets/images/mujib/graphic-novel/graphic-novel-09.png"
-                                    class="img-fluid" />
-
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                </div>
-                <div class="row gutter-2" style="margin-top:12px">
-
-
-                    <div class="col-lg-3 col-md-3 m-12 col-sm-6 col-xs-12">
-                        <div class="video-box book-img">
-                            <div class="video-item">
-                                <img src="./../../assets/images/mujib/graphic-novel/graphic-novel-10.png"
-                                    class="img-fluid" />
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </section>
+			<div class="container">
+				<div class="row" >
+					<div class="col-md-4" style="left: 14%;">
+					<a href="https://www.kalerkantho.com/online/national/2019/12/14/850963?fbclid=IwAR2VWjCN4d1AYmOeZYYwtq8-BcPliU5dm1wc8DNcdwE-sRndEw3LicAneVM">
+						<img style="width:100%;height:100px;" src="./../../assets/images/logobasic/Icons_-02.svg" style="width:100%;"/>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<br>
+						<p style="margin:0;font-size:25px;color:#ffd54f;"><b>Mujib 100 Logo</b> &nbsp <span style="color:#000;"> Guideline</span></p>
+					</div>
+					<div class="col-md-4"style="right: 7%;"><br>
+						<button type="submit" target="_blank" class="btn_mb-4"
+							style="border-radius:10px;width:65%; color: #fff;background: #f4b800;border-color: #f4b800; "
+							onclick="window.open('https://www.kalerkantho.com/online/national/2019/12/14/850963?fbclid=IwAR2VWjCN4d1AYmOeZYYwtq8-BcPliU5dm1wc8DNcdwE-sRndEw3LicAneVM')">
+							Download Logo Guideline
+						</button>
+					</div>
+				</div>		
+			</div>
+				
+        </div>
+        <!-- end of media gallery  CONTENT -->
 
         <!--==========================
   Footer
 ============================-->
-        <footer id="footer">
+
+
+        <footer id="footer" style="z-index: 100; position: absolute; width: 100%;">
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
@@ -523,29 +447,13 @@ Header
                 </div>
             </div>
         </footer>
-    </div>
-
-
-    <!-- #footer -->
-
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="./../../js/front/lib/jquery/jquery.min.js"></script>
-    <script src="./../../js/front/fancybox-master/dist/jquery.fancybox.min.js"></script>
-    <script src="./../../js/front/lib/jquery/jquery-migrate.min.js"></script>
-    <script src="./../../js/front/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="./../../js/front/lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <script src="./../../js/front/lib/easing/easing.min.js"></script>
-    <script src="./../../js/front/lib/mobile-nav/mobile-nav.js"></script>
-    <script src="./../../js/front/lib/wow/wow.min.js"></script>
-    <!-- Template Main Javascript File -->
-    <script src="./../../js/front/js/main.js"></script>
 
 
 
-</body>
 
-</html>
+
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>	
+  
+	</body>
