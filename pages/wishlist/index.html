@@ -71,6 +71,19 @@
   border-radius: 8px;
 
 }
+
+
+#text {
+  position: absolute;
+  width: 39%;
+  height: 200px;
+  bottom: 25%;
+  right: 10%;
+  opacity: 90%;
+  color: white;
+
+}
+
   
 .button {
   width: 25%;
@@ -121,7 +134,11 @@
   height: auto; /* Should be removed. Only for demonstration */
 }
 
-		
+		::placeholder {
+  color: #fff;
+  text-align: center;
+  
+}
 	</style>
 </head>
 <body>
@@ -209,10 +226,7 @@
                                 <li><a href="./../media-news/index.html">Notice</a></li>
                             </ul>
                         </li>
-                        <li id="logo-com">
-                            <a href="./../../assets/pdf/Mujib_100_Guideline_v4_copy.pdf" target="_blank">Logo
-                                Guideline</a>
-                        </li>
+
 						
                         <li class="drop-down" id="wishlist">
 						<a href="./../wishlist/index.html">
@@ -267,8 +281,15 @@
         <!-- TIME LINE START -->
 			<div class="container-fluid">
 				<div id="full">
-					<img src="./../../assets/images/wishlist/01.svg" style="width:100%;" />
+					<img src="./../../assets/images/wishlist/father nation-01.jpg" style="width:100%;"/>
+					<div id="text">
+					<input type="text"placeholder="Name" style="width:24%; border-radius: 4px;background-color:#433;color: #fff;">
+					<input type="text"placeholder="NID" style="width:24%; border-radius: 4px;background-color:#433;">
+					<input type="text"placeholder="Phone" style="width:24%; border-radius: 4px;background-color:#433;">
+					<input type="text"placeholder="District" style="width:24%; border-radius: 4px;background-color:#433;">
+					</div>
 					<div id="block">
+					
 						<form>
 							<br><textarea style="border-radius: 8px; resize: none;" rows="4" cols="56" name="message"id="user_input"> </textarea>
 						</form><br>
@@ -309,9 +330,10 @@
 							<br><textarea style="border-radius: 10px;resize: none;"rows="7" cols="50" id="display" style="border-radius: 8px;" disabled> </textarea>
 					</div>
 
-
 			</div>
 			</div>
+			
+			
 					
         </div>
         <!-- end of media gallery  CONTENT -->
@@ -351,6 +373,7 @@
                                 <li><a href="./../resources/documentaries.html">Documentaries</a></li>
                                 <li><a href="./../resources/letters.html">Letters</a></li>
                                 <li><a href="#">Apps</a></li>
+								<li><a href="./../resources/logo-manual.html">Logo & Manual</a></li>
                             </ul>
                         </div>
                         <div class=" col-md col-xs-6 footer-links">
